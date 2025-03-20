@@ -1,3 +1,35 @@
+ /* Mobile / Tablet Optimization */
+ canvas {
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%; /* Adjust as needed */
+    max-width: 800px; /* Or your preferred max */
+    height: 70%; /* Adjust as needed */
+    max-height: 600px; /* Or your preferred max */
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    canvas {
+        width: 85%;
+        height: 75%;
+    }
+}
+
+@media (max-width: 600px) {
+    canvas {
+        width: 95%;
+        height: 80%;
+    }
+}
+
+p {
+    text-align: center;
+    padding: 10px;
+}
+
 * {
     margin: 0;
     padding: 0;
