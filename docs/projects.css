@@ -102,6 +102,13 @@ h3 {
     font-size: 15px;
 }
 
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
 .fnf-logo img {
     position: relative;
     width: 180px;
