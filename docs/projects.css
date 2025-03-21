@@ -85,10 +85,11 @@ span {
     color: white;
 }
 
-.content h3 {
-    font-size: 4rem;
-    margin-bottom: 1rem;
-    font-weight: 700;
+h1 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 h3 {
@@ -98,10 +99,26 @@ h3 {
     align-items: center;
 }
 
+.content h3 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
 .yapping-column {
     font-size: 15px;
 }
 
+.FDE,
+.quiz,
+.legbot-host, 
+.colorbot-host{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.colorbot,
 .colorlol {
     color: white;
     text-decoration: underline;
@@ -122,9 +139,13 @@ h3 {
     transition: 0.2s ease;
 }
 
+.quiz-logo img {
+    width: 120px;
+    transition: 0.2s ease;
+}
+
 .discord-logo img {
     width: 120px;
-    cursor: pointer;
     transition: 0.2s ease;
 }
 
@@ -142,9 +163,15 @@ h3 {
     transform: scale(1.2) translateY(-5px);
 }
 
+/*
 .discord-logo img:hover {
     transform: scale(1.2) translateY(-5px);
 }
+
+.quiz-logo img:hover {
+    transform: scale(1.2) translateY(-5px);
+}
+*/
 
 .github-logo img:hover {
     transform: scale(1.2) translateY(-5px);
