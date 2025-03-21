@@ -67,7 +67,7 @@ section {
     padding: 5rem 9% 5rem;
 }
 
-.home {
+.experience {
     display:flex;
     justify-content: center;
     align-items: center;
@@ -75,7 +75,7 @@ section {
     background-image: url('assets/images/website-bg.png');
 }
 
-.home .content h1 {
+.experience .content h1 {
     font-size: 6rem;
     font-weight: 700;
     line-height: 1.3;
