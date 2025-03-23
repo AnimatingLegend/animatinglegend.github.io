@@ -33,13 +33,6 @@ const  projects = [
         Although the project was eventually discontinued and Quizziz patched the exploit, it was a great learning experience in understanding JavaScript strings and how web pages process data.`,
         image: 'assets/images/logos/Quizizz-Logo.png',
         link: null
-    },
-
-    {
-        title: '',
-        description: ``,
-        image: '',
-        link: null
     }
 ];
 

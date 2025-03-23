@@ -36,7 +36,7 @@ header {
 }
 
 .logo {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: 800;
     color: white;
     cursor: pointer;
@@ -50,7 +50,7 @@ header {
 }
 
 nav a {
-    font-size: 1.9rem;
+    font-size: 2rem;
     color: white;
     margin-left: 4rem;
     font-weight: 800;
@@ -90,7 +90,14 @@ section {
     padding: 5px;
 }
 
-.blog-title {
+.blog-title-text {
+    color: white;
+    transition: 0.3 ease;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.blog-links {
     color: white;
     text-decoration: underline;
     cursor: pointer;
@@ -124,23 +131,18 @@ h3 {
     font-size: 15px;
 }
 
-.coming-soon-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 25px;
+.hidden-content {
+    display: none;
 }
 
-.show-more-button {
+.show-more-btn {
     background-color:white;
-    color: black;
     border-radius: 5px;
     transition: 0.3s ease;
 }
 
-.show-more-button:hover {
-    box-shadow: 0 0 25px white;
-    background-color:white;
+.show-more-btn:hover {
+    box-shadow: 0 0 5px white;
     cursor: pointer;
 }
 

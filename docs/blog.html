@@ -29,7 +29,24 @@
                 Read these blog post's to be informed about website updates, or any other projects coming in the mere future!
             </p> <br> <br>
 
-            <h2 class="coming-soon-text">-- Content Coming Soon --</h2>
+            <div class="blog-section">
+                <h2 class="blog-title-text"><strong>Test Blog post - 3/23/2025</strong></h2> <br>
+
+                <p class="shown-content">
+                    Hello, welcome to my first blog post! 
+                    I'm still trying to work on some backend stuff for this page so i may or may not get some good use out of this page very soon!
+                    If you take a look a the <a href="https://github.com/AnimatingLegend/animatinglegend.github.io/blob/main/docs/blog.html" class="blog-links" target="_blank"><strong>source code</strong></a>, the way I'm currently writing my blogs is horrendous.
+                    Later down   
+                </p> 
+                <p class="hidden-content">
+                    the weeks, blogs will be written in a different format instead of straight <strong>HTML</strong> and <strong>CSS</strong>. 
+                    And the code for this page will over go massive improvements and better optimization, <strong>frontend & backend</strong>. <br> <br>
+                    thanks for reading! <br> <br>
+                    <strong>Written By: Aaron Augustin</strong>
+                </p> <br>
+
+                <button class="show-more-btn">Show More...</button>
+            </div>
 
             <!-- 
                                                                                 -- :PROJECT TEMPLATE: --
@@ -39,19 +56,19 @@
                 Whoever is using this source code for the same reason, you are more welcome to copy this format also!
 
                 <div class="blog-section">
-                    <h2>
-                        <strong>
-                            <a title="N/A" class="blog-title" href="#" target="_blank">Blog Title</a>
-                        </strong>
-                    </h2> <br>
+                    <h2 class="blog-title-text"><strong>Blog Text</strong></h2> <br>
 
-                    <p>
+                    <p class="shown-content">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
                         Velit eius, quae nemo neque, magnam quidem nisi aliquam consequuntur a iure ratione et. 
                         Deleniti, consectetur. Cumque exercitationem illum laborum provident tenetur!
+                    </p> 
+                    <p class="hidden-content">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                        Voluptate commodi, atque voluptatibus fugiat blanditiis dolor veniam porro adipisci facere, provident ratione, nulla sit illo ullam aliquid consectetur non inventore laborum?
                     </p> <br>
 
-                    <button class="reveal-button">Read More...</button>
+                    <button class="show-more-btn">Show More...</button>
                 </div>
             -->
 
@@ -59,5 +76,38 @@
     </section>
     
     <p class="copyright">animatinglegend.github.io &copy 2025</p>
+
+    <!-- 
+        just gonna put this here...
+        no point in making a new .js file if this is the only piece of code thats gonna in it :sob:
+     -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const blogSections = document.querySelectorAll('.blog-section');
+
+            blogSections.forEach(section => {
+                const hiddenContent = section.querySelector('.hidden-content');
+                const blogTitle = section.querySelector('.blog-title-text');
+                const button = section.querySelector('.show-more-btn');
+
+                const toggleContent = function() {
+                    if (hiddenContent.style.display === 'none' || hiddenContent.style.display === '') {
+                        hiddenContent.style.display = 'block';
+                        button.textContent = 'Show Less';
+                    } else {
+                        hiddenContent.style.display = 'none';
+                        button.textContent = 'Show More...';
+                    }
+                }
+
+                // Add click listener to the shown-content paragraph
+                blogTitle.onclick = toggleContent;
+
+                // Add click listener to the button
+                button.onclick = toggleContent;
+            });
+        });
+    </script>
+
 </body>
 </html>

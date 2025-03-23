@@ -36,7 +36,7 @@ header {
 }
 
 .logo {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     font-weight: 800;
     color: white;
     cursor: pointer;
@@ -50,7 +50,7 @@ header {
 }
 
 nav a {
-    font-size: 1.9rem;
+    font-size: 2rem;
     color: white;
     margin-left: 4rem;
     font-weight: 800;
@@ -114,15 +114,10 @@ h3 {
 .FNF,
 .FDE,
 .quiz,
-.legbot-host, 
-.colorbot-host{
-    color: white;
-    text-decoration: underline;
-    cursor: pointer;
-}
-
+.legbot-host,
 .colorbot,
-.colorlol {
+.colorlol,
+.colorbot-host{
     color: white;
     text-decoration: underline;
     cursor: pointer;
