@@ -12,14 +12,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<!--
-                                -- TODO -- 
-
-- Make a section all about the drawings and animations ive done
-- Make the page a little less 'bland' and rearrange paragraphs and imgs
-
--->
-
 <body>
      <!-- navagation bar -->
      <header>
@@ -32,74 +24,42 @@
     </header>
 
     <section class="projects">
-        <div class="content">
-            <div class="yapping-column">
-                <h1><span>My Projects</span></h1> <br>
+        <div class="content" id="projects-container">
+            <h1><span>My Projects</span></h1> <br>
 
-                <p>
-                    In this section, I'll be showcasing some of the projects I've worked on, detailing the inspiration behind them, how I built them, and the coding languages I used. 
-                    These projects were created out of curiosity, a desire to solve problems, and the fun of experimenting with new technologies.
-                </p> <br>
+            <p>
+                In this section, I'll be showcasing some of the projects I've worked on, detailing the inspiration behind them, how I built them, and the coding languages I used. 
+                These projects were created out of curiosity, a desire to solve problems, and the fun of experimenting with new technologies.
+            </p> <br> <br>
 
-                <!-- FDE -->
-                <div class="fnf-logo">
-                    <a title="Click to play FDE Demo" href="/demos/FDE-WEB/" target="_blank">
-                        <img src="assets/images/logos/FNF-Logo.png" alt="fnf-logo">
-                    </a>
-                </div>
+            <!-- 
+                                                                                -- :PROJECT TEMPLATE: --
+                Adding this here, because im going to type the base of my projects here, and slowly implement them into both projects.js & blog.js
+                I feel like its more easier this way, because its less coding on my part, and more or less just copying and pasting what i write into the datalists i created in javascript.
 
-                <h2>
-                    <a title="Funkin-Definitive-Edition Github Repo" href="https://github.com/AnimatingLegend/Funkin-Definitive-Edition" class="FDE" target="_blank">
-                        Funkin-Definitive-Edition
-                    </a>
-                </h2>
-                <p>
-                    My project, Funkin' Definitive Edition, was created on August 12, 2022. 
-                    <a title="Friday Night Funkin Old Github Repo" href="https://github.com/FunkinCrew/Funkin/tree/legacy/0.2.x" class="FNF" target="_blank"><strong>Friday Night Funkin's original engine</strong></a> contained a lot of bugs and errors at that time, and playing was frustrating. 
-                    Because I was bored and wanted to improve the experience, I decided to fix these bugs and implement my own modifications to improve the game. 
-                    I wrote this project in <strong>Haxe and HaxeFlixel</strong>, which allowed me to modify and optimize the game engine successfully. 
-                </p> <br>
+                Whoever is using this source code for the same reason, you are more welcome to copy this format also!
 
-                <!-- Discord Projects -->
-                <div class="discord-logo">
-                    <img src="assets/images/logos/Discord-Logo.png" alt="discord-logo">
+                <div class="img-logo">
+                    <img src="assets/images/logos/#" alt="img-logo">
                 </div>
 
                 <h2>
                     <strong>
-                        <a title="ColorBot-Host Github Repo" class="colorbot-host" href="https://github.com/colorlol/colorbothost" target="_blank">ColorBot</a> / <a title="Legbot-Host Github Repo" class="legbot-host" href="https://github.com/AnimatingLegend/legbothost" target="_blank">Legbot-Host</a>
+                        <a title="N/A" class="#" href="#" target="_blank">N/A</a>
                     </strong>
                 </h2>
                 <p>
-                    Two projects in the same category, <strong>Legbot-Host, and Colorbot-host</strong>. 
-                    Legbot-host was a Discord bot that I made with my friend <a title="colorlol" href="https://github.com/colorlol" class="colorlol" target="_blank"><strong>Tamesh</strong></a> during the 2021 pandemic. 
-                    We were spending so much time on Discord with not much else going on, so we figured we'd learn <strong>Node.js</strong> and create a bot that could tell jokes, display the weather, and even generate images of pets. 
-                    This experience built upon my earlier work with Discord bots, including Tamesh's Colorbot, where I first explored basic bot functionality. 
-                    LegbotHost expanded on these foundational skills, allowing us to implement more complex features. 
-                    It was an awesome learning experience and a good time that helped us improve our coding skills. 
-                    Though I did cease to develop the bot sometime in 2022, it was a fantastic learning experience about how to go about developing bots and dealing with real-time APIs.
-                </p> <br>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Velit eius, quae nemo neque, magnam quidem nisi aliquam consequuntur a iure ratione et. 
+                    Deleniti, consectetur. Cumque exercitationem illum laborum provident tenetur!
 
-                <div class="quiz-logo">
-                    <img src="assets/images/logos/Quizizz-Logo.png" alt="quiz-logo">
-                </div>
-
-                <h2>
-                    <a title="Quizizz-cheat Github Repo" href="https://github.com/colorlol/quizizzcheat" class="quiz" target="_blank">
-                        Quizizz Cheat
-                    </a>
-                </h2>
-                <p>
-                    During that same time in 2021, Tamesh and I also created Quizziz-Cheat, a small project that taught us the basics of inspect element and how to manipulate code in real time. 
-                    Since we frequently had to use <strong>Quizziz</strong> for schoolwork—which was both tedious and time-consuming—we figured, why not automate the process? 
-                    This script was written in JavaScript and worked by reading Quizziz's test data and automatically highlighting the correct answers. 
-                    Although the project was eventually discontinued and Quizziz patched the exploit, it was a great learning experience in understanding strong>JavaScript strings</strong> and how web pages process data.
                 </p>
-            </div>
+            -->
         </div>
     </section>
 
     <p class="copyright">animatinglegend.github.io &copy 2025</p>
 
+    <script src="projects.js"></script>
 </body>
 </html>
