@@ -7,7 +7,7 @@ const  projects = [
         Because I was bored and wanted to improve the experience, I decided to fix these bugs and implement my own modifications to improve the game. 
         I wrote this project in <strong>Haxe and HaxeFlixel</strong>, which allowed me to modify and optimize the game engine successfully.`,
         image: 'assets/images/logos/FNF-Logo.png',
-        link:'/demos/FDE-WEB/'
+        link:'/content/FDE-WEB-DEMO/'
     },
 
     // Colorbot / Legbot-Host
