@@ -1,3 +1,17 @@
+/*
+ * Tried to implement this code as quickly as possible so i apologize if it looks shitty
+ * this code is subject to change but since it works rn, im not too worried on changing it up anytime soon
+ * BUT IF I DOOO, THEN HERE HERES A LIST OF THINGS I WANT TO DO/CHANGE
+*/
+
+//                                          -- TODO --                                                  \\
+
+/*
+ * - Implement projects in a more organized way (maybe use a framework like React or Vue)
+ * - Softcode the way project imeages are displayed (currently hardcoded one-by-one)
+ * - Some code cleanup (remove unneeded code, make it more readable, etc.)
+*/
+
 const  projects = [
     // Funkin-Definitive-Edition
     {
@@ -38,10 +52,6 @@ const  projects = [
 
 const projectContainer = document.getElementById('projects-container');
 
-/**
- * Tried to implement this code as quickly as possible so i apologize if it looks shitty
- * this code is subject to change but since it works rn, im not too worried on changing it up anytime soon
- */
 projects.forEach(project => {
     const projectDiv = document.createElement('div');
     projectDiv.classList.add('project');
