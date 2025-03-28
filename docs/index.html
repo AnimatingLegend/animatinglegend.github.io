@@ -15,12 +15,13 @@ writing this down so i dont forget lol
 been holding off fixing my website for a little while due to school and stress, but i should tackle a majority of these around the weekend :]
 
                                             -- TODO --
-- Remove some <strong> tags from the text, and make it more readable.
-- Make it so text highlights when hovered over.
-- Give icons titles when hovered over.
-- When a screen is a specific height/width, give the navagation bar some color so doesn't blend in with the background.
-- Add a *tad* bit more padding to the text, so it doesn't look so cramped.
-- Add a hover effect to the resume download link, so it looks more clickable.
+- Remove some <strong> tags from the text, and make it more readable. [X]
+- Give icons titles when hovered over. [X]
+- When a screen is a specific height/width, give the navagation bar some color so doesn't blend in with the background. [X]
+- Add a *tad* bit more padding to the text, so it doesn't look so cramped (for mobile/tablet builds).[X]
+- Add a hover effect to the resume download link, so it looks more clickable. [X]
+
+everything is completed on the todo list. will tweak some things later on.
 -->
 
 <body>
@@ -48,37 +49,17 @@ been holding off fixing my website for a little while due to school and stress, 
             <div class="yapping-column">
                 <!-- talk about my hobbies-->
                 <p>
-                    I'm a <strong>junior developer</strong> interested in <strong>coding, problem-solving, and web development.</strong>
-                    I have used <strong>JavaScript, Node.js, HTML/CSS, and Haxe/HaxeFlixel</strong> to develop projects like a <strong>Spotify profile mock-up and an optimized game engine.</strong>
-                    Additionally, I have a creative side, and occasionally dabble in 2D animation using <strong>Adobe Flash/Animate.</strong>
-                    Through my work, I have developed skills in software development, <strong>front-end and back-end programming, and API integrations</strong>. 
+                    I'm a <strong>junior developer</strong> interested in coding, problem-solving, and web development.
+                    I have an expertise in <strong>HTML/CSS, JavaScript, Node.js, React.js, & HaxeFlixel.</strong>
+                    Additionally, I have a creative side, and occasionally dabble in <strong>2D animation</strong> using Adobe Flash/Animate.
+                    Through my work, I have developed skills in software development, front-end and back-end programming, and API integrations. 
                     I enjoy solving challenges, developing my coding skills further, and creating innovative solutions. 
-                    My goal is to continue growing as a developer and animator and produce effective, well-designed digital experiences and art.
+                    My goal is to continue growing as a developer and animator and produce effective, well-designed digital experiences.
                 </p>
+
                 <br>
-                <!-- Contact / Resume Section -->
-                <p><strong>Feel Free to send me a message! You can find my contact info, and resume below !!</strong></p>
-                <br>
-                <!-- Mail -->
-                <p>Mail: 
-                    <strong><a title="Email" href="mailto:aaugustin1109@gmail.com" class="link">aaugustin1109@gmail.com</a></strong>
-                </p>
-                <!-- Instagram -->
-                <p>Instagram: 
-                    <strong><a title="Instagram" href="https://www.instagram.com/animatinglegend/" target="_blank" class="link">https://www.instagram.com/animatinglegend/</a></strong>
-                </p>
-                <!-- Twitter -->
-                <p>Twitter: 
-                    <strong><a title="Twitter / X" href="https://x.com/AnimatingLegend" target="_blank" class="link">https://x.com/AnimatingLegend</a></strong>
-                </p>
-                <!-- Newgrounds -->
-                <p>Newgrounds: 
-                    <strong><a title="Newgrounds" href="https://animatinglegend.newgrounds.com" target="_blank" class="link">https://animatinglegend.newgrounds.com</a></strong>
-                </p>
-                <!-- Github -->
-                <p>Github: 
-                    <strong><a title="Github" href="https://github.com/AnimatingLegend" target="_blank" class="link">https://github.com/AnimatingLegend</a></strong>
-                </p>
+
+                <p><strong>Feel free to send me a message! You can find my contact info, and resume below !</strong></p>
             </div>
 
             <br> 
@@ -98,15 +79,19 @@ been holding off fixing my website for a little while due to school and stress, 
             
             <div class="social-icons">
 
-                <a href="https://github.com/AnimatingLegend" target="_blank">
+                <a title="Email" href="mailto:aaugustin1109@gmail.com">
+                    <i class="fa fa-envelope"></i>
+                </a>
+
+                <a title="Github" href="https://github.com/AnimatingLegend" target="_blank">
                     <i class="fa fa-github"></i>
                 </a>
 
-                <a href="https://www.instagram.com/animatinglegend/" target="_blank">
+                <a title="Instagram" href="https://www.instagram.com/animatinglegend/" target="_blank">
                     <i class="fa fa-instagram"></i>
                 </a>
 
-                <a href="https://x.com/AnimatingLegend" target="_blank">
+                <a title="Twitter / X" href="https://x.com/AnimatingLegend" target="_blank">
                     <i class="fa fa-twitter"></i>
                 </a>
             </div>
@@ -114,5 +99,18 @@ been holding off fixing my website for a little while due to school and stress, 
     </section>
 
     <p class="copyright">animatinglegend.github.io &copy 2025</p>
+
+    <script>
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            // Check if the page has been scrolled down more than 50 pixels
+            // If so, add the 'scrolled' class to the header
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
 </body>
 </html>

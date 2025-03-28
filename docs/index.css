@@ -33,6 +33,7 @@ header {
     justify-content:space-between;
     align-items: center;
     z-index: 100;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
 }
 
 .logo {
@@ -66,7 +67,7 @@ nav a.active {
 
 section {
     min-height: 100vh;
-    padding: 5rem 9% 5rem;
+    padding: 6rem 12% 6rem;
 }
 
 .home-img img {
@@ -130,7 +131,7 @@ h3 {
 }
 
 .yapping-column {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .link {
@@ -139,7 +140,7 @@ h3 {
 }
 
 .resume-border {
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .resume-border a {
@@ -153,6 +154,21 @@ h3 {
     align-items: center;
     width: 6rem;
     height: 6rem;
+    transition: 0.3s ease;
+}
+
+.pdf-icon:hover {
+    transform: scale(1.1) translateY(-5px);
+    cursor: pointer;
+}
+
+.resume-link {
+    transition: 0.3s ease;
+}
+
+.resume-link:hover {
+    color: rgb(238, 162, 204);
+    text-decoration: underline;
 }
 
 .copyright {
