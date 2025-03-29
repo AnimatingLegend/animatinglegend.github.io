@@ -98,9 +98,15 @@ section {
 
 .blog-title-text {
     color: white;
-    transition: 0.3 ease;
     text-decoration: underline;
     cursor: pointer;
+    transition: 0.3 ease;
+}
+
+.blog-title-text:hover {
+    color: rgb(238, 162, 204);
+    text-decoration: underline;
+    transition: 0.3s ease;
 }
 
 .blog-links {
@@ -110,12 +116,12 @@ section {
 }
 
 #blog-posts .blog-post {
-    margin-bottom: 2rem; /* Adds space between blog posts */
-    padding: 1.5rem; /* Adds padding inside each blog post */
-    border: 1px solid #ccc; /* Optional: Adds a border around each blog post */
-    border-radius: 8px; /* Optional: Rounds the corners of the border */
-    background-color: #f9f9f9; /* Optional: Adds a light background color */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 span {
