@@ -14,16 +14,16 @@ const blogPosts = [
             I have also added a "Show More" button that will reveal the hidden content of each blog post when clicked.
             This makes the page cleaner and allows users to focus on the main content first. <br> <br>
 
-            As for the Projects page & Main page, I have made some minor changes to the layout and design.
-            The Projects page now has a more organized layout when it comes to code. 
-            images are now softcoded and loads up instantly instead of taking 2-3 seconds to load up.
+            As for the projects page & Main page, I have made some minor changes to the layout and design.
+            The projects page now has a more organized layout when it comes to code. 
+            Images are now softcoded and loads up instantly instead of taking 2-3 seconds to load up.
             Theres a lot more I have to when it comes to the projects page, but for now, it is a lot better than before. <br> <br>
 
             As for the main page, I have made some noticable changes to the layout.
-            I removed a lot of the '<strong>' tags within my little about me section so its more readable and less cluttered.
-            I also spaced out the text a *tad* bit so its not so cramped up on certain devices (most notably mobile devices).
-            I got rid of the contact links, because whats the point of having them when you can just click the icons on the bottom of the page lol.
-            And I also make the PDF icon look 'clickable' by adding a hover effect to it. <br> <br>
+            I removed a lot of the bold text within my little about me section so its more readable and less cluttered.
+            I also spaced out the text a *tad* bit so it's not so cramped up on certain devices (most notably mobile devices).
+            I got rid of the contact links, because whats the point of having them when you can just click the icons on the bottom of the page? lol.
+            And I also made the PDF icon look 'clickable' by adding a hover effect to it. <br> <br>
 
             A lot was done today, and I am very happy with the results.
 
