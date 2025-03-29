@@ -1,17 +1,3 @@
-/*
- * Tried to implement this code as quickly as possible so i apologize if it looks shitty
- * this code is subject to change but since it works rn, im not too worried on changing it up anytime soon
- * BUT IF I DOOO, THEN HERE HERES A LIST OF THINGS I WANT TO DO/CHANGE
-*/
-
-//                                          -- TODO --                                                  \\
-
-/*
- * - Implement projects in a more organized way (maybe use a framework like React or Vue)
- * - Softcode the way project imeages are displayed (currently hardcoded one-by-one)
- * - Some code cleanup (remove unneeded code, make it more readable, etc.)
-*/
-
 const  projects = [
     // Funkin-Definitive-Edition
     {
@@ -56,33 +42,24 @@ projects.forEach(project => {
     const projectDiv = document.createElement('div');
     projectDiv.classList.add('project');
 
-    if(project.image === 'assets/images/logos/FNF-Logo.png'){
-        projectDiv.innerHTML = `
-        <div class="fnf-logo">
-            <a title="Click to play FDE Demo" href="${project.link}" target="_blank">
-                <img src="${project.image}" alt="fnf-logo">
-            </a>
+    const logoClass = project.image.includes('FNF-Logo') ? 'fnf-logo' :
+                      project.image.includes('Discord-Logo') ? 'discord-logo' :
+                      project.image.includes('Quizizz-Logo') ? 'quiz-logo' :
+                      project.image.includes('Github-Logo') ? 'github-logo' : 'default-logo';
+
+    const imageHTML = project.link 
+        ? `<a title="Click to play FDE Demo" href="${project.link}" target="_blank">
+                <img src="${project.image}" alt="${logoClass}">
+           </a>`
+        : `<img src="${project.image}" alt="${logoClass}">`;
+
+    projectDiv.innerHTML = `
+        <div class="${logoClass}">
+            ${imageHTML}
         </div>
         <h2>${project.title}</h2>
         <p class="project-desc">${project.description}</p> <br>
-        `;
-    } else if (project.image === 'assets/images/logos/Discord-Logo.png') {
-        projectDiv.innerHTML = `
-        <div class="discord-logo">
-            <img src="${project.image}" alt="discord-logo">
-        </div>
-        <h2>${project.title}</h2>
-        <p class="project-desc">${project.description}</p> <br>
-        `;
-    } else if (project.image === 'assets/images/logos/Quizizz-Logo.png') {
-        projectDiv.innerHTML = `
-        <div class="quiz-logo">
-            <img src="${project.image}" alt="quiz-logo">
-        </div>
-        <h2>${project.title}</h2>
-        <p class="project-desc">${project.description}</p> <br>
-        `;
-    }
+    `;
 
     projectContainer.appendChild(projectDiv);
 });

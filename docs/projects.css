@@ -121,6 +121,20 @@ h3 {
     color: white;
     text-decoration: underline;
     cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.FNF:hover,
+.FDE:hover,
+.quiz:hover,
+.legbot-host:hover,
+.colorbot:hover,
+.colorlol:hover,
+.colorbot-host:hover{
+    color: rgb(238, 162, 204);
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.2s ease;
 }
 
 .copyright {
