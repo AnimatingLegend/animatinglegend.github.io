@@ -8,6 +8,7 @@
     <link href="phone-adjustments.css" rel="stylesheet" type="text/css">
     <link rel="icon" href="assets/images/icons/leg-website-icon.png"> <!-- this is a placeholder, will change soon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="scrolling-nav-bar.js"></script>
 </head>
 
 <!-- 
@@ -26,7 +27,7 @@ everything is completed on the todo list. will tweak some things later on.
 
 <body>
     <!-- navagation bar -->
-    <header>
+    <header class="navigation-bar">
         <a href="index.html" class="logo">Animating Legend</a>
         <nav>
             <a href="index.html" class="active">Home</a>
@@ -99,18 +100,5 @@ everything is completed on the todo list. will tweak some things later on.
     </section>
 
     <p class="copyright">animatinglegend.github.io &copy 2025</p>
-
-    <script>
-        window.addEventListener('scroll', () => {
-            const header = document.querySelector('header');
-            // Check if the page has been scrolled down more than 50 pixels
-            // If so, add the 'scrolled' class to the header
-            if (window.scrollY > 50) {
-                header.classList.add('scrolled');
-            } else {
-                header.classList.remove('scrolled');
-            }
-        });
-    </script>
 </body>
 </html>
