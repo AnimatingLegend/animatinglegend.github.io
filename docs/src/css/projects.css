@@ -119,6 +119,7 @@ h3 {
 
 .FNF,
 .FDE,
+.GIT,
 .quiz,
 .legbot-host,
 .colorbot,
@@ -132,6 +133,7 @@ h3 {
 
 .FNF:hover,
 .FDE:hover,
+.GIT:hover,
 .quiz:hover,
 .legbot-host:hover,
 .colorbot:hover,
@@ -169,7 +171,6 @@ h3 {
 
 .github-logo img {
     width: 120px;
-    cursor: pointer;
     transition: 0.2s ease;
 }
 
@@ -178,9 +179,5 @@ h3 {
 * will probably find a better way soon, but it works now so idc.
 */
 .fnf-logo  img:hover {
-    transform: scale(1.2) translateY(-5px);
-}
-
-.github-logo img:hover {
     transform: scale(1.2) translateY(-5px);
 }

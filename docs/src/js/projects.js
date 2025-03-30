@@ -10,6 +10,14 @@ const  projects = [
         link:'/content/FDE-WEB-DEMO/'
     },
 
+    // animatinglegend.github.io
+    {
+        title: `<a title="animatinglegend.github.io Official Github Repo" href="https://github.com/AnimatingLegend/animatinglegend.github.io" class="GIT" target="_blank">animatinglegend.github.io</a>`,
+        description: `<strong>Click the title, or the icon above to view the offical repository for this website !!!</strong>`,
+        image: '../assets/images/logos/Github-Logo.png',
+        link: null
+    },
+
     // Colorbot / Legbot-Host
     {
         title: '<strong><a title="ColorBot-Host Github Repo" class="colorbot-host" href="https://github.com/colorlol/colorbothost" target="_blank">ColorBot</a> / <a title="Legbot-Host Github Repo" class="legbot-host" href="https://github.com/AnimatingLegend/legbothost" target="_blank">Legbot-Host</a></strong>',
@@ -54,9 +62,7 @@ projects.forEach(project => {
         : `<img src="${project.image}" alt="${logoClass}">`;
 
     projectDiv.innerHTML = `
-        <div class="${logoClass}">
-            ${imageHTML}
-        </div>
+        <div class="${logoClass}">${imageHTML}</div>
         <h2>${project.title}</h2>
         <p class="project-desc">${project.description}</p> <br>
     `;
