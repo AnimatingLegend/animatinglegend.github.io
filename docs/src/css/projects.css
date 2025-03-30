@@ -80,7 +80,7 @@ section {
     justify-content: center;
     align-items: center;
     gap:8rem;
-    background-image: url('assets/images/website-bg.png');
+    background-image: url('../../assets/images/website-bg.png');
 }
 
 .projects .content h1 {
