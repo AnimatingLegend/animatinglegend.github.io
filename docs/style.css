@@ -30,6 +30,13 @@ body {
     text-align: center;
 }
 
+.copyright {
+    color:white;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
 .link {
     color: white;
     cursor: pointer;
@@ -51,4 +58,30 @@ body {
     transform: scale(1.1);
     transition: 0.3s ease;
     cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .container {
+        gap: 0.5rem;
+        padding: 1rem 0;
+    }
+
+    .warning-text {
+        font-size: 0.8rem;
+    }
+
+    .link {
+        font-size: 0.9rem;
+    }
+
+    .pfp {
+        /*width: 80%;*/
+        max-width: 350px;
+    }
 }
