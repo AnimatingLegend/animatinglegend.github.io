@@ -18,6 +18,10 @@
     }
 
     .home-img img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 50px;
         width: 70%;
     }
 
@@ -44,6 +48,7 @@
     }
 
     .home-img img {
+        padding-left: 50px;
         width: 80%;
     }
 }
@@ -103,6 +108,7 @@
         font-size: 1.4rem;
     }
     .home-img img {
+        padding-left: 50px;
         width: 90%;
     }
 }
