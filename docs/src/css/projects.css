@@ -100,11 +100,25 @@ h1 {
     align-items: center;
 }
 
+.title {
+    font-size: 4.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 h3 {
     font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin: 2rem 0;
 }
 
 .content h3 {
@@ -115,6 +129,42 @@ h3 {
 
 .content {
     font-size: 15px;
+}
+
+/** 
+* lowkey hate css because nothing ever goes my way, so this is all done by github copilot.
+*  tried writing it myself but it was just tweaking the fuck out and im not having it so wtv
+* AI sometimes works it's wonders so im not complaining too much
+**/
+
+.anim-container {
+    display: flex; /* Use Flexbox for alignment */
+    flex-wrap: wrap; /* Allow wrapping to the next row if needed */
+    justify-content: center; /* Center the projects horizontally */
+    gap: 20px; /* Add spacing between projects */
+    margin-top: 20px; /* Add some spacing above the container */
+}
+
+.anim-project {
+    display: flex; /* Use Flexbox for alignment */
+    flex-direction: column; /* Stack the title and video vertically */
+    align-items: center; /* Center-align the content */
+    flex: 1 1 300px; /* Allow videos to grow/shrink and set a base width */
+    max-width: 400px; /* Limit the maximum width of each project */
+    text-align: center; /* Center-align the text */
+    margin-bottom: 20px; /* Add spacing below each project */
+}
+
+.anim-project h2 {
+    margin-bottom: 10px; /* Add spacing between the title and the video */
+    font-size: 2rem; /* Adjust the font size of the title */
+}
+
+.anim-project video {
+    width: 100%; /* Set the video to take up the full width of its container */
+    height: auto; /* Maintain the aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visuals */
 }
 
 .FNF,

@@ -51,6 +51,14 @@
         padding-left: 50px;
         width: 80%;
     }
+
+    .anim-container {
+        flex-direction: column;
+    }
+
+    .anim-project {
+        max-width: 100%; 
+    }
 }
 
 @media (max-width: 600px) {
@@ -76,26 +84,26 @@
 
     header {
         position: fixed;
-        bottom: 0; /* Move header to the bottom */
-        top: auto; /* override top:0 */
+        bottom: 0;
+        top: auto;
         width: 100%;
-        padding: 1rem 3%; /* Adjust padding for bottom nav */
-        background-color: rgba(0, 0, 128, 0.8); /* Add a background for better visibility */
+        padding: 1rem 3%;
+        background-color: rgba(0, 0, 128, 0.8);
     }
 
     header nav {
         width: 100%;
         display: flex;
-        justify-content: space-around; /* Space links evenly */
+        justify-content: space-around;
         align-items: center;
     }
 
     header .logo {
-        display: none; /* Hide logo on smaller screens */
+        display: none;
     }
 
     nav a {
-        margin-left: 0; /* Remove left margin from nav links */
+        margin-left: 0;
     }
 }
 
