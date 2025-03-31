@@ -36,7 +36,7 @@ const blogPosts = [
         
         <br> <br>
 
-        <strong>Written By Aaron Augustin</strong>
+        <strong>Written By: Aaron Augustin</strong>
         `
     },
 
@@ -109,7 +109,7 @@ const codingProjects = [
         title: `<a title="animatinglegend.github.io Official Github Repo" href="https://github.com/AnimatingLegend/animatinglegend.github.io" class="GIT" target="_blank">animatinglegend.github.io</a>`,
         description: `<strong>Click the title, or the icon above to view the offical repository for this website !!!</strong>`,
         image: '../assets/images/logos/Github-Logo.png',
-        link: null
+        link: `https://github.com/AnimatingLegend/animatinglegend.github.io`
     },
 
     // Colorbot / Legbot-Host
