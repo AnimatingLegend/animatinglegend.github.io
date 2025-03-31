@@ -220,14 +220,18 @@ hr {
 }
 
 .github-logo img {
-    width: 120px;
+    width: 115px;
     transition: 0.2s ease;
 }
 
 /*
-* so annoying  that i have to code their tween anims seperately, otherwise the imgs go beserk.
+* so annoying that i have to code their tween anims seperately, otherwise the imgs go beserk.
 * will probably find a better way soon, but it works now so idc.
 */
 .fnf-logo  img:hover {
+    transform: scale(1.2) translateY(-5px);
+}
+
+.github-logo img:hover {
     transform: scale(1.2) translateY(-5px);
 }

@@ -1,5 +1,31 @@
-// This is for implementing coding projects
 const codingContainer = document.getElementById('coding-container');
+const animationContainer = document.getElementById('anim-container');
+
+/**
+ * This is for hovering over images in the projects section
+ * I'm pretty sure there could've been a better way to do this but I'm using my knowledge so dont mind this lol
+ */
+function generateImgHTML(project, logoClass) {
+    if (logoClass === 'fnf-logo') {
+        return project.link
+            ? `<a title="Click to play Funkin' Demo" href="${project.link}" target="_blank">
+                <img src="${project.image}" alt="${logoClass}">
+              </a>`
+            : `<img src="${project.image}" alt="${logoClass}">`
+    } else if (logoClass === 'github-logo') {
+        return project.link
+        ? `<a title="Click to view Source Code" href="${project.link}" target="_blank">
+                <img src="${project.image}" alt="${logoClass}">
+           </a>`
+        : `<img src="${project.image}" alt="${logoClass}">`;
+    } else {
+        return project.link
+            ? `<a title="Click to view" href="${project.link}" target="_blank">
+                    <img src="${project.image}" alt="${logoClass}">
+               </a>`
+            : `<img src="${project.image}" alt="${logoClass}">`;
+    }
+}
 
 codingProjects.forEach(project => {
     const projectDiv = document.createElement('div');
@@ -10,11 +36,7 @@ codingProjects.forEach(project => {
                       project.image.includes('Quizizz-Logo') ? 'quiz-logo' :
                       project.image.includes('Github-Logo') ? 'github-logo' : 'default-logo';
 
-    const imageHTML = project.link 
-        ? `<a title="Click to play FDE Demo" href="${project.link}" target="_blank">
-                <img src="${project.image}" alt="${logoClass}">
-           </a>`
-        : `<img src="${project.image}" alt="${logoClass}">`;
+    const imageHTML = generateImgHTML(project, logoClass);
 
     projectDiv.innerHTML = `
         <div class="${logoClass}">${imageHTML}</div>
@@ -24,9 +46,6 @@ codingProjects.forEach(project => {
 
     codingContainer.appendChild(projectDiv);
 });
-
-// This is for implementing animation projects
-const animationContainer = document.getElementById('anim-container');
 
 animProjects.forEach(animation => {
     const videoDiv = document.createElement('div');
