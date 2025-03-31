@@ -3,26 +3,38 @@ const blogPosts = [
         title: "Blog Post #2: Backend, FNF & Animations - 3/31/2025",
 
         shownContent: `
-        Hello again, and welcome back to another blog post !! <br> <br>
+        Hello again, and welcome back to another blog post !! 
+        
+        <br> <br>
 
         Today I wanted to take a <strong>*little*</strong> step back from implementing new features and work more on backend stuff for my website. 
         For starters, I did a massive overhaul on the source code. I wanted to keep things organized in folders instead of it being overwhelming and scattered all over the place.
-        So for users viewing the <a href="https://github.com/AnimatingLegend/animatinglegend.github.io" class="link" target="_blank">Portfolio Source Code</a> now, it should look WAY more cleaner and readable. <br> <br>
+        So for users viewing the <a href="https://github.com/AnimatingLegend/animatinglegend.github.io" class="link" target="_blank">Portfolio Source Code</a> now, it should look WAY more cleaner and readable. 
+        
+        <br> <br>
         `,
 
         hiddenContent: `
         For seconds, I quickly wanted to mention that I started working on more backend stuff for data.js. 
-        My projects are now being rendered here aswell as my blog post's the file looks a little messy, but it keeps the rest of the website optimized and clean so im not complaining. <br> <br>
+        My projects are now being rendered here aswell as my blog post's the file looks a little messy, but it keeps the rest of the website optimized and clean so im not complaining. 
+        
+        <br> <br>
 
         For thirds, I wanted to take a step back and work more on my engine 'Funkin-Definitive-Edition', because 1: it's WAS on an outdated version of haxe/haxeflixel, and 2: the HTML5 version of the game was having issues running.
         So I merged the engine from Haxe 4.1.5, - Haxe 4.3.5. Along side that, I have to update each and every single haxe depenency I had, and along that came a WHOLE bunch of compliling issues. 
         Now for people who want to compile my engine using the latest version of haxe, I saved you the trouble and made my haxe dependencies <a href="https://github.com/AnimatingLegend/Funkin-Haxe-Libraries" class="link" target="_blank">open sourced!!</a> 
-        I also completely removed the use of Polymod for my engine, because my engine isn't intended for modding purposes, more as in performance and coding experience. The engine is still undergoing bug maintenance but I squashed a lot of the bugs today, and it should be playable across on my website now! <br <br>
+        I also completely removed the use of Polymod for my engine, because my engine isn't intended for modding purposes, more as in performance and coding experience. The engine is still undergoing bug maintenance but I squashed a lot of the bugs today, and it should be playable across on my website now! 
+        
+        <br <br> <br>
 
         And to conclude this short blog, I wanted to mention that I implmented my animations onto my website! I was holding it off for so long, and for good reason.
-        But now that the website is in good shape, everything is polished and optimized, I decided to start adding them here. Theres only 3 currently up right now, but there is more to come in the following weeks! <br> <br>
+        But now that the website is in good shape, everything is polished and optimized, I decided to start adding them here. Theres only 3 currently up right now, but there is more to come in the following weeks! 
+        
+        <br> <br>
 
-        That basically covers up about 2 days worth of progress. Thank you for sticking with me, and there will be more updates to in the following days! <br> <br>
+        That basically covers up about 2 days worth of progress. Thank you for sticking with me, and there will be more updates to in the following days! 
+        
+        <br> <br>
 
         <strong>Written By Aaron Augustin</strong>
         `
