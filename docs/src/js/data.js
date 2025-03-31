@@ -107,7 +107,7 @@ const codingProjects = [
     // animatinglegend.github.io
     {
         title: `<a title="animatinglegend.github.io Official Github Repo" href="https://github.com/AnimatingLegend/animatinglegend.github.io" class="GIT" target="_blank">animatinglegend.github.io</a>`,
-        description: `<strong>Click the title, or the icon above to view the offical repository for this website !!!</strong>`,
+        description: `<strong>Click the title, or the icon above to view the official repository for this website !!!</strong>`,
         image: '../assets/images/logos/Github-Logo.png',
         link: `https://github.com/AnimatingLegend/animatinglegend.github.io`
     },
