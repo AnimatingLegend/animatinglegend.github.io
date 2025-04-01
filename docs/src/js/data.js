@@ -1,5 +1,38 @@
 const blogPosts = [
     {
+        title: "Test Blog Post #2: Photos - 4/1/2025",
+
+        shownContent: `
+        When making my last blog post, I had an idea to start implementing photos/videos into my blog posts. 
+        So I'm just adding this here to get an idea of how it will look.
+
+        <br> <br>
+
+        (I also just want to tackle the CSS part of this feature so I don't have to stress about it when the times comes lol)
+
+        <br> <br>
+
+        <img src='../assets/images/blogs/placeholder-img-1.png' alt="600-400" class="img-content-1">
+        <img src='../assets/images/blogs/placeholder-img-2.png' alt="1280-720" class="img-content-2">
+        <img src='../assets/images/blogs/placeholder-img-3.png' alt="1920-1080" class="img-content-3">
+
+        <br> <br>
+
+        <video controls> 
+            <source src="../assets/videos/blogs/placeholder-video.mp4" class="video-content">
+        </video>
+        `,
+
+        hiddenContent: `
+        <strong>THIS POST WILL BE DELETED SOON, THIS IS FOR FEATURE TESTING ONLY</strong>
+
+        <br> <br>
+
+        <strong>Written By: Aaron Augustin</strong>
+        `,
+    },
+
+    {
         title: "Blog Post #2: Backend, FNF & Animations - 3/31/2025",
 
         shownContent: `
@@ -78,17 +111,17 @@ const blogPosts = [
 const animProjects = [
     {
         title: `Video Games <br> [FLASH ANIMATION]`,
-        video: `../assets/videos/Video_Games.mp4`
+        video: `../assets/videos/animations/Video_Games.mp4`
     },
 
     {
         title: `Bensons Crank <br> [REGULAR SHOW ANIMATION]`,
-        video: `../assets/videos/Bensons_Crank.mp4`
+        video: `../assets/videos/animations/Bensons_Crank.mp4`
     },
 
     {
         title: `Mexican Joker <br> [SOUTH PARK TEST ANIMATION]`,
-        video: `../assets/videos/Mexican_Joker_Test.mp4`
+        video: `../assets/videos/animations/Mexican_Joker_Test.mp4`
     }
 ];
 
