@@ -1,6 +1,6 @@
 /*
 * Mobile adjustments
-* I got the basics down for now, but things are most definitly subject to change.
+* Made some minor improvements
 */
 
 @media (max-width: 991px) {
@@ -9,38 +9,41 @@
     }
 
     section {
-        padding: 5rem 3%;
+        padding: 4rem 5%;
     }
 
     .home {
         flex-direction: column-reverse;
-        gap: 3rem;
+        gap: 2rem;
     }
 
     .home-img img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-left: 50px;
-        width: 70%;
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
     }
 
     .home .content h1 {
-        font-size: 5rem;
+        font-size: 4.5rem;
+        text-align: center;
     }
 
     .content h3 {
         font-size: 3rem;
+        text-align: center;
     }
 
     nav a {
-        margin-left: 2rem;
+        margin-left: 1.5rem;
     }
 }
 
 @media (max-width: 768px) {
     header {
-        background-color: rgba(0, 0, 128, 0.8);
+        background-color: rgba(0, 0, 128, 0.9);
+        padding: 1rem 5%;
     }
 
     nav a {
@@ -48,16 +51,36 @@
     }
 
     .home-img img {
-        padding-left: 50px;
-        width: 80%;
+        width: 90%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .img-content-1,
+    .img-content-2,
+    .img-content-3,
+    .video-content {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        max-width: 280px;
+        height: auto;
+    }
+
+    .video-content video {
+        width: 100%;
+        max-width: 280px;
+        height: auto; 
     }
 
     .anim-container {
         flex-direction: column;
+        gap: 1.5rem; 
     }
 
     .anim-project {
-        max-width: 100%; 
+        max-width: 100%;
+        margin: 0 auto;
     }
 }
 
@@ -68,18 +91,21 @@
 
     nav a {
         margin-left: 1rem;
+        font-size: 1.4rem;
     }
 
     .home .content h1 {
         font-size: 4rem;
+        text-align: center;
     }
 
     .content h3 {
         font-size: 2.5rem;
+        text-align: center;
     }
 
-    .social-icons a{
-        margin: 2rem 1rem 2rem 0;
+    .social-icons a {
+        margin: 1.5rem 1rem;
     }
 
     header {
@@ -88,7 +114,7 @@
         top: auto;
         width: 100%;
         padding: 1rem 3%;
-        background-color: rgba(0, 0, 128, 0.8);
+        background-color: rgba(0, 0, 128, 0.9);
     }
 
     header nav {
@@ -105,6 +131,27 @@
     nav a {
         margin-left: 0;
     }
+
+    .img-content-1,
+    .img-content-2,
+    .img-content-3,
+    .video-content {
+        width: 100%;
+        max-width: 240px;
+        height: auto;
+    }
+
+    .video-content video {
+        width: 100%;
+        max-width: 240px;
+        height: auto;
+    }
+
+    .home-img img {
+        width: 95%;
+        max-width: 240px;
+        height: auto;
+    }
 }
 
 @media (max-width: 450px) {
@@ -113,11 +160,34 @@
     }
 
     nav a {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
+
     .home-img img {
-        padding-left: 50px;
+        width: 95%;
+        max-width: 200px;
+        height: auto;
+    }
+
+    .img-content-1,
+    .img-content-2,
+    .img-content-3,
+    .video-content {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+    }
+
+    .video-content video {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+    }
+
+    .home-img img {
         width: 90%;
+        max-width: 200px;
+        height: auto;
     }
 }
 
@@ -125,7 +195,29 @@
     html {
         font-size: 40%;
     }
+
     nav a {
         font-size: 1.2rem;
+    }
+
+    .img-content-1,
+    .img-content-2,
+    .img-content-3,
+    .video-content {
+        width: 100%;
+        max-width: 180px;
+        height: auto;
+    }
+
+    .video-content video {
+        width: 100%;
+        max-width: 180px;
+        height: auto;
+    }
+
+    .home-img img {
+        width: 100%;
+        max-width: 180px;
+        height: auto;
     }
 }
