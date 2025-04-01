@@ -9,6 +9,9 @@ const blogPosts = [
         <br> <br>
 
         (I also just want to tackle the CSS part of this feature so I don't have to stress about it when the times comes lol)
+        `,
+
+        hiddenContent: `
 
         <br> <br>
 
@@ -18,12 +21,12 @@ const blogPosts = [
 
         <br> <br>
 
-        <video controls> 
-            <source src="../assets/videos/blogs/placeholder-video.mp4" class="video-content">
+        <video controls class="video-content"> 
+            <source src="../assets/videos/blogs/placeholder-video.mp4" type="video/mp4">
         </video>
-        `,
 
-        hiddenContent: `
+        <br> <br>
+
         <strong>THIS POST WILL BE DELETED SOON, THIS IS FOR FEATURE TESTING ONLY</strong>
 
         <br> <br>
