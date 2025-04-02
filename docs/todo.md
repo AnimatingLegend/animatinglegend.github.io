@@ -1,0 +1,13 @@
+# TODO LIST
+
+### Add
+- Add cool animation tweens when first entering the site, and exploring the page
+- Add School Capstone project to this website lolol
+
+### Change
+- Add navagation bar to the top of the screen instead of the bottom
+
+### Fix
+- Update 'Video_Games.mp4' to 'Video_Games_FINAL.mp4' (implemented unedited verison, thats a my bad!)
+- Fix video width for Desktop & iPad users in the Blog page
+  
