@@ -3,8 +3,8 @@ const blogPosts = [
         title: "Test Blog Post #2: Photos, Videos & Music",
 
         shownContent: `
-        When making my last blog post, I had an idea to start implementing photos/videos into my blog posts. 
-        So I'm just adding this here to get an idea of how it will look.
+        When making my last blog post, I had an idea to start implementing photos, videos AND music into my blog posts. 
+        So I'm just adding this here to get an idea of how it will look. If I have anyother ideas then I'll just add them here :]
 
         <br> <br>
 
@@ -15,15 +15,23 @@ const blogPosts = [
 
         <br> <br>
 
-        <img src='../content/blogs/images/placeholder-img-1.png' alt="600-400" class="img-content-1">
-        <img src='../content/blogs/images/placeholder-img-2.png' alt="1280-720" class="img-content-2">
-        <img src='../content/blogs/images/placeholder-img-3.png' alt="1920-1080" class="img-content-3">
+        <img src='../content/blogs/images/placeholder-img-1.png' alt="600-400" class="img-content-1"> <br>
+        <img src='../content/blogs/images/placeholder-img-2.png' alt="1280-720" class="img-content-2"> <br>
+        <img src='../content/blogs/images/placeholder-img-3.png' alt="1920-1080" class="img-content-3"> <br>
 
         <br> <br>
 
         <video controls class="video-content"> 
             <source src="../content/blogs/videos/placeholder-video.mp4" type="video/mp4">
         </video>
+
+        <br> <br>
+
+        <strong>The song being used is a copyrighted placeholder and will be subjected to change soon.</strong> <br> <br>
+
+        <audio controls class="music-content"> 
+            <source src="../content/blogs/music/Awkward_Inst.mp3" type="audio/mpeg">
+        </audio>
 
         <br> <br>
 

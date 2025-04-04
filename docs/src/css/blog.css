@@ -170,7 +170,8 @@ h3 {
 }
 
 .img-content-3,
-.video-content {
+.video-content,
+.music-content{
     display: flex;
     justify-content: center;
     align-items: center;

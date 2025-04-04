@@ -67,10 +67,18 @@
         height: auto;
     }
 
-    .video-content video {
+    .video-content video,
+    .music-content audio{
         width: 100%;
         max-width: 280px;
         height: auto; 
+    }
+
+    .music-content {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+        max-width: 280px;
     }
 
     .anim-container {
@@ -141,7 +149,8 @@
         height: auto;
     }
 
-    .video-content video {
+    .video-content video,
+    .music-content audio {
         width: 100%;
         max-width: 240px;
         height: auto;
@@ -178,7 +187,8 @@
         height: auto;
     }
 
-    .video-content video {
+    .video-content video,
+    .music-content audio {
         width: 100%;
         max-width: 200px;
         height: auto;
@@ -209,7 +219,8 @@
         height: auto;
     }
 
-    .video-content video {
+    .video-content video,
+    .music-content audio {
         width: 100%;
         max-width: 180px;
         height: auto;
