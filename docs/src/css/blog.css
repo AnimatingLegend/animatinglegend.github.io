@@ -169,20 +169,13 @@ h3 {
     width: 400px;
 }
 
-.img-content-3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 500px;
-}
-
+.img-content-3,
 .video-content {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 200px;
+    width: 500px;
 }
 
 .hidden-content {

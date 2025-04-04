@@ -1,6 +1,6 @@
 const blogPosts = [
     {
-        title: "Test Blog Post #2: Photos - 4/1/2025",
+        title: "Test Blog Post #2: Photos, Videos & Music",
 
         shownContent: `
         When making my last blog post, I had an idea to start implementing photos/videos into my blog posts. 
@@ -15,14 +15,14 @@ const blogPosts = [
 
         <br> <br>
 
-        <img src='../assets/images/blogs/placeholder-img-1.png' alt="600-400" class="img-content-1">
-        <img src='../assets/images/blogs/placeholder-img-2.png' alt="1280-720" class="img-content-2">
-        <img src='../assets/images/blogs/placeholder-img-3.png' alt="1920-1080" class="img-content-3">
+        <img src='../content/blogs/images/placeholder-img-1.png' alt="600-400" class="img-content-1">
+        <img src='../content/blogs/images/placeholder-img-2.png' alt="1280-720" class="img-content-2">
+        <img src='../content/blogs/images/placeholder-img-3.png' alt="1920-1080" class="img-content-3">
 
         <br> <br>
 
         <video controls class="video-content"> 
-            <source src="../assets/videos/blogs/placeholder-video.mp4" type="video/mp4">
+            <source src="../content/blogs/videos/placeholder-video.mp4" type="video/mp4">
         </video>
 
         <br> <br>
@@ -31,7 +31,11 @@ const blogPosts = [
 
         <br> <br>
 
-        <strong>Written By: Aaron Augustin</strong>
+        <strong>Written By: Aaron Augustin, 4/1/2025</strong>
+
+        <br> <br>
+
+        <strong>UPDATED: 4/4/2025 </strong>
         `,
     },
 
@@ -114,7 +118,7 @@ const blogPosts = [
 const animProjects = [
     {
         title: `Video Games <br> [FLASH ANIMATION]`,
-        video: `../assets/videos/animations/Video_Games.mp4`
+        video: `../assets/videos/animations/Video_Games_FINAL.mp4`
     },
 
     {

@@ -58,11 +58,7 @@ animProjects.forEach(animation => {
         </video>
     `;
 
-    videoDiv.innerHTML = `
-        <h2>${animation.title}</h2>
-        ${videoHTML}
-        <!-- <p class="animation-desc">${animation.description}</p> -->
-    `;
+    videoDiv.innerHTML = `<h2>${animation.title}</h2> ${videoHTML}`;
 
     videoDiv.addEventListener('click', () => {
         const video = videoDiv.querySelector('video');
