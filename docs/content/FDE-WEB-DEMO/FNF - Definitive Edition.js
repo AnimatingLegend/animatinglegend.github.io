@@ -912,7 +912,7 @@ ApplicationMain.main = function() {
 ApplicationMain.create = function(config) {
 	var app = new openfl_display_Application();
 	ManifestResources.init(config);
-	app.meta.h["build"] = "296";
+	app.meta.h["build"] = "301";
 	app.meta.h["company"] = "AnimatingLegend";
 	app.meta.h["file"] = "FNF - Definitive Edition";
 	app.meta.h["name"] = "Friday Night Funkin' - Definitive Edition";
@@ -3911,11 +3911,47 @@ ManifestResources.init = function(config) {
 	} else {
 		ManifestResources.preloadLibraryNames.push("week1");
 	}
+	library = lime_utils_Assets.getLibrary("week2");
+	if(library != null) {
+		ManifestResources.preloadLibraries.push(library);
+	} else {
+		ManifestResources.preloadLibraryNames.push("week2");
+	}
+	library = lime_utils_Assets.getLibrary("week3");
+	if(library != null) {
+		ManifestResources.preloadLibraries.push(library);
+	} else {
+		ManifestResources.preloadLibraryNames.push("week3");
+	}
+	library = lime_utils_Assets.getLibrary("week4");
+	if(library != null) {
+		ManifestResources.preloadLibraries.push(library);
+	} else {
+		ManifestResources.preloadLibraryNames.push("week4");
+	}
+	library = lime_utils_Assets.getLibrary("week5");
+	if(library != null) {
+		ManifestResources.preloadLibraries.push(library);
+	} else {
+		ManifestResources.preloadLibraryNames.push("week5");
+	}
 	library = lime_utils_Assets.getLibrary("week6");
 	if(library != null) {
 		ManifestResources.preloadLibraries.push(library);
 	} else {
 		ManifestResources.preloadLibraryNames.push("week6");
+	}
+	library = lime_utils_Assets.getLibrary("week7");
+	if(library != null) {
+		ManifestResources.preloadLibraries.push(library);
+	} else {
+		ManifestResources.preloadLibraryNames.push("week7");
+	}
+	library = lime_utils_Assets.getLibrary("videos");
+	if(library != null) {
+		ManifestResources.preloadLibraries.push(library);
+	} else {
+		ManifestResources.preloadLibraryNames.push("videos");
 	}
 	library = lime_utils_Assets.getLibrary("default");
 	if(library != null) {
@@ -107847,7 +107883,7 @@ var lime_utils_AssetCache = function() {
 	this.audio = new haxe_ds_StringMap();
 	this.font = new haxe_ds_StringMap();
 	this.image = new haxe_ds_StringMap();
-	this.version = 573160;
+	this.version = 370884;
 };
 $hxClasses["lime.utils.AssetCache"] = lime_utils_AssetCache;
 lime_utils_AssetCache.__name__ = "lime.utils.AssetCache";
@@ -167783,7 +167819,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 				var bg = new objects_BGSprite("stageback",-600,-200,0.9,0.9,null,null,"week1");
 				this.add(bg);
 			} else {
-				haxe_Log.trace("[ERROR] Missing asset: stageback",{ fileName : "source/states/PlayState.hx", lineNumber : 615, className : "states.PlayState", methodName : "create"});
+				haxe_Log.trace("[ERROR] Missing asset: stageback",{ fileName : "source/states/PlayState.hx", lineNumber : 614, className : "states.PlayState", methodName : "create"});
 			}
 			var stageFrontPath = backend_Paths.getPath("images/" + "stagefront" + ".png","IMAGE","week1");
 			if(lime_utils_Assets.exists(stageFrontPath)) {
@@ -167792,7 +167828,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 				stageFront.updateHitbox();
 				this.add(stageFront);
 			} else {
-				haxe_Log.trace("[ERROR] Missing asset: stagefront",{ fileName : "source/states/PlayState.hx", lineNumber : 625, className : "states.PlayState", methodName : "create"});
+				haxe_Log.trace("[ERROR] Missing asset: stagefront",{ fileName : "source/states/PlayState.hx", lineNumber : 624, className : "states.PlayState", methodName : "create"});
 			}
 			if(!flixel_FlxG.save.data.lowData) {
 				var stageLightPath = backend_Paths.getPath("images/" + "stage_light" + ".png","IMAGE","week1");
@@ -167807,7 +167843,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 					stageLight2.set_flipX(true);
 					this.add(stageLight2);
 				} else {
-					haxe_Log.trace("[ERROR] Missing asset: stage_light",{ fileName : "source/states/PlayState.hx", lineNumber : 643, className : "states.PlayState", methodName : "create"});
+					haxe_Log.trace("[ERROR] Missing asset: stage_light",{ fileName : "source/states/PlayState.hx", lineNumber : 642, className : "states.PlayState", methodName : "create"});
 				}
 				var stageCurtainsPath = backend_Paths.getPath("images/" + "stagecurtains" + ".png","IMAGE","week1");
 				if(lime_utils_Assets.exists(stageCurtainsPath)) {
@@ -167816,7 +167852,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 					stageCurtains.updateHitbox();
 					this.add(stageCurtains);
 				} else {
-					haxe_Log.trace("[ERROR] Missing asset: stagecurtains",{ fileName : "source/states/PlayState.hx", lineNumber : 653, className : "states.PlayState", methodName : "create"});
+					haxe_Log.trace("[ERROR] Missing asset: stagecurtains",{ fileName : "source/states/PlayState.hx", lineNumber : 652, className : "states.PlayState", methodName : "create"});
 				}
 			}
 			break;
@@ -167872,7 +167908,6 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 			if(!flixel_FlxG.save.data.lowData) {
 				this.foregroundSprites.add(new objects_BGSprite("tank/tank3",1300,1200,3.5,2.5,["fg"],null,"week7"));
 			}
-			this.foregroundSprites.add(new objects_BGSprite("tank/tank6",1300,1200,3.5,2.5,["fg"],null,"week7"));
 			break;
 		}
 		var gfCheck = states_PlayState.SONG.gfVersion;
@@ -168082,7 +168117,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 		this.judgementCounter.set_cameras([this.camHUD]);
 		this.judgementCounter.screenCenter(flixel_util_FlxAxes.Y);
 		this.judgementCounter.set_visible(!flixel_FlxG.save.data.hideHud);
-		this.judgementCounter.set_text("Sicks: " + states_PlayState.sicks + "\nGoods: " + states_PlayState.goods + "\nBads: " + states_PlayState.bads + "\nShits: " + states_PlayState.shits + "\nMisses: " + states_PlayState.misses + "\nHighest Combo: " + states_PlayState.highestCombo + "\nPENUS");
+		this.judgementCounter.set_text("Sicks: " + states_PlayState.sicks + "\nGoods: " + states_PlayState.goods + "\nBads: " + states_PlayState.bads + "\nShits: " + states_PlayState.shits + "\nMisses: " + states_PlayState.misses + "\nHighest Combo: " + states_PlayState.highestCombo + "\nAccuracy: " + HxOverrides.substr(Std.string(states_PlayState.accuracy),0,5) + "%");
 		if(flixel_FlxG.save.data.judgementCounter) {
 			this.add(this.judgementCounter);
 		}
@@ -168969,7 +169004,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 					babyArrow.set_x(babyArrow.x + objects_Note.swagWidth * 2);
 					babyArrow.animation.addByPrefix("static","arrow static instance 4");
 					babyArrow.animation.addByPrefix("pressed","up press",24,false);
-					babyArrow.animation.addByPrefix("confirm","up confirm",24,false);
+					babyArrow.animation.addByPrefix("confirm","up confirm",12,false);
 					break;
 				case 3:
 					babyArrow.set_x(babyArrow.x + objects_Note.swagWidth * 3);
@@ -169201,7 +169236,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 		if(!flixel_FlxG.save.data.resetButton) {
 			if(backend_PlayerSettings.player1.controls._reset.check()) {
 				this.health = 0;
-				haxe_Log.trace("RESET = True",{ fileName : "source/states/PlayState.hx", lineNumber : 2211, className : "states.PlayState", methodName : "update"});
+				haxe_Log.trace("RESET = True",{ fileName : "source/states/PlayState.hx", lineNumber : 2210, className : "states.PlayState", methodName : "update"});
 			}
 		}
 		if(this.health <= 0 && !states_PlayState.practiceMode) {
@@ -169409,8 +169444,8 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 				if(states_PlayState.storyDifficulty == 2) {
 					difficulty = "-hard";
 				}
-				haxe_Log.trace("LOADING NEXT SONG",{ fileName : "source/states/PlayState.hx", lineNumber : 2508, className : "states.PlayState", methodName : "endSong"});
-				haxe_Log.trace(states_PlayState.storyPlaylist[0].toLowerCase() + difficulty,{ fileName : "source/states/PlayState.hx", lineNumber : 2509, className : "states.PlayState", methodName : "endSong"});
+				haxe_Log.trace("LOADING NEXT SONG",{ fileName : "source/states/PlayState.hx", lineNumber : 2507, className : "states.PlayState", methodName : "endSong"});
+				haxe_Log.trace(states_PlayState.storyPlaylist[0].toLowerCase() + difficulty,{ fileName : "source/states/PlayState.hx", lineNumber : 2508, className : "states.PlayState", methodName : "endSong"});
 				if(states_PlayState.SONG.song.toLowerCase() == "eggnog") {
 					var blackShit = new flixel_FlxSprite(-flixel_FlxG.width * flixel_FlxG.camera.zoom,-flixel_FlxG.height * flixel_FlxG.camera.zoom).makeGraphic(flixel_FlxG.width * 3,flixel_FlxG.height * 3,-16777216);
 					blackShit.scrollFactor.set();
@@ -169435,7 +169470,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 				}
 			}
 		} else {
-			haxe_Log.trace("WENT BACK TO FREEPLAY??",{ fileName : "source/states/PlayState.hx", lineNumber : 2536, className : "states.PlayState", methodName : "endSong"});
+			haxe_Log.trace("WENT BACK TO FREEPLAY??",{ fileName : "source/states/PlayState.hx", lineNumber : 2535, className : "states.PlayState", methodName : "endSong"});
 			var nextState = new states_FreeplayState();
 			if(flixel_FlxG.game._state.switchTo(nextState)) {
 				flixel_FlxG.game._requestedState = nextState;
@@ -169912,7 +169947,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 		}
 	}
 	,updateStatistic: function() {
-		this.judgementCounter.set_text("Sicks: " + states_PlayState.sicks + "\nGoods: " + states_PlayState.goods + "\nBads: " + states_PlayState.bads + "\nShits: " + states_PlayState.shits + "\nMisses: " + states_PlayState.misses + "\nHighest Combo: " + states_PlayState.highestCombo + "\nPENUS");
+		this.judgementCounter.set_text("Sicks: " + states_PlayState.sicks + "\nGoods: " + states_PlayState.goods + "\nBads: " + states_PlayState.bads + "\nShits: " + states_PlayState.shits + "\nMisses: " + states_PlayState.misses + "\nHighest Combo: " + states_PlayState.highestCombo + "\nAccuracy: " + Math.round(states_PlayState.accuracy) + "%");
 	}
 	,updateAccuracy: function() {
 		this.updatedAcc = true;
@@ -169924,7 +169959,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 		var _gthis = this;
 		var fileName = backend_Paths.getPath("videos/" + name + ".mp4","BINARY",null);
 		try {
-			haxe_Log.trace("Playing video cutscene",{ fileName : "source/states/PlayState.hx", lineNumber : 3120, className : "states.PlayState", methodName : "startVideo"});
+			haxe_Log.trace("Playing video cutscene",{ fileName : "source/states/PlayState.hx", lineNumber : 3119, className : "states.PlayState", methodName : "startVideo"});
 			states_PlayState.inCutscene = true;
 			var bg = new flixel_FlxSprite(-flixel_FlxG.width,-flixel_FlxG.height).makeGraphic(flixel_FlxG.width * 3,flixel_FlxG.height * 3,-16777216);
 			bg.scrollFactor.set();
@@ -171103,9 +171138,9 @@ states_editors_AnimationDebug.prototype = $extend(backend_MusicBeatState.prototy
 			this.gridBG.scrollFactor.set(1,1);
 			this.add(this.gridBG);
 		} else {
-			var bg = new flixel_FlxSprite(-600,-200).loadGraphic(backend_Paths.getPath("images/" + "stage/stageback" + ".png","IMAGE","week1"));
-			var stageFront = new flixel_FlxSprite(-650,600).loadGraphic(backend_Paths.getPath("images/" + "stage/stagefront" + ".png","IMAGE","week1"));
-			var stageCurtains = new flixel_FlxSprite(-500,-300).loadGraphic(backend_Paths.getPath("images/" + "stage/stagecurtains" + ".png","IMAGE","week1"));
+			var bg = new flixel_FlxSprite(-600,-200).loadGraphic(backend_Paths.getPath("images/" + "stageback" + ".png","IMAGE","week1"));
+			var stageFront = new flixel_FlxSprite(-650,600).loadGraphic(backend_Paths.getPath("images/" + "stagefront" + ".png","IMAGE","week1"));
+			var stageCurtains = new flixel_FlxSprite(-500,-300).loadGraphic(backend_Paths.getPath("images/" + "stagecurtains" + ".png","IMAGE","week1"));
 			bg.set_antialiasing(flixel_FlxG.save.data.antialiasing);
 			stageFront.set_antialiasing(flixel_FlxG.save.data.antialiasing);
 			stageCurtains.set_antialiasing(flixel_FlxG.save.data.antialiasing);
@@ -177156,8 +177191,8 @@ states_LoadingState.MIN_TIME = 1.0;
 states_MainMenuState.definitiveVersion = "0.5.2";
 states_MainMenuState.versionSuffix = " | WEB BUILD";
 states_MainMenuState.GIT_BRANCH = "master-HTML5";
-states_MainMenuState.GIT_HASH = "73414c7";
-states_MainMenuState.GIT_HAS_LOCAL_CHANGES = true;
+states_MainMenuState.GIT_HASH = "c0296da";
+states_MainMenuState.GIT_HAS_LOCAL_CHANGES = false;
 states_PlayState.instance = null;
 states_PlayState.isStoryMode = false;
 states_PlayState.storyWeek = 0;
