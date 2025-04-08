@@ -116919,7 +116919,7 @@ var lime_utils_AssetCache = function() {
 	this.audio = new haxe_ds_StringMap();
 	this.font = new haxe_ds_StringMap();
 	this.image = new haxe_ds_StringMap();
-	this.version = 248918;
+	this.version = 834514;
 };
 $hxClasses["lime.utils.AssetCache"] = lime_utils_AssetCache;
 lime_utils_AssetCache.__name__ = "lime.utils.AssetCache";
@@ -176416,15 +176416,6 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 			this.openSubState(new substates_GameOverSubstate(states_PlayState.boyfriend.getScreenPosition().x,states_PlayState.boyfriend.getScreenPosition().y));
 		}
 		if(this.generatedMusic) {
-			if(this.unspawnNotes.length > 0 && this.unspawnNotes[0] != null) {
-				while(this.unspawnNotes.length > 0 && this.unspawnNotes[0].strumTime - backend_Conductor.songPosition < 1500) {
-					var dunceNote = this.unspawnNotes[0];
-					this.notes.add(dunceNote);
-					dunceNote.set_visible(true);
-					dunceNote.set_active(true);
-					this.unspawnNotes.splice(0,1);
-				}
-			}
 			this.notes.forEachAlive(function(daNote) {
 				if(daNote.y > flixel_FlxG.height) {
 					daNote.set_active(false);
@@ -176623,8 +176614,8 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 				if(states_PlayState.storyDifficulty == 2) {
 					difficulty = "-hard";
 				}
-				haxe_Log.trace("LOADING NEXT SONG",{ fileName : "source/states/PlayState.hx", lineNumber : 2512, className : "states.PlayState", methodName : "endSong"});
-				haxe_Log.trace(states_PlayState.storyPlaylist[0].toLowerCase() + difficulty,{ fileName : "source/states/PlayState.hx", lineNumber : 2513, className : "states.PlayState", methodName : "endSong"});
+				haxe_Log.trace("LOADING NEXT SONG",{ fileName : "source/states/PlayState.hx", lineNumber : 2500, className : "states.PlayState", methodName : "endSong"});
+				haxe_Log.trace(states_PlayState.storyPlaylist[0].toLowerCase() + difficulty,{ fileName : "source/states/PlayState.hx", lineNumber : 2501, className : "states.PlayState", methodName : "endSong"});
 				if(states_PlayState.SONG.song.toLowerCase() == "eggnog") {
 					var blackShit = new flixel_FlxSprite(-flixel_FlxG.width * flixel_FlxG.camera.zoom,-flixel_FlxG.height * flixel_FlxG.camera.zoom).makeGraphic(flixel_FlxG.width * 3,flixel_FlxG.height * 3,-16777216);
 					blackShit.scrollFactor.set();
@@ -176649,7 +176640,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 				}
 			}
 		} else {
-			haxe_Log.trace("WENT BACK TO FREEPLAY??",{ fileName : "source/states/PlayState.hx", lineNumber : 2540, className : "states.PlayState", methodName : "endSong"});
+			haxe_Log.trace("WENT BACK TO FREEPLAY??",{ fileName : "source/states/PlayState.hx", lineNumber : 2528, className : "states.PlayState", methodName : "endSong"});
 			var nextState = new states_FreeplayState();
 			if(flixel_FlxG.game._state.switchTo(nextState)) {
 				flixel_FlxG.game._requestedState = nextState;
@@ -177139,7 +177130,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 		var _gthis = this;
 		var fileName = backend_Paths.getPath("videos/" + name + ".mp4","BINARY",null);
 		try {
-			haxe_Log.trace("Playing video cutscene",{ fileName : "source/states/PlayState.hx", lineNumber : 3124, className : "states.PlayState", methodName : "startVideo"});
+			haxe_Log.trace("Playing video cutscene",{ fileName : "source/states/PlayState.hx", lineNumber : 3112, className : "states.PlayState", methodName : "startVideo"});
 			states_PlayState.inCutscene = true;
 			var bg = new flixel_FlxSprite(-flixel_FlxG.width,-flixel_FlxG.height).makeGraphic(flixel_FlxG.width * 3,flixel_FlxG.height * 3,-16777216);
 			bg.scrollFactor.set();
@@ -184424,7 +184415,7 @@ states_MainMenuState.definitiveVersion = "0.5.2";
 states_MainMenuState.versionSuffix = " | DEBUG BUILD";
 states_MainMenuState.GIT_BRANCH = "master-HTML5";
 states_MainMenuState.GIT_HASH = "cc40d8f";
-states_MainMenuState.GIT_HAS_LOCAL_CHANGES = false;
+states_MainMenuState.GIT_HAS_LOCAL_CHANGES = true;
 states_PlayState.instance = null;
 states_PlayState.isStoryMode = false;
 states_PlayState.storyWeek = 0;
