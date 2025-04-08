@@ -116,6 +116,10 @@ section {
     transition: 0.3s ease;
 }
 
+.blog-headings {
+    font-size: large;
+}
+
 .blog-links {
     color: white;
     text-decoration: underline;

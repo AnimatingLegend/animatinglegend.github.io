@@ -1,5 +1,72 @@
 const blogPosts = [
     {
+        title: `Blog Post #3: Funkin' Definitive Edition - Web Demo`,
+        shownContent: `
+        Hello, and welcome back to another blog post!
+
+        <br> <br>
+
+        For the past two weeks I've been at work trying to optimize the website as much as possible, as well as fix up my FNF engine.
+        And I'm proud to say that after two full weeks, of endless coding, and crying, it's finally fixed and running!
+        A lot of changes & fixes were made, and I'm going to cover them in this blog post.
+
+        <br> <br>
+        `,
+        hiddenContent: `
+        For starters, the bug fixes. 
+        When I first started working on the HTML5 version of my engine I encountered a lot of compiling, and in-game issues; and it all came down to compiling.
+        Before the update, my engine was running <strong>Haxe 4.1.5 & haxeflixel 4.8.0</strong>. 
+        But recently it seemed like those two versions are currently outdated so I had to update to a more 'newer' version.
+        The engine now supports <strong>Haxe 4.2.5 & Haxeflixel 4.10.0</strong>, still old versions but new in terms of how the game runs.
+        If you're looking on building and compiling the game yourself, then <a title="FDE BUILDING GUIDE" href="https://github.com/AnimatingLegend/Funkin-Definitive-Edition/blob/master-final/docs/guides/building.md" class="link" target="_blank">Follow this guide</a>.
+        After compiling, I ran into a lot of bugs involving preloading assets like songs, stages, character etc. 
+        So I had to COMEPLETELY REWRITE the way those assets are preloaded, both in <strong>Project.xml</strong> & <strong>PlayState.hx</strong>.
+        I spent the most time on this one because even after I thought I fixed the issue, more preloading problems popped up. 
+        But after testing on multiple devices, it should be running perfectly fine.
+
+        <br> <br>
+
+        For seconds and for last, the changes.
+        Since it's my first time coming back to the engine in over 4 months, I decided I wanted to make a few changes to it for optimization purposes.
+        I changed the file locations for the song charts, I cached the song charts aswell as the songs themselves, and I tweaked up some song charts also, like 'winter-horrorland'.
+        As of writing this blog post, there are some more things that I'm going to change in the following days/weeks. 
+        
+        <br> <br>
+
+        But for now, if you're thinking about playing the game then <a title="FDE-WEB-DEMO" href="/content/FDE-WEB-DEMO" class="link" target="_blank">click here!</a> 
+
+        <br> <br>
+
+        Thank you for reading this quick blog post, and hope you enjoy the engine !
+
+        <br> <br>
+
+        <!--
+                                                                    -- WILL ADD THIS LATER ON --
+        <br> <br>
+
+        <strong class="blog-headings">Photos of gameplay:<strong> <br>
+        <img src='../content/blogs/images/placeholder-img-2.png' alt="1280-720" class="img-content-2"> <br>
+        <img src='../content/blogs/images/placeholder-img-2.png' alt="1280-720" class="img-content-2"> <br>
+        <img src='../content/blogs/images/placeholder-img-2.png' alt="1280-720" class="img-content-2"> <br>
+
+        <br> <br>
+
+        <strong class="blog-headings">Song of the week:</strong> <br> <br>
+
+        <audio controls class="music-content"> 
+            <source src="../content/blogs/music/Awkward_Inst.mp3" type="audio/mpeg">
+        </audio>
+
+        <br> <br>
+        -->
+
+        <strong>Written by: Aaron Augustin, 4/7/2025</strong>
+
+        `
+    },
+    /*
+    {
         title: "Test Blog Post #2: Photos, Videos & Music",
 
         shownContent: `
@@ -46,6 +113,7 @@ const blogPosts = [
         <strong>UPDATED: 4/4/2025 </strong>
         `,
     },
+    */
 
     {
         title: "Blog Post #2: Backend, FNF & Animations - 3/31/2025",
