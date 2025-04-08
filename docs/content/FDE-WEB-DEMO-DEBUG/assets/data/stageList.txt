@@ -1,9 +1,0 @@
-stage
-spookyMansion
-philly
-limo
-mall
-mallEvil
-school
-schoolEvil
-tank
