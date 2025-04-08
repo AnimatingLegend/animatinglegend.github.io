@@ -33,7 +33,7 @@ const blogPosts = [
         
         <br> <br>
 
-        But for now, if you're thinking about playing the game then <a title="FDE-WEB-DEMO" href="/content/FDE-WEB-DEMO" class="link" target="_blank">click here!</a> 
+        But for now, if you're thinking about playing the game then <a title="FDE-WEB-DEMO" href="/content/bin-release" class="link" target="_blank">click here!</a> 
 
         <br> <br>
 
@@ -216,9 +216,9 @@ const codingProjects = [
         <a title="Friday Night Funkin Old Github Repo" href="https://github.com/FunkinCrew/Funkin/tree/legacy/0.2.x" class="FNF" target="_blank"><strong>Friday Night Funkin's original engine</strong></a> contained a lot of bugs and errors at that time, and playing was frustrating. 
         Because I was bored and wanted to improve the experience, I decided to fix these bugs and implement my own modifications to improve the game. 
         I wrote this project in <strong>Haxe and HaxeFlixel</strong>, which allowed me to modify and optimize the game engine successfully. <br>
-        <strong>If you want to view the DEBUG WEB version of the engine <a title="FDE-WEB-DEMO-DEBUG" href="/content/FDE-WEB-DEMO-DEBUG" class="FNF" target="_blank">click here!!</a></strong>`,
+        <strong>If you want to view the DEBUG WEB version of the engine <a title="FDE-WEB-DEMO-DEBUG" href="/content/bin-debug" class="FNF" target="_blank">click here!!</a></strong>`,
         image: '../assets/images/logos/FNF-Logo.png',
-        link:'/content/FDE-WEB-DEMO/'
+        link:'/content/bin-release/'
     },
 
     // animatinglegend.github.io
