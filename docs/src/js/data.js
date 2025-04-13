@@ -33,7 +33,19 @@ const blogPosts = [
         
         <br> <br>
 
-        But for now, if you're thinking about playing the game then <a title="FDE-WEB-DEMO" href="/content/bin-release" class="link" target="_blank">click here!</a> 
+        <strong class="blog-headings">Photo of gameplay</strong> <br>
+        <img src='../content/blogs/2025-07-04/fnf_fde_gameplay.png' alt="1280-720" class="img-content-2"> <br>
+
+        <br>
+
+        <strong class="blog-headings">Song of the week</strong>
+        <audio controls class="music-content">
+            <source src="../content/blogs/2025-07-04/give_a_lil_bit_back.mp3" type="audio/mp3">
+        </audio>
+
+        <br> <br>
+
+        If you're thinking about playing the game then <a title="FDE-WEB-DEMO" href="/content/bin-release" class="link" target="_blank">click here!</a> 
 
         <br> <br>
 
@@ -41,27 +53,7 @@ const blogPosts = [
 
         <br> <br>
 
-        <!--
-                                                                    -- WILL ADD THIS LATER ON --
-        <br> <br>
-
-        <strong class="blog-headings">Photos of gameplay:<strong> <br>
-        <img src='../content/blogs/images/placeholder-img-2.png' alt="1280-720" class="img-content-2"> <br>
-        <img src='../content/blogs/images/placeholder-img-2.png' alt="1280-720" class="img-content-2"> <br>
-        <img src='../content/blogs/images/placeholder-img-2.png' alt="1280-720" class="img-content-2"> <br>
-
-        <br> <br>
-
-        <strong class="blog-headings">Song of the week:</strong> <br> <br>
-
-        <audio controls class="music-content"> 
-            <source src="../content/blogs/music/Awkward_Inst.mp3" type="audio/mpeg">
-        </audio>
-
-        <br> <br>
-        -->
-
-        <strong>Written by: Aaron Augustin, 4/7/2025</strong>
+        <strong>Written by: Aaron Augustin, 4/7/2025 | UPDATED 4/13/2025</strong>
 
         `
     },
@@ -82,14 +74,14 @@ const blogPosts = [
 
         <br> <br>
 
-        <img src='../content/blogs/images/placeholder-img-1.png' alt="600-400" class="img-content-1"> <br>
-        <img src='../content/blogs/images/placeholder-img-2.png' alt="1280-720" class="img-content-2"> <br>
-        <img src='../content/blogs/images/placeholder-img-3.png' alt="1920-1080" class="img-content-3"> <br>
+        <img src='../content/blogs/2025-01-04/placeholder-img-1.png' alt="600-400" class="img-content-1"> <br>
+        <img src='../content/blogs/2025-01-04/placeholder-img-2.png' alt="1280-720" class="img-content-2"> <br>
+        <img src='../content/blogs/2025-01-04/placeholder-img-3.png' alt="1920-1080" class="img-content-3"> <br>
 
         <br> <br>
 
         <video controls class="video-content"> 
-            <source src="../content/blogs/videos/placeholder-video.mp4" type="video/mp4">
+            <source src="../content/blogs/2025-01-04/placeholder-video.mp4" type="video/mp4">
         </video>
 
         <br> <br>
@@ -97,7 +89,7 @@ const blogPosts = [
         <strong>The song being used is a copyrighted placeholder and will be subjected to change soon.</strong> <br> <br>
 
         <audio controls class="music-content"> 
-            <source src="../content/blogs/music/Awkward_Inst.mp3" type="audio/mpeg">
+            <source src="../content/blogs/2025-01-04/placeholder-audio.mp3" type="audio/mpeg">
         </audio>
 
         <br> <br>
@@ -110,11 +102,10 @@ const blogPosts = [
 
         <br> <br>
 
-        <strong>UPDATED: 4/4/2025 </strong>
+        <strong>UPDATED: 4/13/2025 </strong>
         `,
     },
     */
-
     {
         title: "Blog Post #2: Backend, FNF & Animations - 3/31/2025",
 
