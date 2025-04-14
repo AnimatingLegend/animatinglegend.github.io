@@ -5,7 +5,7 @@
 - Add School Capstone project to this website lolol
 
 ### Change
-- Everytime you click on an image, it enhances
+- Everytime you click on an image, it enhances [x]
 
 ### Fix
-- Screen Tearing everytime you scroll through blog posts
+- Screen Tearing everytime you scroll on the website [x]
