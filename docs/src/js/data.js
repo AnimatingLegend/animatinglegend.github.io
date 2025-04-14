@@ -88,7 +88,6 @@ const blogPosts = [
         `
     },
 
-    /*
     {
         title: "Test Blog Post #2: Photos, Videos & Music",
 
@@ -136,7 +135,6 @@ const blogPosts = [
         <strong>UPDATED: 4/13/2025 </strong>
         `,
     },
-    */
 
     {
         title: "Blog Post #2: Backend, FNF & Animations - 3/31/2025",
@@ -213,7 +211,6 @@ const blogPosts = [
         `
     },
 
-    /*
     {
         title: "Test Blog post #1 - 3/23/2025",
         shownContent: `
@@ -227,7 +224,6 @@ const blogPosts = [
             <strong>Written By: Aaron Augustin</strong>
         `
     }
-    */
 ];
 
 const animProjects = [
