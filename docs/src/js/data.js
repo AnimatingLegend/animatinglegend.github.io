@@ -1,5 +1,34 @@
 const blogPosts = [
     {
+        title: `Test Blog Post #3: Enhanced Images`,
+        shownContent: `
+        As much as I liked the way I coded images onto my site, I kinda hated the fact that they were so small on mobile devices. 
+        What pissed me off more is the fact that you CAN'T enchance the photo if you click on it, So now I'm here to change it. 
+        I'm just testing out this feature by using <strong>Javascript</strong> & <strong>HTML</strong>, so these are subject to change.
+        
+        <br> <br>
+        `,
+        hiddenContent: `
+        <strong class="blog-headings">It may look like a regular images, but try clicking on it !</strong> <br>
+
+        <!-- base thumbnail image -->
+        <img src="../content/blogs/2025-13-04/spongbob_meme_img.jpg" class="thumbnail img-content-1" alt="thumbnail" onclick="openLightbox(src)">
+
+        <br> <br>
+
+        I applied this feature to my recent blog post, so for people who want to view the image better on mobile, you can!
+
+        <br> <br>
+
+        <strong>THIS POST WILL BE DELETED SOON, THIS IS FOR FEATURE TESTING ONLY</strong>
+
+        <br> <br>
+
+        <strong>Written By: Aaron Augustin, 4/13/2025 </strong>
+        `
+    },
+
+    {
         title: `Blog Post #3: Funkin' Definitive Edition - Web Demo`,
         shownContent: `
         Hello, and welcome back to another blog post!
@@ -33,12 +62,14 @@ const blogPosts = [
         
         <br> <br>
 
-        <strong class="blog-headings">Photo of gameplay</strong> <br>
-        <img src='../content/blogs/2025-07-04/fnf_fde_gameplay.png' alt="1280-720" class="img-content-2"> <br>
+        <strong class="blog-headings">Photo of gameplay:</strong> <br>
 
-        <br>
+        <img src='../content/blogs/2025-07-04/fnf_fde_gameplay.png' alt="1280-720 thumbnail" class="img-content-2 thumbnail" onclick="openLightbox(src)">
 
-        <strong class="blog-headings">Song of the week</strong>
+        <br> <br>
+
+        <strong class="blog-headings">Song of the week:</strong> <br> 
+
         <audio controls class="music-content">
             <source src="../content/blogs/2025-07-04/give_a_lil_bit_back.mp3" type="audio/mp3">
         </audio>
@@ -54,9 +85,9 @@ const blogPosts = [
         <br> <br>
 
         <strong>Written by: Aaron Augustin, 4/7/2025 | UPDATED 4/13/2025</strong>
-
         `
     },
+
     /*
     {
         title: "Test Blog Post #2: Photos, Videos & Music",
@@ -106,6 +137,7 @@ const blogPosts = [
         `,
     },
     */
+
     {
         title: "Blog Post #2: Backend, FNF & Animations - 3/31/2025",
 
@@ -180,6 +212,22 @@ const blogPosts = [
             <strong>Written By: Aaron Augustin</strong>
         `
     },
+
+    /*
+    {
+        title: "Test Blog post #1 - 3/23/2025",
+        shownContent: `
+            Hello, welcome to my first blog post! 
+            I'm still trying to work on some backend stuff for this page so I may or may not get some good use out of this page very soon!
+            If you take a look at the <a href="https://github.com/AnimatingLegend/animatinglegend.github.io/blob/main/docs/blog.html" class="blog-links" target="_blank"><strong>source code</strong></a>, the way I'm currently writing my blogs is horrendous. <br> <br>`,
+        hiddenContent: `
+            Later down the weeks, blogs will be written in a different format instead of straight <strong>HTML</strong> and <strong>CSS</strong>. 
+            And the code for this page will undergo massive improvements and better optimization, <strong>frontend & backend</strong>. <br> <br>
+            Thanks for reading! <br> <br>
+            <strong>Written By: Aaron Augustin</strong>
+        `
+    }
+    */
 ];
 
 const animProjects = [
@@ -210,14 +258,6 @@ const codingProjects = [
         <strong>If you want to view the DEBUG WEB version of the engine <a title="FDE-WEB-DEMO-DEBUG" href="/content/bin-debug" class="FNF" target="_blank">click here!!</a></strong>`,
         image: '../assets/images/logos/FNF-Logo.png',
         link:'/content/bin-release/'
-    },
-
-    // animatinglegend.github.io
-    {
-        title: `<a title="animatinglegend.github.io Official Github Repo" href="https://github.com/AnimatingLegend/animatinglegend.github.io" class="GIT" target="_blank">animatinglegend.github.io</a>`,
-        description: `<strong>Click the title, or the icon above to view the official repository for this website !!!</strong>`,
-        image: '../assets/images/logos/Github-Logo.png',
-        link: `https://github.com/AnimatingLegend/animatinglegend.github.io`
     },
 
     // Colorbot / Legbot-Host

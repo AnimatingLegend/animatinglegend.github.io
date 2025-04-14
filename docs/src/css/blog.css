@@ -117,6 +117,9 @@ section {
 }
 
 .blog-headings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: large;
 }
 
@@ -154,6 +157,19 @@ h3 {
     font-size: 15px;
 }
 
+/**
+* making thumbnail images
+**/
+.thumbnail {
+    width: 200px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.thumbnail:hover {
+    transform: scale(1.05);
+}
+
 /*
 * Seperating content for different image sizes
 */
@@ -173,9 +189,25 @@ h3 {
     width: 400px;
 }
 
-.img-content-3,
-.video-content,
-.music-content{
+.img-content-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+}
+
+.img-content-1, 
+.img-content-2, 
+.img-content-3, 
+.video-content, 
+.music-content {
+    display: block;
+    margin: 0 auto;
+}
+
+.music-content,
+.video-content {
     display: flex;
     justify-content: center;
     align-items: center;

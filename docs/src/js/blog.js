@@ -35,3 +35,54 @@ document.addEventListener('DOMContentLoaded', function() {
         button.onclick = toggleContent;
     });
 });
+
+document.querySelectorAll('img').forEach(img => {
+    img.style.cursor = 'pointer';
+    img.addEventListener('click', () => openLightbox(img.src));
+    console.log("Opening:", img.src);
+});
+
+function openLightbox(src) {
+    const lightbox = document.createElement('div');
+    lightbox.id = 'lightbox';
+    lightbox.style.cssText = `
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      background: rgba(0, 0, 0, 0.8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    `;
+
+    const img = document.createElement('img');
+    img.src = src;
+    img.style.cssText = `
+      max-width: 90%;
+      max-height: 90%;
+      border-radius: 10px;
+    `;
+
+    const closeBtn = document.createElement('span');
+    closeBtn.innerHTML = '&times;';
+    closeBtn.style.cssText = `
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      font-size: 40px;
+      color: white;
+      cursor: pointer;
+      z-index: 10001;
+      user-select: none;
+    `;
+
+    closeBtn.onclick = () => document.body.removeChild(lightbox);
+    lightbox.onclick = (e) => {
+        if (e.target === lightbox) document.body.removeChild(lightbox);
+    };
+
+    lightbox.appendChild(closeBtn);
+    lightbox.appendChild(img);
+    document.body.appendChild(lightbox);
+}
