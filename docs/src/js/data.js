@@ -9,7 +9,7 @@ const blogPosts = [
         <br> <br>
         `,
         hiddenContent: `
-        <strong class="blog-headings">It may look like a regular images, but try clicking on it !</strong> <br>
+        <strong class="blog-headings">It may look like a regular image, but try clicking on it!</strong> <br>
 
         <!-- base thumbnail image -->
         <img src="../content/blogs/2025-13-04/spongbob_meme_img.jpg" class="thumbnail img-content-1" alt="thumbnail" onclick="openLightbox(src)">
