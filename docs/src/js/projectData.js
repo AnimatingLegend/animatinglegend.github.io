@@ -20,14 +20,14 @@ const codingProjects = [
     {
         title: `
         <strong>
-        <a title="Funkin-Definitive-Edition Github Repo" href="https://github.com/AnimatingLegend/Funkin-Definitive-Edition" target="_blank" class="FDE">Funkin-Definitive-Edition</a>
+        <a title="Funkin-Definitive-Edition - SOURCE CODE" href="https://github.com/AnimatingLegend/Funkin-Definitive-Edition" target="_blank" class="FDE">Funkin-Definitive-Edition</a>
         </strong>`,
         description: `
         My project, Funkin' Definitive Edition, was created on August 12, 2022. 
         <a title="Friday Night Funkin Old Github Repo" href="https://github.com/FunkinCrew/Funkin/tree/legacy/0.2.x" class="FNF" target="_blank"><strong>Friday Night Funkin's original engine</strong></a> contained a lot of bugs and errors at that time, and playing was frustrating. 
         Because I was bored and wanted to improve the experience, I decided to fix these bugs and implement my own modifications to improve the game. 
-        I wrote this project in <strong>Haxe and HaxeFlixel</strong>, which allowed me to modify and optimize the game engine successfully. <br> <br>
-        <strong>If you want to view the DEBUG WEB version of the engine <a title="FDE-WEB-DEMO-DEBUG" href="/content/bin-debug" class="FNF" target="_blank">click here!!</a></strong>`,
+        I wrote this project in <strong>Haxe and HaxeFlixel</strong>, which allowed me to modify and optimize the game engine successfully. <br>
+        <strong>If you want to view the DEBUG WEB version of the engine <a title="Funkin-Definitive-Edition - DEBUGGED WEB DEMO" href="/content/bin-debug" class="FNF" target="_blank">click here!!</a></strong>`,
         image: '../assets/images/logos/FNF-Logo.png',
         link:'/content/bin-release/'
     },
@@ -36,8 +36,8 @@ const codingProjects = [
     {
         title: `
         <strong>
-        <a title="ColorBot-Host Github Repo" href="https://github.com/colorlol/colorbothost" target="_blank" class="colorbot-host">ColorBot</a> / 
-        <a title="Legbot-Host Github Repo" href="https://github.com/AnimatingLegend/legbothost" target="_blank" class="legbot-host">Legbot-Host</a>
+        <a title="ColorBot-Host - SOURCE CODE" href="https://github.com/colorlol/colorbothost" target="_blank" class="colorbot-host">ColorBot</a> / 
+        <a title="Legbot-Host - SOURCE CODE" href="https://github.com/AnimatingLegend/legbothost" target="_blank" class="legbot-host">Legbot-Host</a>
         </strong>`,
         description: `
         Two projects in the same category, <strong>Legbot-Host, and Colorbot-host</strong>. 
@@ -55,7 +55,7 @@ const codingProjects = [
     {
         title: `
         <strong>
-        <a title="Quizizz-cheat Github Repo" href="https://github.com/colorlol/quizizzcheat" class="quiz" target="_blank">Quizizz Cheat</a>
+        <a title="Quizizz-cheat - SOURCE CODE" href="https://github.com/colorlol/quizizzcheat" class="quiz" target="_blank">Quizizz Cheat</a>
         </strong>`,
         description: `
         During that same time in 2021, <a title="colorlol" href="https://github.com/colorlol" class="colorlol" target="_blank"><strong>Tamesh</strong></a> and I also created Quizziz-Cheat, a small project that taught us the basics of <strong>inspect element</strong> and how to manipulate code in real time. 
@@ -63,6 +63,27 @@ const codingProjects = [
         This script was written in <strong>JavaScript</strong> and worked by reading Quizziz's test data and automatically highlighting the correct answers. 
         Although the project was eventually discontinued and Quizziz patched the exploit, it was a great learning experience in understanding JavaScript strings and how web pages process data.`,
         image: '../assets/images/logos/Quizizz-Logo.png',
+        link: null
+    },
+
+    // Portfolio (animatinglegend.github.io)
+    {
+        title: `
+        <strong>
+        <a title="animatinglegend.github.io - SOURCE CODE" href="https://github.com/AnimatingLegend/animatinglegend.github.io" target="_blank" class="GIT">
+        animatinglegend.github.io
+        </a>
+        </strong>`,
+        description: `
+        This website is a personal project I started around early 2025.
+        It started when I had a conversation with one of my teachers about building a resume and a mini portfolio to keep all my work in one place.
+        The goal was to have something I could share when looking for good job opportunities in the mere future. <br>
+        At the time I had a lot I was doing for school, so I'd have to put that idea on hold. 
+        A few months later, (like around January or February) I finally had time to sit down and get started. <br>
+        This site was made from scratch using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Javascript</strong>, with the chunk of knowledge I had from my Web Design class. <br>
+        I'm still actively working on it, making updates and changes as I go, and planning to add more features over time.
+        `,
+        image: '../assets/images/logos/Github-Logo.png',
         link: null
     }
 ];

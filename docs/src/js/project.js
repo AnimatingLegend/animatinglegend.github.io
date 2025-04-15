@@ -8,16 +8,10 @@ const animationContainer = document.getElementById('anim-container');
 function generateImgHTML(project, logoClass) {
     if (logoClass === 'fnf-logo') {
         return project.link
-            ? `<a title="Click to play Funkin' Demo" href="${project.link}" target="_blank">
+            ? `<a title="Funkin-Definitive-Edition - WEB DEMO" href="${project.link}" target="_blank">
                 <img src="${project.image}" alt="${logoClass}">
               </a>`
             : `<img src="${project.image}" alt="${logoClass}">`
-    } else if (logoClass === 'github-logo') {
-        return project.link
-        ? `<a title="Click to view Source Code" href="${project.link}" target="_blank">
-                <img src="${project.image}" alt="${logoClass}">
-           </a>`
-        : `<img src="${project.image}" alt="${logoClass}">`;
     } else {
         return project.link
             ? `<a title="Click to view" href="${project.link}" target="_blank">
