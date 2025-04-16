@@ -28,7 +28,7 @@ coding_projects.forEach(project => {
         </div>
 
         <h2>
-            <a title="${project.proj_link_title}" href="${project.proj_link} target="_blank" class="${project.proj_div_class}">
+            <a title="${project.proj_link_title}" href="${project.proj_link}" target="_blank" class="${project.proj_div_class}">
                 ${project.project_title}
             </a>
         </h2>
