@@ -1,14 +1,19 @@
-const blogPosts = [
+/**
+ * Seperating `test_blog_posts` & `public_blog_posts` out of confusion and more cleaner code
+ * everything should run perfectly fine
+ */
+const test_blog_posts = [
     {
-        title: `Test Blog Post #3: Enhanced Images`,
-        shownContent: `
+        blog_title: `Test Blog Post - Enhanced Images`,
+    
+        shown_content: `
         As much as I liked the way I coded images onto my site, I kinda hated the fact that they were so small on mobile devices. 
         What pissed me off more is the fact that you CAN'T enchance the photo if you click on it, So now I'm here to change it. 
         I'm just testing out this feature by using <strong>Javascript</strong> & <strong>HTML</strong>, so these are subject to change.
         
-        <br> <br>
-        `,
-        hiddenContent: `
+        <br> <br>`,
+
+        hidden_content: `
         <strong class="blog-headings">It may look like a regular image, but try clicking on it!</strong> <br>
 
         <!-- base thumbnail image -->
@@ -24,13 +29,15 @@ const blogPosts = [
 
         <br> <br>
 
-        <strong>Written By: Aaron Augustin, 4/13/2025 </strong>
-        `
+        <strong>Written By: Aaron Augustin, 4/13/2025 </strong>`
     },
+];
 
+const blog_posts = [
     {
-        title: `Blog Post #3: Funkin' Definitive Edition - Web Demo`,
-        shownContent: `
+        blog_title: `Blog Post #3: Funkin' Definitive Edition - Web Demo`,
+
+        shown_content: `
         Hello, and welcome back to another blog post!
 
         <br> <br>
@@ -39,9 +46,9 @@ const blogPosts = [
         And I'm proud to say that after two full weeks, of endless coding, and crying, it's finally fixed and running!
         A lot of changes & fixes were made, and I'm going to cover them in this blog post.
 
-        <br> <br>
-        `,
-        hiddenContent: `
+        <br> <br>`,
+
+        hidden_content: `
         For starters, the bug fixes. 
         When I first started working on the HTML5 version of my engine I encountered a lot of compiling, and in-game issues; and it all came down to compiling.
         Before the update, my engine was running <strong>Haxe 4.1.5 & haxeflixel 4.8.0</strong>. 
@@ -84,64 +91,13 @@ const blogPosts = [
 
         <br> <br>
 
-        <strong>Written by: Aaron Augustin, 4/7/2025 | UPDATED 4/13/2025</strong>
-        `
+        <strong>Written by: Aaron Augustin, 4/7/2025 | UPDATED 4/13/2025</strong>`
     },
 
-    /*
     {
-        title: "Test Blog Post #2: Photos, Videos & Music",
+        blog_title: "Blog Post #2: Backend, FNF & Animations - 3/31/2025",
 
-        shownContent: `
-        When making my last blog post, I had an idea to start implementing photos, videos AND music into my blog posts. 
-        So I'm just adding this here to get an idea of how it will look. If I have anyother ideas then I'll just add them here :]
-
-        <br> <br>
-
-        (I also just want to tackle the CSS part of this feature so I don't have to stress about it when the times comes lol)
-        `,
-
-        hiddenContent: `
-
-        <br> <br>
-
-        <img src='../content/blogs/2025-01-04/placeholder-img-1.png' alt="600-400" class="img-content-1"> <br>
-        <img src='../content/blogs/2025-01-04/placeholder-img-2.png' alt="1280-720" class="img-content-2"> <br>
-        <img src='../content/blogs/2025-01-04/placeholder-img-3.png' alt="1920-1080" class="img-content-3"> <br>
-
-        <br> <br>
-
-        <video controls class="video-content"> 
-            <source src="../content/blogs/2025-01-04/placeholder-video.mp4" type="video/mp4">
-        </video>
-
-        <br> <br>
-
-        <strong>The song being used is a copyrighted placeholder and will be subjected to change soon.</strong> <br> <br>
-
-        <audio controls class="music-content"> 
-            <source src="../content/blogs/2025-01-04/placeholder-audio.mp3" type="audio/mpeg">
-        </audio>
-
-        <br> <br>
-
-        <strong>THIS POST WILL BE DELETED SOON, THIS IS FOR FEATURE TESTING ONLY</strong>
-
-        <br> <br>
-
-        <strong>Written By: Aaron Augustin, 4/1/2025</strong>
-
-        <br> <br>
-
-        <strong>UPDATED: 4/13/2025 </strong>
-        `,
-    },
-    */
-
-    {
-        title: "Blog Post #2: Backend, FNF & Animations - 3/31/2025",
-
-        shownContent: `
+        shown_content: `
         Hello again, and welcome back to another blog post !! 
         
         <br> <br>
@@ -153,7 +109,7 @@ const blogPosts = [
         <br> <br>
         `,
 
-        hiddenContent: `
+        hidden_content: `
         For seconds, I quickly wanted to mention that I started working on more backend stuff for data.js. 
         My projects are now being rendered here aswell as my blog post's the file looks a little messy, but it keeps the rest of the website optimized and clean so im not complaining. 
         
@@ -180,9 +136,9 @@ const blogPosts = [
     },
 
     {
-        title: "Blog Post #1: Changes & Tweaks! - 3/28/2025",
+        blog_title: "Blog Post #1: Changes & Tweaks! - 3/28/2025",
 
-        shownContent: `
+        shown_content: `
             Hello, welcome to my first initial blog post! <br> <br>
 
             I have made some changes to the ENTIRE WEBSITE. But I mainly got some work on the blog page. 
@@ -190,7 +146,7 @@ const blogPosts = [
             This allows for easier management and updates to the blog posts without having to modify the HTML directly.
             <br> <br>`,
 
-        hiddenContent: `
+        hidden_content: `
             I have also added a "Show More" button that will reveal the hidden content of each blog post when clicked.
             This makes the page cleaner and allows users to focus on the main content first. <br> <br>
 
@@ -209,23 +165,6 @@ const blogPosts = [
 
             I will continue to work on improving the website and adding more features in the future. Stay tuned! <br> <br>
 
-            <strong>Written By: Aaron Augustin</strong>
-        `
+            <strong>Written By: Aaron Augustin</strong> `
     },
-    
-    /*
-    {
-        title: "Test Blog post #1 - 3/23/2025",
-        shownContent: `
-            Hello, welcome to my first blog post! 
-            I'm still trying to work on some backend stuff for this page so I may or may not get some good use out of this page very soon!
-            If you take a look at the <a href="https://github.com/AnimatingLegend/animatinglegend.github.io/blob/main/docs/blog.html" class="blog-links" target="_blank"><strong>source code</strong></a>, the way I'm currently writing my blogs is horrendous. <br> <br>`,
-        hiddenContent: `
-            Later down the weeks, blogs will be written in a different format instead of straight <strong>HTML</strong> and <strong>CSS</strong>. 
-            And the code for this page will undergo massive improvements and better optimization, <strong>frontend & backend</strong>. <br> <br>
-            Thanks for reading! <br> <br>
-            <strong>Written By: Aaron Augustin</strong>
-        `
-    }
-    */
 ];

@@ -188,7 +188,6 @@ hr {
 .GIT:hover,
 .quiz:hover,
 .legbot-host:hover,
-.colorbot:hover,
 .colorlol:hover,
 .colorbot-host:hover{
     color: rgb(238, 162, 204);
@@ -204,14 +203,14 @@ hr {
     font-size: 15px;
 }
 
-.fnf-logo img {
+.funkin-logo img {
     position: relative;
     width: 180px;
     cursor: pointer;
     transition: 0.2s ease;
 }
 
-.quiz-logo img {
+.quizizz-logo img {
     width: 120px;
     transition: 0.2s ease;
 }
@@ -226,6 +225,6 @@ hr {
     transition: 0.2s ease;
 }
 
-.fnf-logo  img:hover {
+.funkin-logo  img:hover {
     transform: scale(1.2) translateY(-5px);
 }

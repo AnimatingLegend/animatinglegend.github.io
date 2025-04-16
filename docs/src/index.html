@@ -1,44 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+<!--
+                                                             --  WELCOME TO ANIMATINGLEGEND.GITHUB.IO --
+                                    This is the official source code to my website. Everything you see here programmed, and contruscted by me.
+                This is the home-page to my website. the source code has gone through a huge overhaul, so I'm just gonna tell you about the basics of this file to save the confusion & trouble.
+-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <title>Home | animatinglegend.github.io</title>
-    <link rel="icon" href="../assets/images/icons/leg-website-icon.png"> <!-- this is a placeholder, will change soon -->
+    <title>Home | animatinglegend.github.io</title> <!-- Web Page title -->
+
+    <link rel="icon" href="../assets/images/icons/leg_web_icon.png"> <!-- Web Page icon | This is a placeholder ! -->
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- API for cute contact icons -->
     
+    <!-- CSS Dependencies -->
     <link href="css/index.css" rel="stylesheet" type="text/css">
     <link href="css/phone-adjustments.css" rel="stylesheet" type="text/css">
 
-    <script src="js/navagation-bar-scrolled.js"></script>
+    <!-- Javascript Dependency -->
+    <script src="javascript/navagation-bar-scroll.js"></script>
 </head>
 
 <body>
-    <!-- navagation bar -->
+
+    <!-- Basic layout of my navagation bar -->
     <header class="navigation-bar">
         <a href="index.html" class="logo">Animating Legend</a>
+
         <nav>
             <a href="index.html" class="active">Home</a>
             <a href="projects.html">Projects</a>
             <a href="blog.html">Blog</a>
         </nav>
+
     </header>
 
-    <!-- main container -->
+    <!--
+        Home Section
+        Decided to wrap all my content into this one section so it can be easier to manage my CSS 
+    -->
     <section class="home">
-        <div class="home-img">
-            <img src="../assets/images/icons/leg.png" alt="pfp">
-        </div>
 
+        <!-- 
+            Icon of my little characters head on the side of the website 
+            Wrapped it in a div so it can be more easier to manage in CSS
+        -->
+         <div class="home-img">
+            <img src="../assets/images/icons/leg_home_icon.png" alt="pfp">
+         </div>
+
+        <!-- 
+            This is basically where the main stuff takes place
+            Here is where I talk about my hobbies / Passions & where I showcase my contact info and resume documents.
+        -->
         <div class="content">
             <h1>Hey, I'm <span>Aaron Augustin</span></h1>
 
             <br> <br>
-            
+
+            <!-- Hobbies / Passions -->
             <div class="yapping-column">
-                <!-- talk about my hobbies-->
                 <p>
                     I'm a <strong>junior developer</strong> interested in coding, problem-solving, and web development.
                     I have an expertise in <strong>HTML/CSS, JavaScript, Node.js, React.js, & HaxeFlixel.</strong>
@@ -50,24 +73,31 @@
 
                 <br>
 
-                <p><strong>Feel free to send me a message! You can find my contact info, and resume below !</strong></p>
+                <p>
+                    <strong>
+                        Feel free to send me a message! You can find my contact info, and resume below!
+                    </strong>
+                </p>
+
             </div>
 
             <br> 
             <br>
 
+            <!-- Resume Documents -->
             <div class="resume-border">
-                <a title="Download File: Aaron_Augustin_CV.pdf" href="../assets/images/Aaron_Augustin_CV.pdf" download="Aaron_Augustin_CV">
-                    <img src="../assets/images/icons/pdf-img.png" alt="pdf-icon" class="pdf-icon">
+                <a title="Download File: Aaron_Augustin_CV.pdf" href="../assets/images/docs/Aaron_Augustin_CV.pdf" download="Aaron_Augustin_CV">
+                    <img src="../assets/images/icons/pdf_icon.png" alt="pdf-icon" class="pdf-icon">
                 </a>
 
                 <p class="resume-title-text">Aaron_Augustin_CV.pdf</p>
 
-                <a title="Download File: Aaron_Augustin_CV.pdf" class="resume-link" href="../assets/images/Aaron_Augustin_CV.pdf" download="Aaron_Augustin_CV">
+                <a title="Download File: Aaron_Augustin_CV.pdf" class="resume-link" href="../assets/images/docs/Aaron_Augustin_CV.pdf" download="Aaron_Augustin_CV">
                     <p>Download File</p>
                 </a>
             </div>
             
+            <!-- Contact info -->
             <div class="social-icons">
 
                 <a title="Email" href="mailto:aaugustin1109@gmail.com">
@@ -93,6 +123,7 @@
         </div>
     </section>
 
+    <!-- Copyright stuff -->
     <p class="copyright">animatinglegend.github.io &copy 2025</p>
 </body>
 </html>
