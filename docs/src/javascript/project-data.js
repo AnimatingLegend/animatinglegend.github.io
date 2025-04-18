@@ -32,7 +32,7 @@ const coding_projects = [
         project_title: "Funkin-Definitive-Edition",
         project_desc: `
         My project, Funkin' Definitive Edition, was created on August 12, 2022. 
-        <a title="Friday Night Funkin Old Github Repo" href="https://github.com/FunkinCrew/Funkin/tree/legacy/0.2.x" class="FNF" target="_blank"><strong>Friday Night Funkin's original engine</strong></a> contained a lot of bugs and errors at that time, and playing was frustrating. 
+        <a title="Friday Night Funkin' - v0.2.7.1 SOURCE CODE" href="https://github.com/FunkinCrew/Funkin/tree/v0.2.7.1" class="FNF" target="_blank"><strong>Friday Night Funkin's original engine</strong></a> contained a lot of bugs and errors at that time, and playing was frustrating. 
         Because I was bored and wanted to improve the experience, I decided to fix these bugs and implement my own modifications to improve the game. 
         I wrote this project in <strong>Haxe and HaxeFlixel</strong>, which allowed me to modify and optimize the game engine successfully. <br>
         <strong>If you want to view the DEBUG WEB version of the engine <a title="Funkin-Definitive-Edition - DEBUGGED WEB DEMO" href="/content/bin-debug" class="FNF" target="_blank">click here!!</a></strong>
