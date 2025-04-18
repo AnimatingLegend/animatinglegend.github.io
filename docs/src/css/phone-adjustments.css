@@ -75,7 +75,9 @@
         height: auto;
     }
 
-    .blog-headings {
+    .blog-headings-large,
+    .blog-headings-medium,
+    .blog-headings-small {
         display: flex;
         flex-direction: column;
         align-items: center;

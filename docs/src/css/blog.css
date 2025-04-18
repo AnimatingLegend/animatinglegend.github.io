@@ -118,11 +118,17 @@ section {
     transition: 0.3s ease;
 }
 
-.blog-headings {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.blog-headings-large {
     font-size: large;
+}
+
+.blog-headings-medium {
+    font-size: medium;
+}
+
+.blog-headings-small {
+    font-size: small;
 }
 
 .blog-links {
@@ -176,46 +182,28 @@ h3 {
 * Seperating content for different image sizes
 */
 .img-content-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    position: relative;
+    left: 5px;
     width: 300px;
 }
 
 .img-content-2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    position: relative;
+    left: 5px;
     width: 400px;
 }
 
 .img-content-3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    position: relative;
+    left: 10px;
     width: 500px;
 }
 
-.img-content-1, 
-.img-content-2, 
-.img-content-3, 
-.video-content, 
-.music-content {
-    display: block;
-    margin: 0 auto;
-}
-
-.music-content,
 .video-content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 500px;
+    width: 600px;
+    height: 480px;
 }
+
 
 .hidden-content {
     display: none;
