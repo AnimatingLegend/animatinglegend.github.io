@@ -23,18 +23,18 @@ const blog_posts = [
         I also decided to break the sections down into 10 so everything is neat, easier to read and more easier to implement!
 
         <br> <br>
-        <strong class="blog-headings-medium">Before:</strong> <br>
+        <strong class="blog-headings-medium">Before:</strong> <br> <br>
         <img src="../content/blogs/2025-18-04/project_code_BEFORE.png" class="thumbnail img-content-2" onclick="openLightbox(src)">
 
         <br> <br>
-        <strong class="blog-headings-medium">After:</strong> <br>
+        <strong class="blog-headings-medium">After:</strong> <br> <br>
         <img src="../content/blogs/2025-18-04/project_code_AFTER.png" class="thumbnail img-content-2" onclick="openLightbox(src)">
 
         <br> <br>
         And as for the "Source Code Overhaul", I rearranged a lot of file into specific folder/libraries so the workspace explorer looks more cleaner and easier to navagate.
 
         <br> <br>
-        <strong class="blog-headings-medium">Updated Workspace:</strong> <br>
+        <strong class="blog-headings-medium">Updated Workspace:</strong> <br> <br>
         <img src="../content/blogs/2025-18-04/source_code_overhaul.png" class="thumbnail img-content-1" onclick="openLightbox(src)">
 
         <br> <br>
@@ -50,7 +50,7 @@ const blog_posts = [
         There still are some bugs, but they're pretty miniscule, and I'm actively working on the <strong><a title="Funkin-Definitive-Edition - HTML5 SOURCE CODE" href="https://github.com/AnimatingLegend/Funkin-Definitive-Edition/tree/master-HTML5" target="_blank" class="link">HTML5 version</a></strong> of the engine, so bugs are constantly getting squashed.
 
         <br> <br>
-        <strong class="blog-headings-medium">Photo Of Gameplay:</strong> <br>
+        <strong class="blog-headings-medium">Photo Of Gameplay:</strong> <br> <br>
         <img src="../content/blogs/2025-18-04/fnf_fde_gameplay.png" class="thumbnail img-content-2" onclick="openLightbox(src)">
 
         <br> <br>
@@ -59,7 +59,7 @@ const blog_posts = [
         Thank you for reading this semi-long blog post, and hopefully there will be more in the mere future! (*°∀°)=3
 
         <br> <br>
-        <strong class="blog-headings-medium">SONG OF THE WEEK:</strong> <br>
+        <strong class="blog-headings-medium">SONG OF THE WEEK:</strong> <br> <br>
         <iframe width="693" height="360" src="https://www.youtube.com/embed/pE0-mVGFIOc" title="Easy Lovers (From &quot;Camille 2000&quot;) (Alternate Take)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video-content"></iframe>
 
         <br> <br>
