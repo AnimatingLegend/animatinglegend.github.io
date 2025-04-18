@@ -54,9 +54,9 @@ const blog_posts = [
         <img src="../content/blogs/2025-18-04/fnf_fde_gameplay.png" class="thumbnail img-content-2" onclick="openLightbox(src)">
 
         <br> <br>
-        <strong></strong>
+        <strong class="blog-headings-large">Conclusion</strong> <br>
         That pretty much wraps up everything I wanted to talk about in terms of my website, and my game engine.
-        Thank you for reading this semi-long blog post, and hopefully there will be more in the mere future! (*°∀°)=3
+        Thank you for reading this semi-long blog post, and hopefully there will be more in the mere future! <strong>(*°∀°)=3</strong>
 
         <br> <br>
         <strong class="blog-headings-medium">SONG OF THE WEEK:</strong> <br> <br>
