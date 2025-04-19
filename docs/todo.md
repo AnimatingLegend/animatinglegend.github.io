@@ -2,8 +2,7 @@
 
 ## What is this?
 This is a little todo list for my website whenever I get an idea away from my computer.
-I dont really have access to VSCode that much in school, so whenever I get an idea, I'll be using my school github account and write them down so when I get home, I can start working on whatver idea I came up with.
-It's also raally convinient in your guy's perspective because you will be up-to-date on whatever ideas are coming next to my website!
+I'll mostly update this when I'm at school, or if I get an idea while working on my website at that current moment.
 
 ## Todo !
 
