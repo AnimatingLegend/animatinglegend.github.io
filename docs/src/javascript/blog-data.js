@@ -34,8 +34,12 @@ const blog_posts = [
         And as for the "Source Code Overhaul", I rearranged a lot of file into specific folder/libraries so the workspace explorer looks more cleaner and easier to navagate.
 
         <br> <br>
+        <strong class="blog-headings-medium">Old Workspace:</strong> <br> <br>
+        <img src="../content/blogs/2025-18-04/source_code_overhaul_OLD.png" class="thumbnail img-content-1" onclick="openLightbox(src)">
+
+        <br> <br>
         <strong class="blog-headings-medium">Updated Workspace:</strong> <br> <br>
-        <img src="../content/blogs/2025-18-04/source_code_overhaul.png" class="thumbnail img-content-1" onclick="openLightbox(src)">
+        <img src="../content/blogs/2025-18-04/source_code_overhaul_NEW.png" class="thumbnail img-content-1" onclick="openLightbox(src)">
 
         <br> <br>
         <strong class="blog-headings-large">Section 2 - Funkin': Definitive Edition</strong> <br>
@@ -59,10 +63,10 @@ const blog_posts = [
         Thank you for reading this semi-long blog post, and hopefully there will be more in the mere future! <strong>(*°∀°)=3</strong>
 
         <br> <br>
-        <strong class="blog-headings-medium">SONG OF THE WEEK:</strong> <br> <br>
-        <iframe width="693" height="360" src="https://www.youtube.com/embed/pE0-mVGFIOc" title="Easy Lovers (From &quot;Camille 2000&quot;) (Alternate Take)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="video-content"></iframe>
+        <strong class="blog-headings-medium">SONG OF THE WEEK:</strong> <br>
+        <iframe title="Easy Lovers (From &quot;Camille 2000&quot;) (Alternate Take)" src="https://www.youtube.com/embed/pE0-mVGFIOc" class="yt-embed"></iframe>
 
         <br> <br>
-        <strong>Written By: Aaron Augustin</strong>`
+        <strong class="blog-headings-medium">Written By: Aaron Augustin</strong>`
     }
 ];

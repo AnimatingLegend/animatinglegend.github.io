@@ -86,7 +86,7 @@
     .img-content-1,
     .img-content-2,
     .img-content-3,
-    .video-content {
+    .yt-embed {
         display: block;
         margin: 0 auto;
         width: 90%;
@@ -94,8 +94,7 @@
         height: auto;
     }
 
-    .video-content video,
-    .music-content audio{
+    .video-content video{
         width: 100%;
         max-width: 280px;
         height: auto; 
