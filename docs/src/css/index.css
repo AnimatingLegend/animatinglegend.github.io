@@ -147,7 +147,10 @@ h3 {
 }
 
 .resume-border {
-  font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 16px;
 }
 
 .resume-border a {
@@ -155,10 +158,7 @@ h3 {
     text-decoration: underline;
 }
 
-.pdf-icon {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
+.pdf-icon{
     width: 6rem;
     height: 6rem;
     transition: 0.3s ease;
@@ -167,6 +167,12 @@ h3 {
 .pdf-icon:hover {
     transform: scale(1.1) translateY(-5px);
     cursor: pointer;
+}
+
+.pdf-download-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .resume-link {

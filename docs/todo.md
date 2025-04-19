@@ -12,7 +12,7 @@ It's also raally convinient in your guy's perspective because you will be up-to-
 - Add blog-template
 
 ### Change
-- Change the positioning of the PDF icon, and align it with the text (this has been bugging me for a while lol)
+- Change the positioning of the PDF icon, and align it with the text (this has been bugging me for a while lol) [X]
 
 ### Fix
 - Fix Responsive design for projects.html
