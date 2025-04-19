@@ -13,7 +13,7 @@ const blog_posts = [
         <br> <br>`,
         hidden_content: `
         <strong class="blog-headings-large">Section 1 - Website Source Code</strong> <br>
-        With that being said, I hope all is well! I mainly want to talk about the progress I've made on the webite and the overall progress I've made with my FNF engine: <strong>Funkin-Definitive-Edition</strong>.
+        With that being said, I hope all is well! I mainly want to talk about the progress I've made on the website and the overall progress I've made with my FNF engine: <strong>Funkin-Definitive-Edition</strong>.
         To start, I did a MASSIVE overhaul on the website's source code—both in terms of functionality and how everything is displayed.
         I completely rewrote a majority of the backend code for the <strong><a href="projects.html" class="link">Projects</a></strong> section of the website.
         The way projects were displayed before was confusing and messy, especially in terms of how it was written on the backend.
