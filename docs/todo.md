@@ -2,7 +2,7 @@
 
 ## What is this?
 This is a little todo list for my website whenever I get an idea away from my computer.
-I'll mostly update this when I'm at school, or if I get an idea while working on my website at that current moment.
+I'll mostly update this when I'm at school, or if I'm currently working on the website.
 
 ## Todo !
 
