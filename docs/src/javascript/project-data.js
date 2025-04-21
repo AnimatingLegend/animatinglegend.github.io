@@ -16,16 +16,13 @@ const animation_projects = [
 ];
 
 const coding_projects = [
-    /**
-     *  explaining this for the confused people
-     * `proj_` handles the backend HTML stuff, while `project_` handles the frontend
-     */
 
     // Funkin-Definitive-Edition
     {
-        proj_div_class: "FNF",
         proj_img_link_title: "Funkin-Definitive-Edition - WEB DEMO",
         proj_img_link: "https://animatinglegend.github.io/content/bin-release/",
+
+        proj_link_div_class: "FNF",
         proj_link_title: "Funkin-Definitive-Edition - SOURCE CODE",
         proj_link: "https://github.com/AnimatingLegend/Funkin-Definitive-Edition",
 
@@ -45,7 +42,7 @@ const coding_projects = [
   
     // Legbot-Host (discord project)
     {
-        proj_div_class: "legbot-host",
+        proj_link_div_class: "legbot-host",
         proj_link_title: "Legbot-Host - SOURCE CODE",
         proj_link: "https://github.com/AnimatingLegend/legbothost",
 
@@ -65,7 +62,7 @@ const coding_projects = [
 
     // Quizizz-Cheat
     {
-        proj_div_class: "quiz",
+        proj_link_div_class: "quiz",
         proj_link_title: "Quizizz-Cheat - SOURCE CODE",
         proj_link: "https://github.com/colorlol/quizizzcheat",
 
@@ -83,7 +80,7 @@ const coding_projects = [
 
     // animatinglegend.github.io (portfolio)
     {
-        proj_div_class: "GIT",
+        proj_link_div_class: "GIT",
         proj_link_title: "animatinglegend.github.io - SOURCE CODE",
         proj_link: "https://github.com/AnimatingLegend/animatinglegend.github.io",
 

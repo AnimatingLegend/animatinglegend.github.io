@@ -10,11 +10,6 @@ coding_projects.forEach(project => {
                       project.project_img.includes('quizizz_logo') ? 'quizizz-logo' :
                       project.project_img.includes('github_logo') ? 'github-logo' : 'default-logo';
 
-    /**
-     * My dumbass has been hardcoding the link titles and shit the whole time.
-     * took my time and softcoded the way projects get displayed in some aspects
-     * everything should be properly working now...
-     */
    const imageHTML = project.proj_img_link
    ? `<a title="${project.proj_img_link_title}" href="${project.proj_img_link}" target="_blank">
         <img src="${project.project_img}" alt="${logoClass}">
@@ -28,7 +23,7 @@ coding_projects.forEach(project => {
         </div>
 
         <h2>
-            <a title="${project.proj_link_title}" href="${project.proj_link}" target="_blank" class="${project.proj_div_class}">
+            <a title="${project.proj_link_title}" href="${project.proj_link}" target="_blank" class="${project.proj_link_div_class}">
                 ${project.project_title}
             </a>
         </h2>
