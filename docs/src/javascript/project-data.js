@@ -20,7 +20,7 @@ const coding_projects = [
     // Funkin-Definitive-Edition
     {
         proj_img_link_title: "Funkin-Definitive-Edition - WEB DEMO",
-        proj_img_link: "https://animatinglegend.github.io/content/bin-release/",
+        proj_img_link: "https://animatinglegend.github.io/content/funkin_definitive_edition/",
 
         proj_link_div_class: "FNF",
         proj_link_title: "Funkin-Definitive-Edition - SOURCE CODE",
