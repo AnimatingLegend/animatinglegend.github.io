@@ -35,7 +35,7 @@ const coding_projects = [
         `,
         project_img: "../assets/images/logos/funkin_logo.png",
         project_img_class: "funkin-logo",
-        project_link: "/content/bin-release"
+        project_link: "/content/funkin_definitive_edition"
     },
 
   

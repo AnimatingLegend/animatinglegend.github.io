@@ -43,7 +43,7 @@ const blog_posts = [
 
         <br> <br>
         <strong class="blog-headings-large">Section 2 - Funkin': Definitive Edition</strong> <br>
-        Secondly, I just wanted to talk more about Funkin-Definitive-Edition (which you can <strong><a title="Funkin-Definitive-Edition - WEB DEMO" href="/content/bin-release" class="link" target="_blank">play now!</a></strong>).
+        Secondly, I just wanted to talk more about Funkin-Definitive-Edition (which you can <strong><a title="Funkin-Definitive-Edition - WEB DEMO" href="/content/funkin_definitive_edition" class="link" target="_blank">play now!</a></strong>).
         Over the past couple of weeks, I've been hard at work fixing a lot of the game's minor bugs and glitches to make it <strong>HTML</strong>-friendly and “website ready.”
         For starters, the game used to crash either on the boot-up screen or while loading into a song.
         After digging into it, I realized the issue had to do with how libraries were being handled in my engine...
@@ -67,6 +67,6 @@ const blog_posts = [
         <iframe title="Easy Lovers (From &quot;Camille 2000&quot;) (Alternate Take)" src="https://www.youtube.com/embed/pE0-mVGFIOc" class="yt-embed"></iframe>
 
         <br> <br>
-        <strong class="blog-headings-medium">Written By: Aaron Augustin</strong>`
+        <strong class="blog-headings-medium">Written By: Aaron Augustin | Updated 2025/21/04</strong>`
     }
 ];
