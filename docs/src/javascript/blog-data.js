@@ -67,6 +67,6 @@ const blog_posts = [
         <iframe title="Easy Lovers (From &quot;Camille 2000&quot;) (Alternate Take)" src="https://www.youtube.com/embed/pE0-mVGFIOc" class="yt-embed"></iframe>
 
         <br> <br>
-        <strong class="blog-headings-medium">Written By: Aaron Augustin | Updated 2025/21/04</strong>`
+        <strong class="blog-headings-medium">Written By: Aaron Augustin | Updated: 2025/21/04</strong>`
     }
 ];
