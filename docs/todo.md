@@ -9,7 +9,6 @@ It's also raally convinient in your guy's perspective because you will be up-to-
 
 ### Add
 - Add Animation tweens for whenever you enter or leave a section of the page
-- Add blog-template
 
 ### Change
 - Change the positioning of the PDF icon, and align it with the text (this has been bugging me for a while lol) [X]
@@ -17,4 +16,4 @@ It's also raally convinient in your guy's perspective because you will be up-to-
 ### Fix
 - Fix Responsive design for projects.html
 - Fix text overlapping with images on certain blog post's
-- Fix issue where certain mobiles devices don't show the video embed until after its pressed (**cough** APPLE **cough**)
+- Fix issue where certain mobile devices don't show the video embed until after its pressed (**cough** APPLE **cough**)
