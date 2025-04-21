@@ -1,6 +1,7 @@
-/*
-* Mobile adjustments
-* Made some minor improvements
+/**
+* Welcome to phone-adjustments.css!
+* I deciced to just make a whole section deditcated to CSS responsive design instead of distrubuing it across multiple files lmao
+* This is still a work in progress and somethings are subject to change soon.
 */
 
 @media (max-width: 991px) {
@@ -86,6 +87,7 @@
     .img-content-1,
     .img-content-2,
     .img-content-3,
+    .video-content,
     .yt-embed {
         display: block;
         margin: 0 auto;
@@ -175,7 +177,8 @@
     .img-content-1,
     .img-content-2,
     .img-content-3,
-    .video-content {
+    .video-content,
+    .yt-embed {
         width: 100%;
         max-width: 240px;
         height: auto;
@@ -219,7 +222,8 @@
     .img-content-1,
     .img-content-2,
     .img-content-3,
-    .video-content {
+    .video-content,
+    .yt-embed {
         width: 100%;
         max-width: 200px;
         height: auto;
@@ -257,7 +261,8 @@
     .img-content-1,
     .img-content-2,
     .img-content-3,
-    .video-content {
+    .video-content,
+    .yt-embed {
         width: 100%;
         max-width: 180px;
         height: auto;
