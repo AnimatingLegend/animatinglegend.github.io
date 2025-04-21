@@ -2,8 +2,7 @@
 
 ## What is this?
 This is a little todo list for my website whenever I get an idea away from my computer.
-I dont really have access to VSCode that much in school, so whenever I get an idea, I'll be using my school github account and write them down so when I get home, I can start working on whatver idea I came up with.
-It's also raally convinient in your guy's perspective because you will be up-to-date on whatever ideas are coming next to my website!
+I'll mostly update this when I'm at school, or if I'm currently working on the website.
 
 ## Todo !
 
@@ -11,7 +10,8 @@ It's also raally convinient in your guy's perspective because you will be up-to-
 - Add Animation tweens for whenever you enter or leave a section of the page
 
 ### Change
-- Change the positioning of the PDF icon, and align it with the text (this has been bugging me for a while lol) [X]
+- Start labeling javascript code so it doesn't look so confusing
+- ~~Change the positioning of the PDF icon, and align it with the text (this has been bugging me for a while lol)~~
 
 ### Fix
 - Fix Responsive design for projects.html
