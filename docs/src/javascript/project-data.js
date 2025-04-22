@@ -38,6 +38,27 @@ const coding_projects = [
         project_link: "/content/funkin_definitive_edition"
     },
 
+    // animatinglegend.github.io (portfolio)
+    {
+        proj_link_div_class: "GIT",
+        proj_link_title: "animatinglegend.github.io - SOURCE CODE",
+        proj_link: "https://github.com/AnimatingLegend/animatinglegend.github.io",
+
+        project_title: "animatinglegend.github.io",
+        project_desc: `
+        This website is a personal project I started around early 2025.
+        It started when I had a conversation with one of my teachers about building a resume and a mini portfolio to keep all my work in one place.
+        The goal was to have something I could share when looking for good job opportunities in the mere future. <br>
+        At the time I had a lot I was doing for school, so I'd have to put that idea on hold. 
+        A few months later, (like around January or February) I finally had time to sit down and get started. <br>
+        This site was made from scratch using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Javascript</strong>, with the chunk of knowledge I had from my Web Design class. <br>
+        I'm still actively working on it, making updates and changes as I go, and planning to add more features over time.
+        `,
+        project_img: "../assets/images/logos/github_logo.png",
+        project_img_class: "github-logo",
+        project_link: null
+    },
+
   
     // Legbot-Host (discord project)
     {
@@ -74,27 +95,6 @@ const coding_projects = [
         `,
         project_img: "../assets/images/logos/quizizz_logo.png",
         project_img_class: "quizizz-logo",
-        project_link: null
-    },
-
-    // animatinglegend.github.io (portfolio)
-    {
-        proj_link_div_class: "GIT",
-        proj_link_title: "animatinglegend.github.io - SOURCE CODE",
-        proj_link: "https://github.com/AnimatingLegend/animatinglegend.github.io",
-
-        project_title: "animatinglegend.github.io",
-        project_desc: `
-        This website is a personal project I started around early 2025.
-        It started when I had a conversation with one of my teachers about building a resume and a mini portfolio to keep all my work in one place.
-        The goal was to have something I could share when looking for good job opportunities in the mere future. <br>
-        At the time I had a lot I was doing for school, so I'd have to put that idea on hold. 
-        A few months later, (like around January or February) I finally had time to sit down and get started. <br>
-        This site was made from scratch using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Javascript</strong>, with the chunk of knowledge I had from my Web Design class. <br>
-        I'm still actively working on it, making updates and changes as I go, and planning to add more features over time.
-        `,
-        project_img: "../assets/images/logos/github_logo.png",
-        project_img_class: "github-logo",
         project_link: null
     }
 ];
