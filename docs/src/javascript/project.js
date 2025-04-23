@@ -70,7 +70,7 @@ animation_projects.forEach(animation => {
      *  Create the HTML for the animation project video
      */
     const videoHTML = `
-        <video controls loading="lazy"> 
+        <video loading="lazy" playsinline controls> 
             <source src="${animation.anim_file}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
