@@ -916,7 +916,7 @@ ApplicationMain.main = function() {
 ApplicationMain.create = function(config) {
 	var app = new openfl_display_Application();
 	ManifestResources.init(config);
-	app.meta.h["build"] = "313";
+	app.meta.h["build"] = "314";
 	app.meta.h["company"] = "AnimatingLegend";
 	app.meta.h["file"] = "Funkin_Definitive_Edition";
 	app.meta.h["name"] = "Friday Night Funkin' - Definitive Edition";
@@ -122348,7 +122348,7 @@ var lime_utils_AssetCache = function() {
 	this.audio = new haxe_ds_StringMap();
 	this.font = new haxe_ds_StringMap();
 	this.image = new haxe_ds_StringMap();
-	this.version = 261992;
+	this.version = 257793;
 };
 $hxClasses["lime.utils.AssetCache"] = lime_utils_AssetCache;
 lime_utils_AssetCache.__name__ = "lime.utils.AssetCache";
@@ -175829,10 +175829,10 @@ options_ControlsSubState.prototype = $extend(backend_MusicBeatState.prototype,{
 			this.grpControls2.add(ctrl2);
 		}
 		if(this.grpControls.members == null || this.grpControls.members.length == 0) {
-			haxe_Log.trace("Warning: grpControls is empty or not initialized properly.",{ fileName : "source/options/ControlsSubState.hx", lineNumber : 131, className : "options.ControlsSubState", methodName : "create"});
+			haxe_Log.trace("Warning: grpControls is empty or not initialized properly.",{ fileName : "source/options/ControlsSubState.hx", lineNumber : 134, className : "options.ControlsSubState", methodName : "create"});
 		}
 		if(this.grpControls2.members == null || this.grpControls2.members.length == 0) {
-			haxe_Log.trace("Warning: grpControls2 is empty or not initialized properly.",{ fileName : "source/options/ControlsSubState.hx", lineNumber : 134, className : "options.ControlsSubState", methodName : "create"});
+			haxe_Log.trace("Warning: grpControls2 is empty or not initialized properly.",{ fileName : "source/options/ControlsSubState.hx", lineNumber : 137, className : "options.ControlsSubState", methodName : "create"});
 		}
 		this.blackBG = new flixel_FlxSprite(0,0).makeGraphic(flixel_FlxG.width * 4,flixel_FlxG.height * 4,-16777216);
 		this.blackBG.set_alpha(0.5);
@@ -176013,15 +176013,8 @@ options_ControlsSubState.prototype = $extend(backend_MusicBeatState.prototype,{
 					flixel_FlxG.sound.play(backend_Paths.sound("cancelMenu"),null,false);
 					this.quit();
 				} else {
-					var tmp;
 					var _this = flixel_FlxG.keys.justPressed;
-					if(!_this.keyManager.checkStatusUnsafe(8,_this.status)) {
-						var _this = flixel_FlxG.keys.justPressed;
-						tmp = _this.keyManager.checkStatusUnsafe(8,_this.status);
-					} else {
-						tmp = true;
-					}
-					if(tmp) {
+					if(_this.keyManager.checkStatusUnsafe(82,_this.status)) {
 						flixel_FlxG.sound.play(backend_Paths.sound("cancelMenu"),null,false);
 						this.reset();
 					}
@@ -176232,7 +176225,7 @@ options_ControlsSubState.prototype = $extend(backend_MusicBeatState.prototype,{
 				notAllowed.push(x);
 			}
 		}
-		haxe_Log.trace(notAllowed,{ fileName : "source/options/ControlsSubState.hx", lineNumber : 367, className : "options.ControlsSubState", methodName : "addKey"});
+		haxe_Log.trace(notAllowed,{ fileName : "source/options/ControlsSubState.hx", lineNumber : 373, className : "options.ControlsSubState", methodName : "addKey"});
 		var _g = 0;
 		var _g1 = this.keys.length;
 		while(_g < _g1) {
@@ -176267,7 +176260,7 @@ options_ControlsSubState.prototype = $extend(backend_MusicBeatState.prototype,{
 		}
 		var selectedMember = this.grpControls.members[this.curSelected];
 		if(selectedMember != null) {
-			this.camFollow.set_y(selectedMember.getGraphicMidpoint().y + 70);
+			this.camFollow.set_y(selectedMember.y + selectedMember.get_height() / 2 + 70);
 		}
 		var _g = 0;
 		var _g1 = this.grpControls.members;
@@ -179007,23 +179000,18 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 		backend_Conductor.changeBPM(states_PlayState.SONG.bpm);
 		this.foregroundSprites = new flixel_group_FlxTypedGroup();
 		switch(states_PlayState.SONG.song.toLowerCase()) {
-		case "roses":
-			if(flixel_FlxG.save.data.explicitContent) {
-				this.dialogue = backend_CoolUtil.coolTextFile(backend_Paths.getPath("data/" + "charts/roses/rosesDialogue" + ".txt","TEXT",null));
-			} else {
-				this.dialogue = backend_CoolUtil.coolTextFile(backend_Paths.getPath("data/" + "charts/roses/rosesDialogueCensored" + ".txt","TEXT",null));
+		case "roses":case "senpai":case "thorns":
+			this.dialogue = backend_CoolUtil.coolTextFile(backend_Paths.getPath("data/" + ("charts/" + states_PlayState.SONG.song.toLowerCase() + "/" + states_PlayState.SONG.song.toLowerCase() + "Dialogue") + ".txt","TEXT",null));
+			if(states_PlayState.SONG.song.toLowerCase() == "roses") {
+				if(!flixel_FlxG.save.data.explicitContent) {
+					this.dialogue = backend_CoolUtil.coolTextFile(backend_Paths.getPath("data/" + "charts/roses/rosesDialogueCensored" + ".txt","TEXT",null));
+				}
 			}
-			break;
-		case "senpai":
-			this.dialogue = backend_CoolUtil.coolTextFile(backend_Paths.getPath("data/" + "charts/senpai/senpaiDialogue" + ".txt","TEXT",null));
-			break;
-		case "thorns":
-			this.dialogue = backend_CoolUtil.coolTextFile(backend_Paths.getPath("data/" + "charts/thorns/thornsDialogue" + ".txt","TEXT",null));
 			break;
 		}
 		states_PlayState.curStage = states_PlayState.SONG.stage;
 		states_stages_StageData.songData();
-		haxe_Log.trace("curstage is: " + states_PlayState.SONG.stage,{ fileName : "source/states/PlayState.hx", lineNumber : 330, className : "states.PlayState", methodName : "create"});
+		haxe_Log.trace("curstage is: " + states_PlayState.SONG.stage,{ fileName : "source/states/PlayState.hx", lineNumber : 327, className : "states.PlayState", methodName : "create"});
 		switch(states_PlayState.curStage) {
 		case "limo":
 			this.defaultCamZoom = 0.9;
@@ -179281,7 +179269,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 				var bg = new objects_BGSprite("stageback",-600,-200,0.9,0.9,null,null,"week1");
 				this.add(bg);
 			} else {
-				haxe_Log.trace("[ERROR] Missing asset: stageback",{ fileName : "source/states/PlayState.hx", lineNumber : 618, className : "states.PlayState", methodName : "create"});
+				haxe_Log.trace("[ERROR] Missing asset: stageback",{ fileName : "source/states/PlayState.hx", lineNumber : 615, className : "states.PlayState", methodName : "create"});
 			}
 			var stageFrontPath = backend_Paths.getPath("images/" + "stagefront" + ".png","IMAGE","week1");
 			if(lime_utils_Assets.exists(stageFrontPath)) {
@@ -179290,7 +179278,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 				stageFront.updateHitbox();
 				this.add(stageFront);
 			} else {
-				haxe_Log.trace("[ERROR] Missing asset: stagefront",{ fileName : "source/states/PlayState.hx", lineNumber : 628, className : "states.PlayState", methodName : "create"});
+				haxe_Log.trace("[ERROR] Missing asset: stagefront",{ fileName : "source/states/PlayState.hx", lineNumber : 625, className : "states.PlayState", methodName : "create"});
 			}
 			if(!flixel_FlxG.save.data.lowData) {
 				var stageLightPath = backend_Paths.getPath("images/" + "stage_light" + ".png","IMAGE","week1");
@@ -179305,7 +179293,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 					stageLight2.set_flipX(true);
 					this.add(stageLight2);
 				} else {
-					haxe_Log.trace("[ERROR] Missing asset: stage_light",{ fileName : "source/states/PlayState.hx", lineNumber : 646, className : "states.PlayState", methodName : "create"});
+					haxe_Log.trace("[ERROR] Missing asset: stage_light",{ fileName : "source/states/PlayState.hx", lineNumber : 643, className : "states.PlayState", methodName : "create"});
 				}
 				var stageCurtainsPath = backend_Paths.getPath("images/" + "stagecurtains" + ".png","IMAGE","week1");
 				if(lime_utils_Assets.exists(stageCurtainsPath)) {
@@ -179314,7 +179302,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 					stageCurtains.updateHitbox();
 					this.add(stageCurtains);
 				} else {
-					haxe_Log.trace("[ERROR] Missing asset: stagecurtains",{ fileName : "source/states/PlayState.hx", lineNumber : 656, className : "states.PlayState", methodName : "create"});
+					haxe_Log.trace("[ERROR] Missing asset: stagecurtains",{ fileName : "source/states/PlayState.hx", lineNumber : 653, className : "states.PlayState", methodName : "create"});
 				}
 			}
 			break;
@@ -180595,7 +180583,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 		var _g = 0;
 		while(_g < 4) {
 			var i = _g++;
-			flixel_FlxG.log.advanced(i,flixel_system_debug_log_LogStyle.NORMAL,false,{ fileName : "source/states/PlayState.hx", lineNumber : 1855, className : "states.PlayState", methodName : "generateStaticArrows"});
+			flixel_FlxG.log.advanced(i,flixel_system_debug_log_LogStyle.NORMAL,false,{ fileName : "source/states/PlayState.hx", lineNumber : 1913, className : "states.PlayState", methodName : "generateStaticArrows"});
 			var babyArrow = new flixel_FlxSprite(0,this.strumLine.y);
 			switch(states_PlayState.curStage) {
 			case "school":case "schoolEvil":
@@ -180909,7 +180897,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 		if(!flixel_FlxG.save.data.resetButton) {
 			if(backend_PlayerSettings.player1.controls._reset.check()) {
 				this.health = 0;
-				haxe_Log.trace("RESET = True",{ fileName : "source/states/PlayState.hx", lineNumber : 2247, className : "states.PlayState", methodName : "update"});
+				haxe_Log.trace("RESET = True",{ fileName : "source/states/PlayState.hx", lineNumber : 2305, className : "states.PlayState", methodName : "update"});
 			}
 		}
 		if(this.health <= 0 && !states_PlayState.practiceMode) {
@@ -181121,8 +181109,8 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 				if(states_PlayState.storyDifficulty == 2) {
 					difficulty = "-hard";
 				}
-				haxe_Log.trace("LOADING NEXT SONG",{ fileName : "source/states/PlayState.hx", lineNumber : 2544, className : "states.PlayState", methodName : "endSong"});
-				haxe_Log.trace(states_PlayState.storyPlaylist[0].toLowerCase() + difficulty,{ fileName : "source/states/PlayState.hx", lineNumber : 2545, className : "states.PlayState", methodName : "endSong"});
+				haxe_Log.trace("LOADING NEXT SONG",{ fileName : "source/states/PlayState.hx", lineNumber : 2602, className : "states.PlayState", methodName : "endSong"});
+				haxe_Log.trace(states_PlayState.storyPlaylist[0].toLowerCase() + difficulty,{ fileName : "source/states/PlayState.hx", lineNumber : 2603, className : "states.PlayState", methodName : "endSong"});
 				if(states_PlayState.SONG.song.toLowerCase() == "eggnog") {
 					var blackShit = new flixel_FlxSprite(-flixel_FlxG.width * flixel_FlxG.camera.zoom,-flixel_FlxG.height * flixel_FlxG.camera.zoom).makeGraphic(flixel_FlxG.width * 3,flixel_FlxG.height * 3,-16777216);
 					var this1 = blackShit.scrollFactor;
@@ -181159,7 +181147,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 				}
 			}
 		} else {
-			haxe_Log.trace("WENT BACK TO FREEPLAY??",{ fileName : "source/states/PlayState.hx", lineNumber : 2572, className : "states.PlayState", methodName : "endSong"});
+			haxe_Log.trace("WENT BACK TO FREEPLAY??",{ fileName : "source/states/PlayState.hx", lineNumber : 2630, className : "states.PlayState", methodName : "endSong"});
 			var nextState2 = flixel_util_typeLimit_NextState.fromState(new states_FreeplayState());
 			var stateOnCall2 = flixel_FlxG.game._state;
 			flixel_FlxG.game._state.startOutro(function() {
@@ -181400,7 +181388,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 			}
 			flixel_tweens_FlxTween.tween(numScore[0],{ alpha : 0},0.2,{ onComplete : (function(numScore) {
 				return function(tween) {
-					numScore[0].destroy();
+					numScore[0].kill();
 				};
 			})(numScore), startDelay : backend_Conductor.crochet * 0.002});
 			++daLoop;
@@ -181408,9 +181396,9 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 		coolText.set_text(Std.string(seperatedScore));
 		flixel_tweens_FlxTween.tween(rating,{ alpha : 0},0.2,{ startDelay : backend_Conductor.crochet * 0.001});
 		flixel_tweens_FlxTween.tween(comboSpr,{ alpha : 0},0.2,{ onComplete : function(tween) {
-			comboSpr.destroy();
-			coolText.destroy();
-			rating.destroy();
+			comboSpr.kill();
+			coolText.kill();
+			rating.kill();
 		}, startDelay : backend_Conductor.crochet * 0.001});
 		this.curSection += 1;
 	}
@@ -181498,7 +181486,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 			while(_g < removeList.length) {
 				var badNote = removeList[_g];
 				++_g;
-				flixel_FlxG.log.advanced("killing dumb ass note at " + badNote.strumTime,flixel_system_debug_log_LogStyle.NORMAL,false,{ fileName : "source/states/PlayState.hx", lineNumber : 2904, className : "states.PlayState", methodName : "keyShit"});
+				flixel_FlxG.log.advanced("killing dumb ass note at " + badNote.strumTime,flixel_system_debug_log_LogStyle.NORMAL,false,{ fileName : "source/states/PlayState.hx", lineNumber : 2960, className : "states.PlayState", methodName : "keyShit"});
 				badNote.kill();
 				this.notes.remove(badNote,true);
 				badNote.destroy();
@@ -181687,7 +181675,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 		var _gthis = this;
 		var fileName = backend_Paths.getPath("videos/" + name + ".mp4","BINARY",null);
 		try {
-			haxe_Log.trace("Playing video cutscene",{ fileName : "source/states/PlayState.hx", lineNumber : 3156, className : "states.PlayState", methodName : "startVideo"});
+			haxe_Log.trace("Playing video cutscene",{ fileName : "source/states/PlayState.hx", lineNumber : 3212, className : "states.PlayState", methodName : "startVideo"});
 			states_PlayState.inCutscene = true;
 			var bg = new flixel_FlxSprite(-flixel_FlxG.width,-flixel_FlxG.height).makeGraphic(flixel_FlxG.width * 3,flixel_FlxG.height * 3,-16777216);
 			var this1 = bg.scrollFactor;
@@ -181705,7 +181693,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 			};
 			return;
 		} catch( _g ) {
-			flixel_FlxG.log.advanced("Video not found: " + fileName,flixel_system_debug_log_LogStyle.WARNING,true,{ fileName : "source/states/PlayState.hx", lineNumber : 3185, className : "states.PlayState", methodName : "startVideo"});
+			flixel_FlxG.log.advanced("Video not found: " + fileName,flixel_system_debug_log_LogStyle.WARNING,true,{ fileName : "source/states/PlayState.hx", lineNumber : 3241, className : "states.PlayState", methodName : "startVideo"});
 			this.startAndEnd();
 		}
 	}
@@ -181852,7 +181840,7 @@ states_PlayState.prototype = $extend(backend_MusicBeatState.prototype,{
 		if(states_PlayState.SONG.notes[Math.floor(this.curStep / 16)] != null) {
 			if(states_PlayState.SONG.notes[Math.floor(this.curStep / 16)].changeBPM) {
 				backend_Conductor.changeBPM(states_PlayState.SONG.notes[Math.floor(this.curStep / 16)].bpm);
-				flixel_FlxG.log.advanced("CHANGED BPM!",flixel_system_debug_log_LogStyle.NORMAL,false,{ fileName : "source/states/PlayState.hx", lineNumber : 3375, className : "states.PlayState", methodName : "beatHit"});
+				flixel_FlxG.log.advanced("CHANGED BPM!",flixel_system_debug_log_LogStyle.NORMAL,false,{ fileName : "source/states/PlayState.hx", lineNumber : 3431, className : "states.PlayState", methodName : "beatHit"});
 			}
 		}
 		this.wiggleShit.update(backend_Conductor.crochet);
@@ -189829,8 +189817,8 @@ states_LoadingState.MIN_TIME = 1.0;
 states_MainMenuState.definitiveVersion = "0.5.2";
 states_MainMenuState.versionSuffix = " | WEB BUILD";
 states_MainMenuState.GIT_BRANCH = "master-HTML5";
-states_MainMenuState.GIT_HASH = "2e0037d";
-states_MainMenuState.GIT_HAS_LOCAL_CHANGES = false;
+states_MainMenuState.GIT_HASH = "b1f7ead";
+states_MainMenuState.GIT_HAS_LOCAL_CHANGES = true;
 states_PlayState.instance = null;
 states_PlayState.isStoryMode = false;
 states_PlayState.storyWeek = 0;
