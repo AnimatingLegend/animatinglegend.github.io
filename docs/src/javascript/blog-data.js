@@ -4,7 +4,7 @@ const test_blog_posts = [
 
 const blog_posts = [
     {
-        blog_title: `WEEK OF 2025/18/04: A FRESH START / SOURCE CODE OVERHAUL`,
+        blog_title: `MONTH OF 2025/18/04: A FRESH START / SOURCE CODE OVERHAUL`,
         shown_content: `
         <strong class="blog-headings-large">Introduction</strong> <br>
         Hello all, and happy Friday! 
@@ -67,6 +67,6 @@ const blog_posts = [
         <iframe title="Easy Lovers (From &quot;Camille 2000&quot;) (Alternate Take)" src="https://www.youtube.com/embed/pE0-mVGFIOc" class="yt-embed"></iframe>
 
         <br> <br>
-        <strong class="blog-headings-medium">Written By: Aaron Augustin | Updated: 2025/21/04</strong>`
+        <strong class="blog-headings-medium">Written By: Aaron Augustin | Updated: 2025/22/04</strong>`
     }
 ];
