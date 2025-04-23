@@ -198,7 +198,7 @@
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 480px) {
     html {
         font-size: 45%;
     }
@@ -213,6 +213,28 @@
         height: auto;
     }
 
+    .anim-container {
+        gap: 5px;
+        margin-top: 5px;
+    }
+
+    .anim-project {
+        flex: 1 1 150px;
+        max-width: 250px;
+        margin-bottom: 5px;
+    }
+
+    .coding-container {
+        gap: 5px;
+        margin-top: 5px;
+    }
+
+    .coding-project {
+        flex: 1 1 150px;
+        max-width: 250px;
+        margin-bottom: 5px;
+    }
+    
     .blog-headings {
         display: flex;
         flex-direction: column;
