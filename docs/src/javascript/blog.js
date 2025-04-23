@@ -1,11 +1,23 @@
 document.addEventListener('DOMContentLoaded', function() {
+    /**
+     *  The main tag that supports the blog posts for the website
+     */
     const blogPostsContainer = document.getElementById('blog-posts');
 
+    /**
+     * Test blog posts for demonstration purposes. Replace with actual blog posts data.
+     */
     test_blog_posts.forEach(post => {
+        /**
+         *  Create a new div to hold the blog post content
+         */
         const blogSection = document.createElement('div');
         blogSection.classList.add('blog-section');
         blogSection.style.marginBottom = '20px'; // Add space between blog posts
 
+        /**
+         *  Create the blog post content
+         */
         blogSection.innerHTML = `
             <h2 class="blog-title-text"><strong>${post.blog_title}</strong></h2> <br>
             <p class="shown-content">${post.shown_content}</p>
@@ -15,6 +27,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         blogPostsContainer.appendChild(blogSection);
 
+        /**
+         *  Add event listeners to show/hide blog post content when the button is clicked
+         */
         const hiddenContent = blogSection.querySelector('.hidden-content');
         const button = blogSection.querySelector('.show-more-btn');
 
@@ -68,12 +83,19 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+/**
+ * Lightbox functionality
+ * This function opens a lightbox when an image is clicked.
+ */
 document.querySelectorAll('img').forEach(img => {
     img.style.cursor = 'pointer';
     img.addEventListener('click', () => openLightbox(img.src));
     console.log("Opening:", img.src);
 });
 
+/**
+ * Opens the lightbox when a blog post image is clicked.
+ */
 function openLightbox(src) {
     const lightbox = document.createElement('div');
     lightbox.id = 'lightbox';
@@ -88,6 +110,9 @@ function openLightbox(src) {
       z-index: 9999;
     `;
 
+    /**
+     *  Create the lightbox image element and add the image source and styling to it.
+     */
     const img = document.createElement('img');
     img.src = src;
     img.style.cssText = `
@@ -109,6 +134,9 @@ function openLightbox(src) {
       user-select: none;
     `;
 
+    /**
+     *  Add event listeners to close the lightbox when the close button is clicked or when the lightbox is clicked outside of it.
+     */
     closeBtn.onclick = () => document.body.removeChild(lightbox);
     lightbox.onclick = (e) => {
         if (e.target === lightbox) document.body.removeChild(lightbox);

@@ -10,7 +10,7 @@ I'll mostly update this when I'm at school, or if I'm currently working on the w
 - Add Animation tweens for whenever you enter or leave a section of the page
 
 ### Change
-- Start labeling javascript code so it doesn't look so confusing
+- ~~Start labeling javascript code so it doesn't look so confusing~~
 - ~~Change the positioning of the PDF icon, and align it with the text (this has been bugging me for a while lol)~~
 
 ### Fix
