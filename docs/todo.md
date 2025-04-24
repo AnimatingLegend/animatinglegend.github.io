@@ -14,6 +14,6 @@ I'll mostly update this when I'm at school, or if I'm currently working on the w
 - ~~Change the positioning of the PDF icon, and align it with the text (this has been bugging me for a while lol)~~
 
 ### Fix
-- ~~Fix Responsive design for smaller devices on ``projects.html``~~
-- ~~Fix issue where certain mobile devices don't show the video embed until after its pressed (**cough** APPLE **cough**)~~
+- Fix Responsive design for smaller devices on ``projects.html``
+- Fix issue where certain mobile devices don't show the video embed until after its pressed (**cough** APPLE **cough**)
 - Fix text overlapping with images on certain blog post's
