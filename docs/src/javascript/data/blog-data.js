@@ -63,7 +63,7 @@ const blog_posts = [
         Thanks for reading this semi-long blog post — hopefully there will be more to come in the near future! <strong>(*°∀°)=3</strong>
 
         <br> <br>
-        <strong class="blog-headings-medium">SONG OF THE WEEK:</strong> <br>
+        <strong class="blog-headings-medium">SONG OF THE MONTH:</strong> <br>
         <iframe title="Easy Lovers (From &quot;Camille 2000&quot;) (Alternate Take)" src="https://www.youtube.com/embed/pE0-mVGFIOc" class="yt-embed"></iframe>
 
         <br> <br>
