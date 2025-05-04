@@ -1,0 +1,37 @@
+{
+  "name": "animatinglegend.github.io",
+  "version": "1.0.0",
+  "description": "My official website's source code.",
+  "main": "main.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "leg.run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnimatingLegend/animatinglegend.github.io.git"
+  },
+  "keywords": [
+    "git",
+    "github",
+    "legend",
+    "animatinglegend",
+    "website",
+    "home",
+    "projects",
+    "blog",
+    "animations",
+    "programming"
+  ],
+  "author": "Aaron Augustin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AnimatingLegend/animatinglegend.github.io/issues"
+  },
+  "homepage": "https://github.com/AnimatingLegend/animatinglegend.github.io#readme",
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
+}
