@@ -173,6 +173,7 @@ hr {
 .FDE,
 .GIT,
 .quiz,
+.film-haven,
 .legbot-host,
 .colorbot,
 .colorlol,
@@ -187,6 +188,7 @@ hr {
 .FDE:hover,
 .GIT:hover,
 .quiz:hover,
+.film-haven:hover,
 .legbot-host:hover,
 .colorlol:hover,
 .colorbot-host:hover{
@@ -222,6 +224,11 @@ hr {
 
 .github-logo img {
     width: 115px;
+    transition: 0.2s ease;
+}
+
+.film-haven-logo img {
+    width: 135px;
     transition: 0.2s ease;
 }
 

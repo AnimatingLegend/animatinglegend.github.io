@@ -198,7 +198,7 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 450px) {
     html {
         font-size: 45%;
     }
@@ -213,6 +213,7 @@
         height: auto;
     }
 
+    /*
     .anim-container {
         gap: 5px;
         margin-top: 5px;
@@ -240,6 +241,7 @@
         flex-direction: column;
         align-items: center;
     }
+    */
 
     .img-content-1,
     .img-content-2,

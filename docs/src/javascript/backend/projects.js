@@ -24,6 +24,7 @@ coding_projects.forEach(project => {
     const logoClass = project.project_img.includes('funkin_logo') ? 'funkin-logo' :
                       project.project_img.includes('discord_logo') ? 'discord-logo' :
                       project.project_img.includes('quizizz_logo') ? 'quizizz-logo' :
+                      project.project_img.includes('film-haven_logo') ? 'film-haven-logo' :
                       project.project_img.includes('github_logo') ? 'github-logo' : 'default-logo';
 
     /**
