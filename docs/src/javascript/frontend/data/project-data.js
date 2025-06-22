@@ -38,6 +38,38 @@ const coding_projects = [
         project_link: "/content/funkin_definitive_edition"
     },
 
+    // Film Haven (School Capstone Project)
+    {
+        proj_img_link_title: "Film Haven - WEB DEMO",
+        proj_img_link: "https://27f5b35b-e2a9-4e63-b1b3-953c5f6a2328-00-1xwvakuju81we.worf.replit.dev",
+
+        proj_link_div_class: "film-haven",
+        proj_link_title: "Film Haven - SOURCE CODE",
+        proj_link: "https://github.com/AaronAugustin/Film-Haven",
+
+        project_title: "Film Haven",
+        project_desc: `
+        Film Haven is a web application built for users to discover new films, explore detailed information, and curate personalized watchlists—all in one seamless experience. <br>
+
+        Inspired by platforms like 
+        <a title="Rotten Tomatoes" href="https://www.rottentomatoes.com" class="film-haven" target="_blank"><strong>Rotten Tomatoes</strong></a>, 
+        <a title="Internet Movie Database (IMDb)" href="https://www.imdb.com" class="film-haven" target="_blank"><strong>IMDb</strong></a>, and 
+        <a title="Letterboxd" href="https://letterboxd.com" class="film-haven" target="_blank"><strong>Letterboxd</strong></a>, Film Haven offers a clean, intuitive interface tailored for movie lovers. <br>
+
+        This project was developed as part of my school's capstone program, in collaboration with my friend 
+        <a title="cxrtierr__" href="https://www.instagram.com/cxrtierr__/" class="film-haven" target="_blank"><strong>Jerome Foster</strong></a>. <br>
+
+        Over a six-month development period, we used a full-stack approach combining 
+        <strong>HTML (.EJS)</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>Node.js</strong>, with <strong>Express</strong> powering the backend. <br> 
+        We also integrated an API called <a title="The Movie Database (TMDb API)" href="https://www.themoviedb.org/?language=en-US" target="_blank" class="film-haven"><strong>TMDB (The Movie Database)</strong></a> for real-time film data and content. <br>
+
+        Film Haven is more than just a movie site—it's a passion project designed to elevate how people explore, discuss, and connect through cinema.
+        `,
+        project_img: "../assets/images/logos/film-haven_logo.webp",
+        project_img_class: "film-haven-logo",
+        project_link: null
+    },
+
     // animatinglegend.github.io (portfolio)
     {
         proj_link_div_class: "GIT",
@@ -56,35 +88,6 @@ const coding_projects = [
         `,
         project_img: "../assets/images/logos/github_logo.png",
         project_img_class: "github-logo",
-        project_link: null
-    },
-
-    // Film Haven (School Capstone Project)
-    {
-        proj_link_div_class: "film-haven",
-        proj_link_title: "Film Haven - SOURCE CODE",
-        proj_link: "https://github.com/AaronAugustin/Film-Haven",
-
-        project_title: "Film Haven",
-        project_desc: `
-        Film Haven is a web application built for users to discover new films, explore detailed information, and curate personalized watchlists—all in one seamless experience. <br>
-
-        Inspired by platforms like 
-        <a title="Rotten Tomatoes" href="https://www.rottentomatoes.com" class="film-haven" target="_blank"><strong>Rotten Tomatoes</strong></a>, 
-        <a title="Internet Movie Database (IMDb)" href="https://www.imdb.com" class="film-haven" target="_blank"><strong>IMDb</strong></a>, and 
-        <a title="Letterboxd" href="https://letterboxd.com" class="film-haven" target="_blank"><strong>Letterboxd</strong></a>, Film Haven offers a clean, intuitive interface tailored for movie lovers. <br>
-
-        This project was developed as part of my school’s capstone program, in collaboration with my friend 
-        <a title="cxrtierr__" href="https://www.instagram.com/cxrtierr__/" class="film-haven" target="_blank"><strong>Jerome Foster</strong></a>. <br>
-
-        Over a six-month development period, we used a full-stack approach combining 
-        <strong>HTML (.EJS)</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>Node.js</strong>, with <strong>Express</strong> powering the backend. <br> 
-        We also integrated an API called <a title="The Movie Database (TMDb API)" href="https://www.themoviedb.org/?language=en-US" target="_blank" class="film-haven"><strong>TMDB (The Movie Database)</strong></a> for real-time film data and content. <br>
-
-        Film Haven is more than just a movie site—it's a passion project designed to elevate how people explore, discuss, and connect through cinema.
-        `,
-        project_img: "../assets/images/logos/film-haven_logo.webp",
-        project_img_class: "film-haven-logo",
         project_link: null
     },
 
