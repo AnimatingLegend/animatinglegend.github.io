@@ -82,7 +82,7 @@ const blog_posts = [
 
         <br> <br>
         <strong class="blog-headings-large">BONUS SECTION - SONG OF THE MONTH:</strong> <br>
-        <iframe width="693" height="360" src="https://www.youtube.com/embed/ADFzno8_w8E" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/ADFzno8_w8E" title="provider" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="yt-embed" allowfullscreen></iframe>
 
         <br> <br>
         <strong class="blog-headings-medium">Written By: Aaron Augustin</strong>
