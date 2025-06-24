@@ -1,6 +1,6 @@
 # animatinglegend.github.io - source code
 
-Welcome to the official Github repository for my website [animatinglegend.github.io](https://animatinglegend.github.io/src/home.html).
+Welcome to the official Github repository for my website [animatinglegend.github.io](https://animatinglegend.github.io/).
 
 ## What is this?
 This is basically a mini portfolio so I can put all my work in one place so everyone can view, and this is also what this source code is about !
