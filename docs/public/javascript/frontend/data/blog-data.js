@@ -14,7 +14,7 @@ const blog_posts = [
         <br> <br>`,
         hidden_content:`
         <strong class="blog-headings-large">Section 1 - What is Film Haven?</strong> <br>
-        <img src="../content/blogs/2025-22-06/film_haven_logo.png" class="thumbnail img-content-2" onclick="openLightbox(src)"> <br>
+        <img src="content/blogs/2025-22-06/film_haven_logo.png" class="thumbnail img-content-2" onclick="openLightbox(src)"> <br>
         Film haven is a web application where you can discover upcoming, and latest movie releases, read more on upcoming and movie releases, and can potentionaly add them onto your watchlist if you're interesed in it.
         It's basically like a more simplified version of <strong><a title="Letterboxed dot com" href="https://letterboxd.com" class="link" target="_blank">Letterboxd</a></strong> & <strong><a title="Rotten Tomatoes dot com" href="https://www.rottentomatoes.com" class="link" target="_blank">Rotten Tomatoes</a></strong>, but except a lot of features were cut!
         This project was created alongside one of my pals <strong><a title='Jerome "cxrtierr" Foster' href="https://www.instagram.com/cxrtierr__/" class="link" target="_blank">Jerome Foster</a></strong>, Using <strong>HTML (EJS)</strong>, <strong>Node.js</strong>, regular <strong>JS</strong>, and <strong>CSS</strong>, taking about a year to make.
@@ -29,7 +29,7 @@ const blog_posts = [
 
         <br> <br>
         <strong class="blog-headings-medium">JEROMES PROTOTYPE:</strong> <br> <br>
-        <img src="../content/blogs/2025-22-06/film_haven_proto.png" class="thumbnail img-content-3" onclick="openLightbox(src)">
+        <img src="content/blogs/2025-22-06/film_haven_proto.png" class="thumbnail img-content-3" onclick="openLightbox(src)">
 
         <br> <br>
         A lot of features were cut from the prototype like watchlists, and basic website navagation, so we just opted out on making a fun little website based on genres! <br> <br>
@@ -43,7 +43,7 @@ const blog_posts = [
 
         <br> <br>
         <strong class="blog-headings-medium">RESULTS:</strong> <br> <br>
-        <img src="../content/blogs/2025-22-06/film_haven_results.png" class="thumbnail img-content-3" onclick="openLightbox(src)">
+        <img src="content/blogs/2025-22-06/film_haven_results.png" class="thumbnail img-content-3" onclick="openLightbox(src)">
 
         <br> <br>
         <strong class="blog-headings-large">Section 3 - The Final Product</strong> <br>
@@ -64,11 +64,11 @@ const blog_posts = [
 
         <br> <br>
         <strong class="blog-headings-medium">FINAL WEBSITE:</strong> <br>
-        <img src="../content/blogs/2025-22-06/film_haven_final.png" class="thumbnail img-content-2" onclick="openLightbox(src)">
+        <img src="content/blogs/2025-22-06/film_haven_final.png" class="thumbnail img-content-2" onclick="openLightbox(src)">
 
         <br> <br>
         <strong class="blog-headings-medium">MOVIE DETIALS:</strong> <br>
-        <img src="../content/blogs/2025-22-06/film_haven_details.png" class="thumbnail img-content-2" onclick="openLightbox(src)">
+        <img src="content/blogs/2025-22-06/film_haven_details.png" class="thumbnail img-content-2" onclick="openLightbox(src)">
 
         <br> <br>
         <strong class="blog-headings-large">Section 4 - The future of Film Haven</strong> <br>
@@ -110,22 +110,22 @@ const blog_posts = [
 
         <br> <br>
         <strong class="blog-headings-medium">Before:</strong> <br> <br>
-        <img src="../content/blogs/2025-18-04/project_code_BEFORE.png" class="thumbnail img-content-2" onclick="openLightbox(src)">
+        <img src="content/blogs/2025-18-04/project_code_BEFORE.png" class="thumbnail img-content-2" onclick="openLightbox(src)">
 
         <br> <br>
         <strong class="blog-headings-medium">After:</strong> <br> <br>
-        <img src="../content/blogs/2025-18-04/project_code_AFTER.png" class="thumbnail img-content-2" onclick="openLightbox(src)">
+        <img src="content/blogs/2025-18-04/project_code_AFTER.png" class="thumbnail img-content-2" onclick="openLightbox(src)">
 
         <br> <br>
         As for the "Source Code Overhaul," I reorganized a lot of files into specific folders/libraries so the workspace explorer looks cleaner and is easier to navigate.
 
         <br> <br>
         <strong class="blog-headings-medium">Old Workspace:</strong> <br> <br>
-        <img src="../content/blogs/2025-18-04/source_code_overhaul_OLD.png" class="thumbnail img-content-1" onclick="openLightbox(src)">
+        <img src="content/blogs/2025-18-04/source_code_overhaul_OLD.png" class="thumbnail img-content-1" onclick="openLightbox(src)">
 
         <br> <br>
         <strong class="blog-headings-medium">Updated Workspace:</strong> <br> <br>
-        <img src="../content/blogs/2025-18-04/source_code_overhaul_NEW.png" class="thumbnail img-content-1" onclick="openLightbox(src)">
+        <img src="content/blogs/2025-18-04/source_code_overhaul_NEW.png" class="thumbnail img-content-1" onclick="openLightbox(src)">
 
         <br> <br>
         <strong class="blog-headings-large">Section 2 - Funkin': Definitive Edition</strong> <br>
@@ -141,7 +141,7 @@ const blog_posts = [
 
         <br> <br>
         <strong class="blog-headings-medium">Photo Of Gameplay:</strong> <br> <br>
-        <img src="../content/blogs/2025-18-04/fnf_fde_gameplay.png" class="thumbnail img-content-2" onclick="openLightbox(src)">
+        <img src="content/blogs/2025-18-04/fnf_fde_gameplay.png" class="thumbnail img-content-2" onclick="openLightbox(src)">
 
         <br> <br>
         <strong class="blog-headings-large">Conclusion</strong> <br>

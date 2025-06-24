@@ -1,17 +1,17 @@
 const animation_projects = [
     {
         anim_title: `Video Games <br> [FLASH ANIMATION]`,
-        anim_file: `../assets/videos/animations/Video_Games_FINAL.mp4`
+        anim_file: `assets/videos/animations/Video_Games_FINAL.mp4`
     },
 
     {
         anim_title: `Bensons Crank <br> [REGULAR SHOW ANIMATION]`,
-        anim_file: `../assets/videos/animations/Bensons_Crank.mp4`
+        anim_file: `assets/videos/animations/Bensons_Crank.mp4`
     },
 
     {
         anim_title: `Mexican Joker <br> [SOUTH PARK TEST ANIMATION]`,
-        anim_file: `../assets/videos/animations/Mexican_Joker_Test.mp4`
+        anim_file: `assets/videos/animations/Mexican_Joker_Test.mp4`
     }
 ];
 
@@ -33,7 +33,7 @@ const coding_projects = [
         Because I was bored and wanted to improve the experience, I decided to fix these bugs and implement my own modifications to improve the game. 
         I wrote this project in <strong>Haxe and HaxeFlixel</strong>, which allowed me to modify and optimize the game engine successfully. <br>
         `,
-        project_img: "../assets/images/logos/funkin_logo.png",
+        project_img: "assets/images/logos/funkin_logo.png",
         project_img_class: "funkin-logo",
         project_link: "/content/funkin_definitive_edition"
     },
@@ -65,7 +65,7 @@ const coding_projects = [
 
         Film Haven is more than just a movie site—it's a passion project designed to elevate how people explore, discuss, and connect through cinema.
         `,
-        project_img: "../assets/images/logos/film-haven_logo.webp",
+        project_img: "assets/images/logos/film-haven_logo.webp",
         project_img_class: "film-haven-logo",
         project_link: null
     },
@@ -86,7 +86,7 @@ const coding_projects = [
         This site was made from scratch using <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Javascript</strong>, with the chunk of knowledge I had from my Web Design class. <br>
         I'm still actively working on it, making updates and changes as I go, and planning to add more features over time.
         `,
-        project_img: "../assets/images/logos/github_logo.png",
+        project_img: "assets/images/logos/github_logo.png",
         project_img_class: "github-logo",
         project_link: null
     },
@@ -106,7 +106,7 @@ const coding_projects = [
         It was an awesome learning experience and a good time that helped us improve our coding skills 
         Though I did cease to develop the bot sometime in 2022, it was a fantastic learning experience about how to go about developing bots and dealing with real-time APIs.
         `,
-        project_img: "../assets/images/logos/discord_logo.png",
+        project_img: "assets/images/logos/discord_logo.png",
         project_img_class: "discord-logo",
         project_link: null
     },
@@ -124,7 +124,7 @@ const coding_projects = [
         This script was written in <strong>JavaScript</strong> and worked by reading Quizziz's test data and automatically highlighting the correct answers. 
         Although the project was eventually discontinued and Quizziz patched the exploit, it was a great learning experience in understanding JavaScript strings and how web pages process data.
         `,
-        project_img: "../assets/images/logos/quizizz_logo.png",
+        project_img: "assets/images/logos/quizizz_logo.png",
         project_img_class: "quizizz-logo",
         project_link: null
     }
