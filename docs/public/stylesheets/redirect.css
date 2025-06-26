@@ -49,17 +49,6 @@ body {
     border-bottom: 2.5px solid white;
 }
 
-
-.pfp {
-    transition: 0.3s ease;
-}
-
-.pfp:hover {
-    transform: scale(1.1);
-    transition: 0.3s ease;
-    cursor: pointer;
-}
-
 /* Responsive Design */
 @media (max-width: 768px) {
     body {
@@ -80,7 +69,7 @@ body {
         font-size: 0.9rem;
     }
 
-    .pfp {
+    .logo {
         /*width: 80%;*/
         max-width: 350px;
     }
