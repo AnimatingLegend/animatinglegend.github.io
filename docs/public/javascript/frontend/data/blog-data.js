@@ -15,9 +15,10 @@ const blog_posts = [
         hidden_content:`
         <strong class="blog-headings-large">Section 1 - What is Film Haven?</strong> <br>
         <img src="content/blogs/2025-22-06/film_haven_logo.png" class="thumbnail img-content-2" onclick="openLightbox(src)"> <br>
-        Film haven is a web application where you can discover upcoming, and latest movie releases, read more on upcoming and movie releases, and can potentionaly add them onto your watchlist if you're interesed in it.
+        Film haven is a web application where you can discover upcoming/current movie releases, read more on upcoming/current movie releases, and adding those movies onto a watchlist if you're interesed in them.
         It's basically like a more simplified version of <strong><a title="Letterboxed dot com" href="https://letterboxd.com" class="link" target="_blank">Letterboxd</a></strong> & <strong><a title="Rotten Tomatoes dot com" href="https://www.rottentomatoes.com" class="link" target="_blank">Rotten Tomatoes</a></strong>, but except a lot of features were cut!
-        This project was created alongside one of my pals <strong><a title='Jerome "cxrtierr" Foster' href="https://www.instagram.com/cxrtierr__/" class="link" target="_blank">Jerome Foster</a></strong>, Using <strong>HTML (EJS)</strong>, <strong>Node.js</strong>, regular <strong>JS</strong>, and <strong>CSS</strong>, taking about a year to make.
+        This project was created alongside one of my friends <strong><a title='Jerome "cxrtierr" Foster' href="https://www.instagram.com/cxrtierr__/" class="link" target="_blank">Jerome Foster</a></strong>, Using <strong>HTML (EJS)</strong>, <strong>Node.js</strong>, regular <strong>JS</strong>, and <strong>CSS</strong>.
+        With A LOT of programming, planning etc, the project is complete, taking over a year to finish.
 
         <br> <br>
         <strong class="blog-headings-large">Section 2 - The Process</strong> <br>
@@ -58,9 +59,9 @@ const blog_posts = [
         - Watchlist feature. <br>
         - Brand new 'Movie-Details' feature. <br>
         - Brand new Login / Signup system (it uses localStorage lmao) <br>
-        </strong>
+        </strong> <br>
 
-        This project took us about a couple months of planning, but only a couple weeks to code (procrastination got the best of us).
+        This project took us about a couple months of planning, but only a couple weeks to code. (procrastination, mixed with assignments from 6 other classes does something to you)
 
         <br> <br>
         <strong class="blog-headings-medium">FINAL WEBSITE:</strong> <br>
@@ -71,21 +72,21 @@ const blog_posts = [
         <img src="content/blogs/2025-22-06/film_haven_details.png" class="thumbnail img-content-2" onclick="openLightbox(src)">
 
         <br> <br>
-        <strong class="blog-headings-large">Section 4 - The future of Film Haven</strong> <br>
+        <strong class="blog-headings-large">Section 4 - The future of Film Haven / Conclusion</strong> <br>
         Whats there really to say about about the future of film haven? It was a really fun project, and I'm glad to have been part of it, and glad to have worked on it!
         I might come back to it eventually, maybe host it on public servers and actually make it a "functional" website but for now, I'm taking a mini hiatus from it to focus on other things in my life.
         BUT if you do want to view Film Haven for yourself, a server is hosted through <strong><a title="Film Haven - WEB DEMO" href="https://27f5b35b-e2a9-4e63-b1b3-953c5f6a2328-00-1xwvakuju81we.worf.replit.dev" class="link" target="_blank">REPL</a></strong>.
-        <strong>DISCLAIMER: since its being hosted throught REPL, it will only be hosted for a couple hrs a day.</strong> 
+        <!-- <strong>DISCLAIMER: since its being hosted throught REPL, it will only be hosted for a couple hrs a day.</strong> -->
         
         <br> <br>
-        Thank you for reading this months Blog post! and stay tuned for more! <strong>ᕕ( ᐛ )ᕗ</strong>
+        With that being said, thank you for reading this months Blog post! and stay tuned for more! <strong>ᕕ( ᐛ )ᕗ</strong>
 
         <br> <br>
         <strong class="blog-headings-large">BONUS SECTION - SONG OF THE MONTH:</strong> <br>
         <iframe src="https://www.youtube.com/embed/ADFzno8_w8E" title="provider" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="yt-embed" allowfullscreen></iframe>
 
         <br> <br>
-        <strong class="blog-headings-medium">Written By: Aaron Augustin</strong>
+        <strong class="blog-headings-medium">Written By: Aaron Augustin | UPDATED: 2025/25/06</strong>
         `
     },
 
