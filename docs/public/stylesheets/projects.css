@@ -169,29 +169,16 @@ hr {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a shadow for better visuals */
 }
 
-.FNF,
-.FDE,
-.GIT,
-.quiz,
-.film-haven,
-.legbot-host,
-.colorbot,
-.colorlol,
-.colorbot-host{
+.title-link,
+.link {
     color: white;
     text-decoration: underline;
     cursor: pointer;
     transition: 0.2s ease;
 }
 
-.FNF:hover,
-.FDE:hover,
-.GIT:hover,
-.quiz:hover,
-.film-haven:hover,
-.legbot-host:hover,
-.colorlol:hover,
-.colorbot-host:hover{
+.title-link:hover,
+.link:hover {
     color: rgb(238, 162, 204);
     text-decoration: underline;
     cursor: pointer;
