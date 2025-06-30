@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
      */
     const title_option = {
         strings: ["Hey, I'm Aaron Augustin"],
-        typeSpeed: 60,
+        typeSpeed: 55,
         showCursor: true,
         cursorChar: "|"
     };

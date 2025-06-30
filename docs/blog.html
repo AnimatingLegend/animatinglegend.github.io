@@ -13,11 +13,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     
     <link href="public/stylesheets/blog.css" rel="stylesheet" type="text/css">
+    <link href="public/stylesheets/elements/transition.css" rel="stylesheet">
     <link href="public/stylesheets/elements/phone-adjustments.css" rel="stylesheet" type="text/css">
 
-    <script src="public/javascript/backend/404.js"></script>
+    <script src="public/javascript/backend/error-redirect.js"></script>
     <script src="public/javascript/frontend/data/blog-data.js"></script>
     <script src="public/javascript/frontend/navagation-bar-scroll.js"></script>
+    <script src="public/javascript/frontend/web_transitions/transition.js" defer></script>
 </head>
 
 <body>
@@ -53,13 +55,15 @@
             <br> <br>
 
             <div id="blog-posts">
-                 <!-- Blog posts will be dynamically inserted here -->
+                <!-- Blog posts will be dynamically inserted here -->
             </div>
 
         </div>
     </section>
-    
-    <p class="copyright">animatinglegend.github.io &copy 2025</p>
+
+    <footer>
+        <p class="copyright">animatinglegend.github.io &copy 2025</p>
+    </footer>
 
     <script src="public/javascript/backend/blog.js"></script>
 </body>
