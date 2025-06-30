@@ -49,12 +49,12 @@ const coding_projects = [
 
         project_title: "Film Haven",
         project_desc: `
-        Film Haven is a capstone project my friend <a title="Jerome 'cxrtierr' Foster" class="link" href="https://www.instagram.com/cxrtierr__/">Jerome Foster</a> and I created in mid 2024 - mid 2025.
+        Film Haven is a capstone project my friend <a title="Jerome 'cxrtierr' Foster" class="link" href="https://www.instagram.com/cxrtierr__/"><strong>Jerome Foster</strong></a> and I created in mid 2024 - mid 2025.
         It started when our web design teacher decided to assign us end-of-the-year capstone projects that we can work on with a partner.
         Since Jerome and I were a little late to this news and didnt have time to brainstorm new ideas, we decided to use his old capstone project idea from 2024, and expand on it further.
         The goal was to create a website where you could discover upcoming/current movie releases, read more on upcoming/current movie releases, and adding those movies onto a watchlist if you're interesed in them.
-        Basically a more simplified version of <a title="Internet Movie Database (IMDb)" class="link" href="https://www.imdb.com" target="_blank">IMDb</a>, and <a title="Letterboxd" class="link" href="https://letterboxd.com" target="_blank">Letterboxd</a>. <br>
-        The prototype was created using <strong>HTML</strong>, <strong>CSS</strong>, & <strong>JavaScript</strong>, while the final product was built using <strong>EJS</strong>, <strong>Node.js</strong>, & <strong>Express</strong>, Using <a title="TMDb (The Movie Database)" class="link" href="" target="_blank">TMDb (The Movie Database)</a> for real-time movie data and content. 
+        Basically a more simplified version of <a title="Internet Movie Database (IMDb)" class="link" href="https://www.imdb.com" target="_blank"><strong>IMDb</strong></a>, and <a title="Letterboxd" class="link" href="https://letterboxd.com" target="_blank"><strong>Letterboxd</strong></a>. <br>
+        The prototype was created using <strong>HTML</strong>, <strong>CSS</strong>, & <strong>JavaScript</strong>, while the final product was built using <strong>EJS</strong>, <strong>Node.js</strong>, & <strong>Express</strong>, Using <a title="TMDb (The Movie Database)" class="link" href="https://www.themoviedb.org/?language=en-US" target="_blank"><strong>TMDb (The Movie Database)</strong></a> for real-time movie data and content. 
         `,
         project_img: "assets/images/logos/film-haven_logo.webp",
         project_img_class: "film-haven-logo",
