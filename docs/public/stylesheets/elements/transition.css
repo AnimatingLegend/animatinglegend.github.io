@@ -1,32 +1,22 @@
 @import url('background.css');
 
-.home,
-.projects,
+.home_container,
+.projects_container,
+.warning_container,
 .blog,
-.warning_container {
+/* -- BREAKPOINT --  */
+.home_container.fade-out,
+.projects_container.fade-out, 
+.warning_container.fade-out,
+.blog.fade-out{
   opacity: 0;
   transition: opacity 0.5s ease;
 }
 
-.home.fade-in,
-.projects.fade-in,
-.blog.fade-in,
-.warning_container.fade-in {
+.home_container.fade-in,
+.projects_container.fade-in,
+.warning_container.fade-in,
+.blog.fade-in {
   opacity: 1;
-  transition: opacity 0.5s ease;
-}
-
-.home.fade-out,
-.projects.fade-out,
-.blog.fade-out,
-.warning_container.fade-out {
-  opacity: 0;
-  transition: opacity 0.5s ease;
-}
-
-.home.fade-out__after-load,
-.projects.fade-out__after-load,
-.blog.fade-out__after-load {
-  opacity: 0;
   transition: opacity 0.5s ease;
 }

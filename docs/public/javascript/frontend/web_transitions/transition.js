@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Select main page section
-  const content = document.querySelector(".home, .projects, .blog, .warning_container");
+  const content = document.querySelector(".home_container, .projects_container, .warning_container, .blog");
   const bg = document.querySelector('body');
   
   const isErrorPg = window.location.pathname.includes('docs/error.html');

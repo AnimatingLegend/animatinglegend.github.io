@@ -69,14 +69,14 @@ section {
     padding: 5rem 9% 5rem;
 }
 
-.projects {
+.projects_container {
     display:flex;
     justify-content: center;
     align-items: center;
     gap:8rem;
 }
 
-.projects .content h1 {
+.projects_container .content h1 {
     font-size: 6rem;
     font-weight: 700;
     line-height: 1.3;
