@@ -16,7 +16,7 @@ body {
     color: white;
 }
 
-.warning_container {
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,14 +28,6 @@ body {
 .warning-text {
     color: white;
     text-align: center;
-}
-
-.logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-    width: 25rem;
 }
 
 .copyright {
@@ -57,50 +49,28 @@ body {
     border-bottom: 2.5px solid white;
 }
 
-/* Responsive: Small phones (up to 480px) */
-@media (max-width: 480px) {
+/* Responsive Design */
+@media (max-width: 768px) {
     body {
+        padding: 1rem;
         font-size: 0.9rem;
-        padding: 0.5rem;
     }
+
     .container {
         gap: 0.5rem;
-        padding: 1rem 0.5rem;
+        padding: 1rem 0;
     }
-    .warning-text {
-        font-size: 1rem;
-    }
-    .logo {
-        width: 15rem;
-    }
-    .copyright {
-        font-size: 0.7rem;
-    }
-    .link {
-        font-size: 1rem;
-    }
-}
 
-/* Responsive: Big phones (481px to 767px) */
-@media (min-width: 481px) and (max-width: 767px) {
-    body {
-        font-size: 1.1rem;
-        padding: 1rem;
-    }
-    .container {
-        gap: 0.8rem;
-        padding: 1.5rem 1rem;
-    }
     .warning-text {
-        font-size: 1.2rem;
+        font-size: 0.8rem;
     }
-    .logo {
-        width: 25rem;
-    }
-    .copyright {
+
+    .link {
         font-size: 0.9rem;
     }
-    .link {
-        font-size: 1.1rem;
+
+    .logo {
+        /*width: 80%;*/
+        max-width: 350px;
     }
 }

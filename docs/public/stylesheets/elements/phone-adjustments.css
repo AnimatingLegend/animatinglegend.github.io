@@ -62,10 +62,6 @@
         display: block;
     }
 
-    .logo img {
-        max-width: 350px;
-    }
-
     body {
         padding-top: 25px;
     }
@@ -78,10 +74,6 @@
         width: 90%;
         max-width: 300px;
         height: auto;
-    }
-
-    .waring-text {
-        font-size: 0.8rem;
     }
 
     .blog-headings-large,
@@ -115,11 +107,6 @@
         margin: 0 auto;
         width: 90%;
         max-width: 280px;
-    }
-
-    .container {
-        gap: 0.5rem;
-        padding: 1rem 0;
     }
 
     .anim-container {
