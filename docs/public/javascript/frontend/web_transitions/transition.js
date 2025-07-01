@@ -1,10 +1,15 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Select main page section
-  const content = document.querySelector(".home, .projects, .blog");
+  const content = document.querySelector(".home, .projects, .blog, .warning_container");
+  const bg = document.querySelector('body');
+  
+  const isErrorPg = window.location.pathname.includes('docs/error.html');
 
   if (content) {
     // Fade in the section on load
     requestAnimationFrame(() => {
+      if (bg) 
+        bg.classList.add('fade-in');
       content.classList.add("fade-in");
     });
 
@@ -13,6 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     links.forEach(link => {
       const url = new URL(link.href, location.origin);
+       const isErrorRedirect = url.pathname.includes("docs/error.html");
 
       if (
         url.origin === location.origin &&
@@ -25,11 +31,24 @@ document.addEventListener("DOMContentLoaded", () => {
           content.classList.remove("fade-in");
           content.classList.add("fade-out");
 
+          if (isErrorRedirect && bg) {
+            bg.classList.remove("fade-in");
+            bg.classList.add("fade-out");
+          }
+
           setTimeout(() => {
             window.location.href = link.href;
           }, 500); // Match the CSS transition time
         });
       }
+    });
+  }
+
+  // If you're already on error.html, fade in both background + content
+  if (isErrorPg) {
+    requestAnimationFrame(() => {
+      if (bg) 
+        bg.classList.add("fade-in");
     });
   }
 });
