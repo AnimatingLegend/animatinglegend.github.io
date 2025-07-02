@@ -20,7 +20,7 @@ function handleError(error) {
 
     if (isVeryBadError(error)) {
         // Redirect to error.html
-        window.location.href = '/error.html';
+        window.location.href = 'error.html';
     } else {
         // Optionally, show a non-blocking error message to the user
         // alert('An error occurred. Please try again.');
