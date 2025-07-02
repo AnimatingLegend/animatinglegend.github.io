@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Select main page section
-  const content = document.querySelector(".home, .projects, .blog");
+  const content = document.querySelector(".home, .projects, .blog, .warning_container");
 
   if (content) {
     // Fade in the section on load
@@ -14,11 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     links.forEach(link => {
       const url = new URL(link.href, location.origin);
 
-      if (
-        url.origin === location.origin &&
-        !link.hasAttribute("download") &&
-        !link.target
-      ) {
+      if (url.origin === location.origin && !link.hasAttribute("download") && !link.target) {
         link.addEventListener("click", function (e) {
           e.preventDefault();
 

@@ -58,7 +58,7 @@
         align-items: center;
     }
 
-    header .logo {
+    header .nav_logo {
         display: block;
     }
 
@@ -160,7 +160,7 @@
         align-items: center;
     }
 
-    header .logo {
+    header .nav_logo {
         display: none;
     }
 
