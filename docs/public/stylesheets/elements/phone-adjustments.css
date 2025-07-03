@@ -237,7 +237,7 @@
 
     .error_content h1,
     .warning_container .error_content h1 {
-        font-size: 55rem !important;
+        font-size: 25rem;
     }
     .warning_logo {
         width: 22rem;
@@ -312,9 +312,9 @@
         padding: 2rem 0.5rem;
         max-width: 99vw;
     }
-    .error_content h1,
-    .warning_container .error_content h1 {
-        font-size: 3.2rem !important;
+    .error_content h1 {
+        font-size: 10rem;
+        text-align: center;
     }
     .warning_logo {
         width: 50rem;
