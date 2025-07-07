@@ -52,7 +52,7 @@
         font-size: 5rem !important;
     }
     .warning_logo {
-        width: 38rem;
+        width: 80rem;
         max-width: 98vw;
         margin-left: auto;
         margin-right: auto;
@@ -148,7 +148,7 @@
         font-size: 4rem !important;
     }
     .warning_logo {
-        width: 30rem;
+        width: 50rem;
         max-width: 98vw;
         margin-left: auto;
         margin-right: auto;
@@ -240,13 +240,13 @@
         font-size: 25rem;
     }
     .warning_logo {
-        width: 22rem;
+        width: 52rem;
         max-width: 98vw;
         margin-left: auto;
         margin-right: auto;
     }
     .warning-text p {
-        font-size: 1.6rem;
+        font-size: 1.8rem;
     }
 }
 
