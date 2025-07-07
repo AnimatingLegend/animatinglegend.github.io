@@ -370,15 +370,15 @@
 
     .error_content h1,
     .warning_container .error_content h1 {
-        font-size: 1.5rem !important;
+        font-size: 2rem;
     }
     .warning_logo {
-        width: 12rem;
-        max-width: 98vw;
+        width: 52rem;
+        max-width: 150vw;
         margin-left: auto;
         margin-right: auto;
     }
     .warning-text p {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 }
