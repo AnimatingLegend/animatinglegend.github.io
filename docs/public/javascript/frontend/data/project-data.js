@@ -10,6 +10,11 @@ const animation_projects = [
     },
 
     {
+        anim_title: `The Interview - CENSORED <br> [TED ANIMATION]`,
+        anim_file: `assets/videos/animations/The_Interview_CENSORED.mp4`
+    },
+
+    {
         anim_title: `Mexican Joker <br> [SOUTH PARK TEST ANIMATION]`,
         anim_file: `assets/videos/animations/Mexican_Joker_Test.mp4`
     }
