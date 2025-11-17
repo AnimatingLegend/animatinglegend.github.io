@@ -15,6 +15,11 @@ const animation_projects = [
     },
 
     {
+        anim_title: `Hospital Visit <br> [APPLE & ONION ANIMATION]`,
+        anim_file: `assets/videos/animations/hospital_visit_anim.mp4`
+    },
+
+    {
         anim_title: `Mexican Joker <br> [SOUTH PARK TEST ANIMATION]`,
         anim_file: `assets/videos/animations/Mexican_Joker_Test.mp4`
     }
