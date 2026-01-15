@@ -1,0 +1,20 @@
+.home,
+.projects,
+.blog,
+.warning_container,
+
+.home.fade-out,
+.projects.fade-out,
+.blog.fade-out,
+.warning_container.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.home.fade-in,
+.projects.fade-in,
+.blog.fade-in,
+.warning_container.fade-in {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
