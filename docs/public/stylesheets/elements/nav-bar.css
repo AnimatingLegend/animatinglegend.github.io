@@ -1,0 +1,50 @@
+.navagation-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    padding: 1rem 9%;
+    box-sizing: border-box;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.navagation-bar.scrolled {
+    overflow-x: hidden;
+    background-color: rgba(0, 0, 128, 0.8);
+    transition: background-color 0.3s ease;
+}
+
+.nav_logo {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+    border-bottom: 2.5px solid transparent;
+}
+
+.nav_logo:hover {
+    color:white;
+    border-bottom: 2.5px solid white;
+}
+
+nav a {
+    font-size: 2rem;
+    color: white;
+    margin-left: 4rem;
+    font-weight: 800;
+    transition:0.3s ease;
+    border-bottom: 3px solid transparent;
+}
+
+nav a:hover,
+nav a.active {
+    color: white;
+    border-bottom: 3px solid white;
+}
