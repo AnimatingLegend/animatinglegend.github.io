@@ -1,5 +1,6 @@
 ## 2026-01-15
 ### Added
+- Cute Favicon of my character :)
 - (semi) New animation!
      - Hostpital visit [AN APPLE AND ONION ANIMATION]
 ### Changed
