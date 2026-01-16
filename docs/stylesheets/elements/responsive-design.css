@@ -1,9 +1,3 @@
-/**
-* Welcome to phone-adjustments.css!
-* I deciced to just make a whole section deditcated to CSS responsive design instead of distrubuing it across multiple files lmao
-* This is still a work in progress and somethings are subject to change soon.
-*/
-
 @media (max-width: 991px) {
     html {
         font-size: 55%;
@@ -18,7 +12,7 @@
         gap: 2rem;
     }
 
-    .home-img img {
+    .home-img {
         display: block;
         margin: 0 auto;
         width: 100%;
@@ -60,7 +54,7 @@
     .warning_logo img {
         width: 100%;
     }
-    .warning-text p {
+    .warning_text p {
         font-size: 2.5rem;
     }
 }
@@ -94,7 +88,7 @@
         font-size: 1.6rem;
     }
 
-    .home-img img {
+    .home-img {
         width: 90%;
         max-width: 300px;
         height: auto;
@@ -143,6 +137,11 @@
         margin: 0 auto;
     }
 
+    .coding-container {
+        flex-direction: column;
+        gap: 1.5rem; 
+    }
+
     .error_content h1,
     .warning_container .error_content h1 {
         font-size: 4rem !important;
@@ -153,7 +152,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .warning-text p {
+    .warning_text p {
         font-size: 2rem;
     }
 }
@@ -178,11 +177,11 @@
         text-align: center;
     }
 
-    .social-icons a {
+    .contacts a {
         margin: 1.5rem 1rem;
     }
 
-    header {
+    .navagation-bar {
         position: fixed;
         top: 0;
         bottom: auto;
@@ -191,14 +190,14 @@
         background-color: rgba(0, 0, 128, 0.9);
     }
 
-    header nav {
+    .navagation-bar nav {
         width: 100%;
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
 
-    header .nav_logo {
+    .navagation-bar .nav_logo {
         display: none;
     }
 
@@ -229,7 +228,7 @@
         height: auto;
     }
 
-    .home-img img {
+    .home-img {
         width: 95%;
         max-width: 240px;
         height: auto;
@@ -245,7 +244,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .warning-text p {
+    .warning_text p {
         font-size: 1.8rem;
     }
 }
@@ -276,6 +275,11 @@
         margin-bottom: 5px;
     }
     
+    .coding-container {
+        gap: 5px;
+        margin-top: 5px;
+    }
+    
     .blog-headings {
         display: flex;
         flex-direction: column;
@@ -299,7 +303,7 @@
         height: auto;
     }
 
-    .home-img img {
+    .home-img {
         width: 90%;
         max-width: 200px;
         height: auto;
@@ -322,7 +326,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .warning-text p {
+    .warning_text p {
         font-size: 1.8rem;
     }
     .copyright {
@@ -362,7 +366,7 @@
         height: auto;
     }
 
-    .home-img img {
+    .home-img {
         width: 100%;
         max-width: 180px;
         height: auto;
@@ -378,7 +382,7 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .warning-text p {
+    .warning_text p {
         font-size: 2rem;
     }
 }

@@ -1,5 +1,5 @@
-@import url('elements/nav-bar.css');
-@import url('elements/web-bg.css');
+@import url('../elements/nav-bar.css');
+@import url('../elements/web-bg.css');
 
 * {
     margin: 0;
@@ -166,7 +166,7 @@ hr {
     transform: scale(1.2) translateY(-5px);
 }
 
-/*.funkin-logo  img:hover {
+.github-logo  img:hover {
     cursor: pointer;
     transform: scale(1.2) translateY(-5px);
-}*/
+}

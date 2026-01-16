@@ -4,7 +4,7 @@ body {
   overflow-x: hidden;
   color: white;
   background-color: navy;
-  background-image: url('/assets/website/website-bg.png');
+  background-image: url('../../assets/website/website-bg.png');
   background-size: cover;
   background-attachment: fixed;
   background-position: center;

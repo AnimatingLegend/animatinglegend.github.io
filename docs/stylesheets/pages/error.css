@@ -1,5 +1,5 @@
-@import url('elements/nav-bar.css');
-@import url('elements/web-bg.css');
+@import url('../elements/nav-bar.css');
+@import url('../elements/web-bg.css');
 
 * {
     margin: 0;

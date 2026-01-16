@@ -1,5 +1,5 @@
-@import url('elements/nav-bar.css');
-@import url('elements/web-bg.css');
+@import url('../elements/nav-bar.css');
+@import url('../elements/web-bg.css');
 
 * {
     margin: 0;
@@ -21,7 +21,7 @@ section {
     padding: 6rem 12% 6rem;
 }
 
-.home-img img {
+.home-img {
     position: relative;
     width: 400px;
     border-radius: 50%;
@@ -112,7 +112,7 @@ h3 {
     cursor: pointer;
 }
 
-.pdf-download-txt {
+.pdf{
     display: flex;
     flex-direction: column;
     justify-content: center;
