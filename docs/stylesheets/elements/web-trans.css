@@ -1,7 +1,11 @@
+/*
+* -- dont mind the empty classes --
+* -- for some odd reason i have to initialize the fade-in and fade-out classes so the ``.fade-in`` & ``.fade-out`` classes work --
+*/
 .home,
 .projects,
 .blog,
-.warning_container,
+.warning_container
 
 .home.fade-out,
 .projects.fade-out,
