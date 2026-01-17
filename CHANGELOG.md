@@ -1,3 +1,7 @@
+## 2026-01-17
+### Changed
+- Blog Dates
+
 ## 2026-01-15
 ### Added
 - Cute Favicon of my character :)
