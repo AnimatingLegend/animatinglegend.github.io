@@ -1,3 +1,8 @@
+## 2026-01-26
+### Changed
+- **Revised the Film Haven blog post**
+     - Fixed a majority of typos throughout the post
+     - Fixed broken links
 ## 2026-01-17
 ### Changed
 - Blog Dates

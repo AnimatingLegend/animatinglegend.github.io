@@ -8,21 +8,22 @@ const BLOGS = [
       While in high school, I was assigned a capstone project from my web design teacher, which I was able to complete within those 2 months called Film Haven.
       And I want to share the process of how I made it, and the final product.
       <br> <br>`,
-      HIDDEN_CONTENT:`
+      HIDDEN_CONTENT: `
       <strong class="blog-headings-large">Section 1 - What is Film Haven?</strong> <br>
       <img src="assets/website/blogs/2025-06-22/film_haven_logo.png" class="thumbnail img-content-2" onclick="openLightbox(src)"> <br>
       Film haven is a web application where you can discover upcoming/current movie releases, read more on upcoming/current movie releases, and adding those movies onto a watchlist if you're interesed in them.
       It's basically like a more simplified version of <strong><a title="Letterboxed dot com" href="https://letterboxd.com" class="link" target="_blank">Letterboxd</a></strong> & <strong><a title="Rotten Tomatoes dot com" href="https://www.rottentomatoes.com" class="link" target="_blank">Rotten Tomatoes</a></strong>, but except a lot of features were cut!
-      This project was created alongside one of my friends <strong><a title='Jerome "cxrtierr" Foster' href="https://www.instagram.com/cxrtierr__/" class="link" target="_blank">Jerome Foster</a></strong>, Using <strong>HTML (EJS)</strong>, <strong>Node.js</strong>, regular <strong>JS</strong>, and <strong>CSS</strong>.
+      This project was created alongside one of my friends <strong><a title='Jerome "cxrtierr" Foster' href="https://www.instagram.com/rxme.png/" class="link" target="_blank">Jerome Foster</a></strong>, Using <strong>HTML (EJS)</strong>, <strong>Node.js</strong>, regular <strong>JS</strong>, and <strong>CSS</strong>.
       With A LOT of programming, planning etc, the project is complete, taking over a year to finish.
 
       <br> <br>
       <strong class="blog-headings-large">Section 2 - The Process</strong> <br>
       The start of production was more or less simple. We had to create a simple framework of our prototype, find an API that supports Movie / TV data, and slowly build it up from there.
       The API used for this project was is called <strong><a title="The Movie Database dot com" class="link" href="https://www.themoviedb.org/?language=en-US" target="_blank">TMDb</a> (The Movie Database)</strong>.
-      Around the start of development (like mid-late 2024), the API was very limited, so we only used a selected amount of features like "Genres", and "Watchlists", so thats exactly what we used.
+      Around the start of development (like mid-late 2024), the API was very limited, so we only used a selected amount of features like "Genres", and "Watchlists"
+      .
       The design on the other hand was based on the Quentin Tarantino movie <strong>Pulp Fiction</strong>, using a lot of the colors and fonts for the website <strong><a href="../content/blogs/2025-22-06/film_haven_logo.png" class="link" target="_blank">seen from the logo above<a></strong>. <br>
-      The prototype was completed within a 2 week range. It was made from scratch, using regular <strong>HTML</strong>, <strong>CSS</strong> & <strong>JS</strong>. The WHOLE prototype was programmed by Jerome, while I tweaked up a lot of the backend code afterwards.
+      The prototype was completed within a 2 week range. It was made from scratch, using regular <strong>HTML</strong>, <strong>CSS</strong> & <strong>JS</strong>. The WHOLE prototype was programmed by Jerome, while I tweaked the code afterwards.
 
       <br> <br>
       <strong class="blog-headings-medium">JEROMES PROTOTYPE:</strong> <br> <br>
@@ -82,7 +83,7 @@ const BLOGS = [
       <iframe src="https://www.youtube.com/embed/ADFzno8_w8E" title="provider" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" class="yt-embed" allowfullscreen></iframe>
 
       <br> <br>
-      <strong class="blog-headings-medium">Written By: Aaron Augustin | UPDATED: 2025/06/25</strong>
+      <strong class="blog-headings-medium">Written By: Aaron Augustin | UPDATED: 2026/01/26</strong>
       `
    },
 
