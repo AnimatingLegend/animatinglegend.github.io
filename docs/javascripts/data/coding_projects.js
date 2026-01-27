@@ -27,8 +27,9 @@ const coding_projects = [
       title: "Discordbot-Host (DB-Host)",
       description: `
       Discordbot-Host (DB-Host) is a multipurpose discord bot for moderation, utility, and fun. 
-      This bot builds off from a previous bot I made in 2021 called <strong>Legbot-Host</strong> with my friend <a title="colorlol" href="https://github.com/colorlol" class="link">Tamesh</a> as co-developer. <br>
-      Due to the bot being built off from my previous one, DB-Host was made in in 4 days, using <strong><a title="Node.js Documentation" href="https://nodejs.org/en/learn/getting-started/introduction-to-nodejs" class="link" target="_blank">Node.js</a></strong> and <strong><a title="Discord.js Documentation" href="https://discordjs.guide/legacy" class="link" target="_blank">Discord.js</a></strong>, using <strong>better-sqlite3</strong> for the database. <br>
+      This bot builds off from a previous bot I made in 2021 called <strong>Legbot-Host</strong> with my friend <strong><a title="colorlol" href="https://github.com/colorlol" class="link">Tamesh</a></strong> as co-developer. <br>
+      Due to the bot being built off from my previous one, DB-Host was made in in 4 days, using  <strong><a title="Node.js Documentation" href="https://nodejs.org/en/learn/getting-started/introduction-to-nodejs" class="link" target="_blank">Node.js</a></strong>,
+      & <strong><a title="Discord.js Documentation" href="https://discordjs.guide/legacy" class="link" target="_blank">Discord.js</a></strong>, using <strong><a title="better-sqlite3 Documentation" href="https://github.com/WiseLibs/better-sqlite3" class="link">better-sqlite3</a></strong> for the database. <br>
       DB-Host is catered to users who want to create, and develop their own bot using the utilities DB-Host provides in the <strong><a title="Discordbot-Host - SOURCE CODE" href="https://github.com/AnimatingLegend/discordbot-host" class="link" target="_blank">source code</a></strong>. <br>
       This bot is actively being worked on, with <strong><a href="https://github.com/AnimatingLegend/discordbot-host/blob/main/docs/CONTRIBUTING.MD" class="link" target="_blank">github contributions</a></strong> being open for anyone who wants to expand on DB-Host's development aswell.
       `,

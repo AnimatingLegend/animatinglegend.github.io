@@ -1,4 +1,8 @@
 ## 2026-01-27
+## Changed
+- **Tweaked up DB-Host's project description**
+     - Added a docuemntation link to `better-sqlite3`
+     - Made tameshes name bold
 ### Fixed
 - **Copyright text**
      - renamed to "animatinglegend.**github**.io"
