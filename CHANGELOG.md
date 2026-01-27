@@ -1,4 +1,7 @@
 ## 2026-01-26
+### Added
+- **New Project**
+     - Discordbot-Host (DB-Host)
 ### Changed
 - **Revised the Film Haven blog post**
      - Fixed a majority of typos throughout the post
