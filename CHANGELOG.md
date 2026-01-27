@@ -1,3 +1,8 @@
+## 2026-01-27
+### Fixed
+- **Copyright text**
+     - renamed to "animatinglegend.**github**.io"
+
 ## 2026-01-26
 ### Added
 - **New Project**
