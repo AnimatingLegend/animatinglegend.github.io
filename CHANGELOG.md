@@ -1,3 +1,7 @@
+## 2026-02-18
+## Fixed
+- Minor typos on the error page.
+
 ## 2026-01-27
 ## Changed
 - **Tweaked up DB-Host's project description**
