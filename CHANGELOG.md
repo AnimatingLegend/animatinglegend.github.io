@@ -1,3 +1,9 @@
+## 2026-04-25
+# Added
+- 2 new animations:
+     - Get a HAIRCUT!
+     - Get a JOB (It's Always Sunny In Philadelphia)
+
 ## 2026-02-18
 ## Fixed
 - Minor typos on the error page.
